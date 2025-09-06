@@ -8,6 +8,7 @@ An AI agent that analyzes websites to recommend either a "Programming Course" or
 - **URL Discovery**: Finds all internal links on a website
 - **AI-Powered Recommendations**: Uses Gemini AI to analyze content and make course recommendations
 - **Smart Crawling**: Visits multiple pages (up to 15 steps) to gather comprehensive data
+- **Intelligent URL Filtering**: Uses AI to select only the most relevant URLs for analysis
 - **Early Termination**: Stops when enough data is gathered for a confident recommendation
 - **Forced Recommendations**: Makes recommendations even with limited data, assigning lower confidence scores
 
@@ -35,10 +36,13 @@ An AI agent that analyzes websites to recommend either a "Programming Course" or
 ### Basic Usage
 
 ```python
-from coursera_agent import run_agent
+from coursera_agent import run_agent, get_course_recommendation
 
-# Analyze a website
+# Analyze a website using the main agent function
 result = run_agent("example.com")
+
+# Or use the core recommendation function directly
+recommendation = get_course_recommendation("example.com")
 
 print(f"Recommended Course: {result['recommended_course']}")
 print(f"Reasoning: {result['recommendation_reasoning']}")
@@ -56,10 +60,11 @@ python coursera_agent.py
 1. **URL Normalization**: Handles URLs in any format (with/without www, http/https)
 2. **Content Extraction**: Extracts clean text from web pages
 3. **Link Discovery**: Finds all internal links on the website
-4. **Iterative Analysis**: Visits multiple pages to gather comprehensive data
-5. **AI Analysis**: Uses Gemini AI to analyze content and determine course recommendation
-6. **Smart Termination**: Stops early when confident recommendation is made
-7. **Forced Recommendation**: If insufficient data after 15 steps, forces a recommendation with lower confidence (20-50 score)
+4. **Intelligent URL Filtering**: Uses AI to select only the most relevant URLs (e.g., /about, /departments, /courses) while filtering out irrelevant ones (e.g., /sports, /gallery)
+5. **Iterative Analysis**: Visits multiple pages to gather comprehensive data
+6. **AI Analysis**: Uses Gemini AI to analyze content and determine course recommendation
+7. **Smart Termination**: Stops early when confident recommendation is made
+8. **Forced Recommendation**: If insufficient data after 15 steps, forces a recommendation with lower confidence (20-50 score)
 
 ## API Response Format
 

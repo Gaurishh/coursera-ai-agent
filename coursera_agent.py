@@ -81,7 +81,7 @@ def browse_website(url):
         print(f"Error browsing website {url}: {e}")
         return ""
 
-def analyze_with_llm(text_content):
+def course_recommendation(text_content):
     """Analyze accumulated text content with Gemini LLM"""
     prompt = f"""
     You are an AI agent analyzing website content to recommend either a "Programming Course" or "Sales Course" to a course-selling company.
@@ -94,7 +94,7 @@ def analyze_with_llm(text_content):
     Analyze the content and return a JSON response with the following structure:
     - ready: boolean (true if you have enough information to make a recommendation, false if you need more data)
     - recommended_course: string ("Programming Course" or "Sales Course" or null if ready=false)
-    - recommendation_reasoning: string (explanation of your recommendation or "Need more data" if ready=false)
+    - recommendation_reasoning: string (ONE LINE explanation of your recommendation or "Need more data" if ready=false)
     - recommendation_score: number (confidence score 0-100, or null if ready=false)
     
     Consider these factors:
@@ -150,6 +150,111 @@ def analyze_with_llm(text_content):
         print(f"Error analyzing with LLM: {e}")
         return {"ready": False, "recommended_course": None, "recommendation_reasoning": "Error in analysis", "recommendation_score": None}
 
+def detect_good_urls_for_course_recommendation(urls, base_domain):
+    """Use LLM to filter URLs that are most likely to contain relevant information for course recommendations"""
+    if not urls:
+        return []
+    
+    # Create a list of URL paths for analysis
+    url_paths = []
+    for url in urls:
+        try:
+            parsed = urlparse(url)
+            path = parsed.path.strip('/')
+            if path:  # Only include URLs with actual paths
+                url_paths.append(path)
+        except:
+            continue
+    
+    if not url_paths:
+        return urls[:3]  # Return first 3 if no paths to analyze
+    
+    prompt = f"""
+    You are analyzing website URLs to determine which ones are most likely to contain information relevant for recommending either a "Programming Course" or "Sales Course".
+    
+    Base domain: {base_domain}
+    URL paths to analyze: {url_paths[:20]}  # Limit to first 20 for analysis
+    
+    For each URL path, determine if it's likely to contain information about:
+    - Technical content, programming, engineering, academics, courses, departments
+    - Business content, marketing, sales, services, about the company
+    
+    URLs that are LIKELY to be relevant:
+    - /about, /about-us, /company, /services, /products
+    - /departments, /academics, /courses, /programs, /research
+    - /computer-science, /engineering, /technology, /science
+    - /business, /marketing, /sales, /commerce
+    - /faculty, /staff, /team, /leadership
+    - /news, /blog, /articles, /updates
+    
+    URLs that are UNLIKELY to be relevant:
+    - /sports, /athletics, /recreation, /entertainment
+    - /events, /calendar, /gallery, /photos
+    - /contact, /location, /directions, /map
+    - /login, /register, /account, /profile
+    - /privacy, /terms, /legal, /disclaimer
+    - /sitemap, /search, /help, /faq
+    - /admissions, /application, /forms (unless clearly academic)
+    
+    Return a JSON response with:
+    - relevant_urls: array of URL paths that are likely to contain relevant information (max 8)
+    - reasoning: brief explanation of your selection criteria
+    
+    Return only valid JSON, no additional text.
+    """
+    
+    try:
+        payload = {
+            "contents": [{
+                "parts": [{
+                    "text": prompt
+                }]
+            }]
+        }
+        
+        response = requests.post(GEMINI_API_URL, json=payload, timeout=30)
+        response.raise_for_status()
+        
+        result = response.json()
+        
+        if 'candidates' in result and len(result['candidates']) > 0:
+            content = result['candidates'][0]['content']['parts'][0]['text'].strip()
+            
+            # Extract JSON from markdown code blocks if present
+            if content.startswith('```json'):
+                start = content.find('```json') + 7
+                end = content.rfind('```')
+                if end > start:
+                    content = content[start:end].strip()
+            elif content.startswith('```'):
+                start = content.find('```') + 3
+                end = content.rfind('```')
+                if end > start:
+                    content = content[start:end].strip()
+            
+            analysis = json.loads(content)
+            relevant_paths = analysis.get('relevant_urls', [])
+            
+            # Convert paths back to full URLs
+            good_urls = []
+            for url in urls:
+                try:
+                    parsed = urlparse(url)
+                    path = parsed.path.strip('/')
+                    if path in relevant_paths:
+                        good_urls.append(url)
+                except:
+                    continue
+            
+            print(f"LLM selected {len(good_urls)} relevant URLs from {len(urls)} total URLs")
+            return good_urls[:8]  # Limit to 8 URLs max
+            
+    except Exception as e:
+        print(f"Error in URL filtering: {e}")
+    
+    # Fallback: return first 5 URLs if LLM fails
+    return urls[:5]
+
 def force_recommendation(text_content):
     """Force a recommendation even with limited data"""
     prompt = f"""
@@ -168,7 +273,7 @@ def force_recommendation(text_content):
     Return a JSON response with:
     - ready: true
     - recommended_course: "Programming Course" or "Sales Course"
-    - recommendation_reasoning: explanation based on available data
+    - recommendation_reasoning: ONE LINE explanation based on available data
     - recommendation_score: low score (20-50) due to limited data
     
     Return only valid JSON, no additional text.
@@ -222,8 +327,8 @@ def force_recommendation(text_content):
             "recommendation_score": 20
         }
 
-def run_agent(url):
-    """Main agent function that runs the analysis loop"""
+def get_course_recommendation(url):
+    """Main function that runs the analysis loop and returns course recommendation"""
     print(f"Starting analysis of: {url}")
     
     # Normalize the input URL
@@ -255,16 +360,21 @@ def run_agent(url):
             accumulated_text += f"\n\n--- Content from {current_url} ---\n{text_content}"
         
         # Find new URLs (only from the first URL to avoid going too deep)
-        if step == 1:
-            new_urls = find_urls(current_url)
-            # Add new URLs to visit (limit to avoid too many)
-            for new_url in new_urls[:5]:  # Limit to first 5 new URLs
-                if new_url not in visited_urls:
-                    urls_to_visit.append(new_url)
-                    visited_urls.add(new_url)
+        all_new_urls = find_urls(current_url)
+        print(f"Found {len(all_new_urls)} total URLs from {current_url}")
+        
+        # Use LLM to filter URLs that are most relevant for course recommendations
+        base_domain = urlparse(current_url).netloc
+        good_urls = detect_good_urls_for_course_recommendation(all_new_urls, base_domain)
+        
+        # Add filtered URLs to visit
+        for new_url in good_urls:
+            if new_url not in visited_urls:
+                urls_to_visit.append(new_url)
+                visited_urls.add(new_url)
         
         # Analyze with LLM
-        analysis = analyze_with_llm(accumulated_text)
+        analysis = course_recommendation(accumulated_text)
         
         print(f"LLM Analysis: {analysis}")
         
@@ -275,23 +385,30 @@ def run_agent(url):
     # Final analysis if not ready yet
     if not analysis.get("ready", False):
         print("Running final analysis with all collected data...")
-        analysis = analyze_with_llm(accumulated_text)
+        analysis = course_recommendation(accumulated_text)
     
     # If still not ready after final analysis, force a recommendation with low confidence
     if not analysis.get("ready", False):
         print("Forcing recommendation based on limited data available...")
         forced_analysis = force_recommendation(accumulated_text)
-        return {
+        result = {
             "recommended_course": forced_analysis.get("recommended_course", "Unable to determine"),
             "recommendation_reasoning": forced_analysis.get("recommendation_reasoning", "Limited data available"),
             "recommendation_score": forced_analysis.get("recommendation_score", 30)
         }
-    
-    return {
-        "recommended_course": analysis.get("recommended_course", "Unable to determine"),
-        "recommendation_reasoning": analysis.get("recommendation_reasoning", "Insufficient data"),
-        "recommendation_score": analysis.get("recommendation_score", 0)
-    }
+    else:
+        result = {
+            "recommended_course": analysis.get("recommended_course", "Unable to determine"),
+            "recommendation_reasoning": analysis.get("recommendation_reasoning", "Insufficient data"),
+            "recommendation_score": analysis.get("recommendation_score", 0)
+        }
+
+    return result
+
+def run_agent(url):
+    """Main agent function that gets course recommendation and returns it"""
+    course_recommendation = get_course_recommendation(url)
+    return course_recommendation
 
 # Example usage
 if __name__ == "__main__":
