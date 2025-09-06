@@ -20,6 +20,197 @@ def load_api_key():
 GEMINI_API_KEY = load_api_key()
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
 
+# Course-specific contact extraction prompt templates
+PROGRAMMING_CONTACT_EXTRACTION_PROMPT = """
+Persona:
+You are an expert data extraction specialist specializing in identifying key decision-makers and influencers for programming course sales.
+
+Context:
+Your goal is to analyze the provided text from an institution's website and extract contact information ONLY for personnel who would be relevant for selling programming courses. Focus on individuals who make decisions about technical training, curriculum development, or have influence over educational technology purchases.
+
+Target Contacts for Programming Course Sales:
+- CTO, Chief Technology Officer, Technical Directors
+- IT Managers, IT Directors, Systems Administrators
+- Engineering Department Heads, Engineering Managers
+- Computer Science Department Heads, CS Faculty
+- Technical Training Coordinators, Professional Development Managers
+- Academic Deans with technical focus
+- Research Directors in technical fields
+- Technology Integration Specialists
+- Software Development Managers
+- Technical Curriculum Coordinators
+
+Exclusion Criteria:
+- General administrative staff (unless they handle training decisions)
+- Non-technical department heads
+- Support staff without decision-making authority
+- Faculty in non-technical fields
+- General contact information without specific names
+
+Inclusion Criteria: A contact must only be included if it contains at least one phone number OR at least one email address AND appears to be relevant for programming course sales.
+
+Website Content:
+{website_content}
+
+Your Task:
+Respond ONLY with a valid JSON object containing an array of contact objects. Each contact object should have the following structure (include only the fields that are available):
+{{
+"contacts": [
+{{
+"name": "Full Name",
+"title": "Job Title/Position",
+"phone": "Phone Number",
+"email": "Email Address"
+}},
+{{
+"name": "Another Person",
+"title": "Another Title",
+"phone": "Another Phone"
+}},
+...
+]
+}}
+
+Note: Only include the fields that are available in the source text. If a field is not available, simply omit it from the contact object.
+If no relevant contacts for programming course sales are found, return: {{"contacts": []}}
+"""
+
+SALES_CONTACT_EXTRACTION_PROMPT = """
+Persona:
+You are an expert data extraction specialist specializing in identifying key decision-makers and influencers for sales course sales.
+
+Context:
+Your goal is to analyze the provided text from an institution's website and extract contact information ONLY for personnel who would be relevant for selling sales courses. Focus on individuals who make decisions about business training, sales development, or have influence over professional development purchases.
+
+Target Contacts for Sales Course Sales:
+- Sales Managers, Sales Directors, VP of Sales
+- Business Development Managers, BD Directors
+- Marketing Managers, Marketing Directors
+- HR Directors, Training Managers, Professional Development Managers
+- Business School Deans, Management Department Heads
+- Executive Directors, General Managers
+- Partnership Managers, Business Relations Managers
+- Customer Success Managers
+- Revenue Managers, Growth Managers
+- Business Training Coordinators
+
+Exclusion Criteria:
+- Technical staff (unless they also handle business development)
+- General administrative staff (unless they handle training decisions)
+- Support staff without decision-making authority
+- Faculty in non-business fields
+- General contact information without specific names
+
+Inclusion Criteria: A contact must only be included if it contains at least one phone number OR at least one email address AND appears to be relevant for sales course sales.
+
+Website Content:
+{website_content}
+
+Your Task:
+Respond ONLY with a valid JSON object containing an array of contact objects. Each contact object should have the following structure (include only the fields that are available):
+{{
+"contacts": [
+{{
+"name": "Full Name",
+"title": "Job Title/Position",
+"phone": "Phone Number",
+"email": "Email Address"
+}},
+{{
+"name": "Another Person",
+"title": "Another Title",
+"phone": "Another Phone"
+}},
+...
+]
+}}
+
+Note: Only include the fields that are available in the source text. If a field is not available, simply omit it from the contact object.
+If no relevant contacts for sales course sales are found, return: {{"contacts": []}}
+"""
+
+# Master prompts for URL filtering based on course type
+PROGRAMMING_MASTER_PROMPT_TEMPLATE = """
+Persona:
+You are an expert data analyst specializing in website structure and contact information discovery for technology companies. Your task is to identify the most informative URLs from a given list that will help a sales team find contact information, key personnel, and communication channels for programming course sales.
+
+Primary Goal:
+Select the most informative URLs from the list below that are most likely to contain contact information for programming course sales. Choose up to 5 URLs (or all available URLs if there are fewer than 5) that are most likely to contain:
+- Technical leadership (CTO, technical directors, IT managers, engineering heads)
+- Computer Science/Engineering department heads and faculty
+- Technical training coordinators and professional development managers
+- Research directors and technical project managers
+- Technology integration specialists and curriculum developers
+- Academic deans with technical focus
+- Software development managers and technical leads
+
+PRIORITY URLs (select these if available):
+- URLs containing: "faculty", "staff", "team", "leadership", "director", "head", "dean"
+- URLs containing: "computer-science", "engineering", "technology", "research", "development"
+- URLs containing: "academic", "training", "professional-development"
+- URLs containing: "contact", "about", "administration"
+- Department pages (e.g., "computer-science-engineering", "electrical-engineering", "applied-sciences")
+- Faculty directory pages and staff listing pages
+- ANY URL with "computer-science" in the path (these contain faculty contacts)
+- ANY URL with "engineering" in the path (these contain faculty contacts)
+
+AVOID these types of URLs:
+- Student-focused pages (admissions, applications, student life, student-*, how-to-apply)
+- General information pages (policies, procedures, guidelines, IT-policy, how-to-reach)
+- Partnership/collaboration pages (mou-collaboration, partnerships)
+- Location/directions pages (how-to-reach, location, directions)
+- News/events pages (unless about technical training)
+- PDF files and documents
+- Administrative pages without personnel information
+- Course catalog or curriculum pages (unless they also contain faculty information)
+
+This information will be used for programming course sales outreach and lead generation. Use your own expert judgment to determine the most relevant URLs from the list.
+
+List of URLs to Analyze:
+{url_list_json}
+
+Required Output Format:
+Your response MUST be a valid JSON object and nothing else. The JSON object should contain a single key, 'selected_urls', with a list of the most relevant URLs you have chosen (up to 5, or all available if fewer than 5).
+Example: {{"selected_urls": ["url_1", "url_2", "url_3"]}}
+"""
+
+SALES_MASTER_PROMPT_TEMPLATE = """
+Persona:
+You are an expert data analyst specializing in website structure and contact information discovery for business organizations. Your task is to identify the most informative URLs from a given list that will help a sales team find contact information, key personnel, and communication channels for sales course sales.
+
+Primary Goal:
+Select the most informative URLs from the list below that are most likely to contain contact information for sales course sales. Choose up to 5 URLs (or all available URLs if there are fewer than 5) that are most likely to contain:
+- Business leadership (sales managers, business development directors, marketing managers)
+- HR and training managers responsible for professional development
+- Executive directors and general managers
+- Business school deans and management department heads
+- Partnership managers and business relations managers
+- Customer success managers and revenue managers
+- Business training coordinators and professional development staff
+
+PRIORITY URLs (select these if available):
+- URLs containing: "leadership", "management", "director", "manager", "head", "dean"
+- URLs containing: "business", "sales", "marketing", "hr", "training", "development"
+- URLs containing: "executive", "administration", "partnership", "relations"
+- URLs containing: "contact", "about", "team", "staff"
+
+AVOID these types of URLs:
+- Student-focused pages (admissions, applications, student life)
+- General information pages (policies, procedures, guidelines)
+- Technical/engineering pages (unless they mention business development)
+- Location/directions pages
+- News/events pages (unless about business training)
+
+This information will be used for sales course sales outreach and lead generation. Use your own expert judgment to determine the most relevant URLs from the list.
+
+List of URLs to Analyze:
+{url_list_json}
+
+Required Output Format:
+Your response MUST be a valid JSON object and nothing else. The JSON object should contain a single key, 'selected_urls', with a list of the most relevant URLs you have chosen (up to 5, or all available if fewer than 5).
+Example: {{"selected_urls": ["url_1", "url_2", "url_3"]}}
+"""
+
 # Debug: Print API key status (remove in production)
 # print(f"API Key loaded: {'Yes' if GEMINI_API_KEY != 'YOUR_API_KEY_HERE' else 'No'}")
 # print(f"API Key length: {len(GEMINI_API_KEY)}")
@@ -255,6 +446,64 @@ def detect_good_urls_for_course_recommendation(urls, base_domain):
     # Fallback: return first 5 URLs if LLM fails
     return urls[:5]
 
+def detect_good_urls_for_contact_info_extraction(urls, base_domain, recommended_course):
+    """Use LLM to filter URLs that are most likely to contain contact information"""
+    if not urls:
+        return []
+    
+    # Limit to first 20 URLs for analysis
+    urls_to_analyze = urls[:20]
+    
+    # Create JSON list of URLs for the prompt
+    url_list_json = json.dumps(urls_to_analyze)
+    
+    # Choose the appropriate master prompt based on recommended course
+    if "Programming" in recommended_course:
+        prompt = PROGRAMMING_MASTER_PROMPT_TEMPLATE.format(url_list_json=url_list_json)
+    else:  # Sales Course or any other type
+        prompt = SALES_MASTER_PROMPT_TEMPLATE.format(url_list_json=url_list_json)
+    
+    try:
+        payload = {
+            "contents": [{
+                "parts": [{
+                    "text": prompt
+                }]
+            }]
+        }
+        
+        response = requests.post(GEMINI_API_URL, json=payload, timeout=30)
+        response.raise_for_status()
+        
+        result = response.json()
+        
+        if 'candidates' in result and len(result['candidates']) > 0:
+            content = result['candidates'][0]['content']['parts'][0]['text'].strip()
+            
+            # Extract JSON from markdown code blocks if present
+            if content.startswith('```json'):
+                start = content.find('```json') + 7
+                end = content.rfind('```')
+                if end > start:
+                    content = content[start:end].strip()
+            elif content.startswith('```'):
+                start = content.find('```') + 3
+                end = content.rfind('```')
+                if end > start:
+                    content = content[start:end].strip()
+            
+            analysis = json.loads(content)
+            selected_urls = analysis.get('selected_urls', [])
+            
+            print(f"LLM selected {len(selected_urls)} contact-relevant URLs from {len(urls)} total URLs")
+            return selected_urls[:8]  # Limit to 8 URLs max
+            
+    except Exception as e:
+        print(f"Error in contact URL filtering: {e}")
+    
+    # Fallback: return first 5 URLs if LLM fails
+    return urls[:5]
+
 def force_recommendation(text_content):
     """Force a recommendation even with limited data"""
     prompt = f"""
@@ -405,10 +654,166 @@ def get_course_recommendation(url):
 
     return result
 
+def get_contact_info(url, recommended_course):
+    """Extract contact information from website using similar structure to get_course_recommendation"""
+    print(f"Starting contact extraction for: {url}")
+    
+    # Normalize the input URL
+    base_url = normalize_url(url)
+    visited_urls = {base_url}
+    visited_urls_list = [base_url]  # Track order of visited URLs
+    extracted_contacts = {"contacts": []}
+    
+    # Start with the base URL
+    urls_to_visit = [base_url]
+    
+    for step in range(1, 16):  # Max 15 steps
+        print(f"\n--- Contact Extraction Step {step} ---")
+        
+        if not urls_to_visit:
+            print("No more URLs to visit for contact extraction")
+            break
+        
+        # Get next URL to visit
+        current_url = urls_to_visit.pop(0)
+        
+        if current_url in visited_urls and step > 1:
+            continue
+            
+        print(f"Extracting contacts from: {current_url}")
+        
+        # Mark as visited
+        visited_urls.add(current_url)
+        visited_urls_list.append(current_url)
+        
+        # Extract text content from current URL only (not accumulated)
+        text_content = browse_website(current_url)
+        if text_content:
+            # Extract contacts from current URL content
+            try:
+                contacts = extract_contacts_from_text(text_content, recommended_course)
+            except Exception as e:
+                if "429" in str(e) or "Too Many Requests" in str(e):
+                    print(f"API rate limit hit, waiting 5 seconds...")
+                    import time
+                    time.sleep(5)
+                    contacts = extract_contacts_from_text(text_content, recommended_course)
+                else:
+                    print(f"Error extracting contacts: {e}")
+                    contacts = []
+            
+            if contacts and len(contacts) > 0:
+                # Add new contacts to extracted_contacts, avoiding duplicates
+                for contact in contacts:
+                    if len(extracted_contacts["contacts"]) < 10:  # Limit to 10 contacts max
+                        # Check for duplicates based on name and email
+                        is_duplicate = False
+                        for existing_contact in extracted_contacts["contacts"]:
+                            if (contact.get("name") == existing_contact.get("name") and 
+                                contact.get("email") == existing_contact.get("email")):
+                                is_duplicate = True
+                                break
+                        
+                        if not is_duplicate:
+                            extracted_contacts["contacts"].append(contact)
+                            print(f"Added contact: {contact.get('name', 'Unknown')} - {contact.get('title', 'No title')}")
+        
+
+        # Find new URLs from current page (recursive traversal)
+        all_new_urls = find_urls(current_url)
+        print(f"Found {len(all_new_urls)} total URLs for contact extraction")
+        
+        # Filter out non-HTML files and invalid URLs before LLM processing
+        filtered_urls = []
+        for url in all_new_urls:
+            # Skip PDFs, images, documents, and other non-HTML files
+            if not any(ext in url.lower() for ext in ['.pdf', '.jpg', '.jpeg', '.png', '.gif', '.xlsx', '.doc', '.docx', '.ppt', '.pptx']):
+                filtered_urls.append(url)
+        
+        print(f"After filtering non-HTML files: {len(filtered_urls)} URLs")
+        
+        # Use LLM to filter URLs that are most relevant for contact information
+        base_domain = urlparse(current_url).netloc
+        good_urls = detect_good_urls_for_contact_info_extraction(filtered_urls, base_domain, recommended_course)
+        
+        # Add filtered URLs to visit (check both visited_urls and urls_to_visit for duplicates)
+        for new_url in good_urls:
+            if new_url not in visited_urls and new_url not in urls_to_visit:
+                urls_to_visit.append(new_url)
+        
+        # Add small delay to avoid API rate limiting
+        import time
+        time.sleep(1)
+        
+        # Stop if we have enough contacts
+        if len(extracted_contacts["contacts"]) >= 10:
+            print("Reached maximum contact limit (10)")
+            break
+    
+    print(f"Contact extraction completed. Found {len(extracted_contacts['contacts'])} contacts")
+    
+    # Print all visited URLs
+    print(f"\nVisited URLs for contact extraction ({len(visited_urls_list)} total):")
+    print("-" * 60)
+    for i, visited_url in enumerate(visited_urls_list, 1):
+        print(f"{i}. {visited_url}")
+    
+    return extracted_contacts
+
+def extract_contacts_from_text(text_content, recommended_course):
+    """Extract contacts from text content using course-specific LLM prompts"""
+    # Choose the appropriate prompt based on recommended course
+    if "Programming" in recommended_course:
+        prompt = PROGRAMMING_CONTACT_EXTRACTION_PROMPT.format(website_content=text_content)
+    else:  # Sales Course or any other type
+        prompt = SALES_CONTACT_EXTRACTION_PROMPT.format(website_content=text_content)
+    
+    try:
+        payload = {
+            "contents": [{
+                "parts": [{
+                    "text": prompt
+                }]
+            }]
+        }
+        
+        response = requests.post(GEMINI_API_URL, json=payload, timeout=30)
+        response.raise_for_status()
+        
+        result = response.json()
+        
+        if 'candidates' in result and len(result['candidates']) > 0:
+            content = result['candidates'][0]['content']['parts'][0]['text'].strip()
+            
+            # Extract JSON from markdown code blocks if present
+            if content.startswith('```json'):
+                start = content.find('```json') + 7
+                end = content.rfind('```')
+                if end > start:
+                    content = content[start:end].strip()
+            elif content.startswith('```'):
+                start = content.find('```') + 3
+                end = content.rfind('```')
+                if end > start:
+                    content = content[start:end].strip()
+            
+            analysis = json.loads(content)
+            return analysis.get('contacts', [])
+            
+    except Exception as e:
+        print(f"Error extracting contacts: {e}")
+    
+    return []
+
 def run_agent(url):
-    """Main agent function that gets course recommendation and returns it"""
+    """Main agent function that gets course recommendation and contact info, then returns both"""
     course_recommendation = get_course_recommendation(url)
-    return course_recommendation
+    contact_info = get_contact_info(url, course_recommendation.get("recommended_course", "Unknown"))
+    
+    return {
+        "course_recommendation": course_recommendation,
+        "contact_info": contact_info
+    }
 
 # Example usage
 if __name__ == "__main__":
@@ -420,8 +825,28 @@ if __name__ == "__main__":
     
     result = run_agent(url)
     
+    # Print course recommendation
+    course_rec = result['course_recommendation']
     print(f"\nFinal Recommendation:")
-    print(f"Course: {result['recommended_course']}")
-    print(f"Reasoning: {result['recommendation_reasoning']}")
-    print(f"Score: {result['recommendation_score']}")
+    print(f"Course: {course_rec['recommended_course']}")
+    print(f"Reasoning: {course_rec['recommendation_reasoning']}")
+    print(f"Score: {course_rec['recommendation_score']}")
+    
+    # Print contact information
+    contact_info = result['contact_info']
+    print(f"\nExtracted Contacts ({len(contact_info['contacts'])} found):")
+    print("-" * 50)
+    
+    if contact_info['contacts']:
+        for i, contact in enumerate(contact_info['contacts'], 1):
+            print(f"{i}. {contact.get('name', 'Unknown Name')}")
+            if contact.get('title'):
+                print(f"   Title: {contact['title']}")
+            if contact.get('email'):
+                print(f"   Email: {contact['email']}")
+            if contact.get('phone'):
+                print(f"   Phone: {contact['phone']}")
+            print()
+    else:
+        print("No contacts found.")
 
