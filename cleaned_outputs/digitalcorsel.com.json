@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly focuses on digital marketing, lead generation, increasing sales, and improving business revenue through services like SEO, paid marketing, social media, and website design/development, all geared towards boosting client sales.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General Contact",
+        "email": "info@digitalcorsel.com",
+        "phone": "+91-8861863636"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Digital Corsel - Best Digital Marketing Company in Bangalore | SEO Agency",
+    "website_url": "https://digitalcorsel.com/",
+    "location": "Bangalore",
+    "phone": "080199 97777",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:23:44.526479"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Aquevix is an established software development company with extensive experience and a clear focus on technical delivery. As a service-based business that already possesses strong programming capabilities, their primary opportunity for growth lies in optimizing client acquisition and sales processes rather than enhancing their core technical skills.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Aquevix Solutions Pvt Ltd.",
+    "website_url": "http://www.aquevix.com/",
+    "location": "Delhi",
+    "phone": "011 4560 0412",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:41:14.017422"
+  }
+}

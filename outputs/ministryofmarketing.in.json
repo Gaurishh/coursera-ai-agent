@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website URL 'ministryofmarketing.in' strongly indicates a business focused on marketing, aligning with the need for a Sales Course.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Ministry Of Marketing - Best Performance Marketing Agency",
+    "website_url": "http://www.ministryofmarketing.in/",
+    "location": "Delhi",
+    "phone": "087000 89990",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:20:37.843957"
+  }
+}

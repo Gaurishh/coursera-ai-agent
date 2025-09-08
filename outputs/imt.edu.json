@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for IMT Ghaziabad, a prominent management institution (B School) offering Post Graduate Diplomas in Management (PGDM) and executive programs, with a clear focus on leadership, entrepreneurship, branding, marketing, and strategic value creation, aligning perfectly with a Sales Course.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Institute of Management Technology, Ghaziabad",
+    "website_url": "http://www.imt.edu/",
+    "location": "Delhi",
+    "phone": "0120 408 3200",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:15:01.344403"
+  }
+}

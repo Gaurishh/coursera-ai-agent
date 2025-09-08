@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is a digital marketing agency explicitly focused on generating leads, sales, and business growth for clients through various marketing strategies, including web design and development as a supporting service.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "General Contact / Customer Support",
+        "email": "support@digitalmarketer.com",
+        "phone": "512-600-4363"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Best Digital Marketer",
+    "website_url": "https://www.best-digital-marketer.com/",
+    "location": "Bangalore",
+    "phone": "089042 92528",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:48:05.366564"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is primarily focused on promoting and selling their HR software solutions to businesses, featuring 'Request a Demo,' client testimonials, and benefit-driven product descriptions aimed at customer acquisition.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "SIMPLI - HR Management Software",
+    "website_url": "https://www.simpli.group/",
+    "location": "Delhi",
+    "phone": "096505 90202",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:07:28.588529"
+  }
+}

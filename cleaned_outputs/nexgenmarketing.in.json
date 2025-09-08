@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly identifies as a 'Digital Marketing Agency' focused on helping businesses 'grow their online presence', 'generate quality leads', 'drive organic traffic', and 'boost conversions', which are all strong indicators for a sales and marketing focus, despite offering website development as a service.",
+    "recommendation_score": 85
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "",
+        "email": "info@nexgenint.com",
+        "phone": "+91-98100 68299"
+      },
+      {
+        "name": "",
+        "title": "General Contact (from company profile)",
+        "email": "",
+        "phone": "+91-98100 68299"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "NexGen Marketing Agency - Digital Marketing Agency - PPC, SEO, Social Media, Web Dev",
+    "website_url": "https://nexgenmarketing.in/?utm_source=gmb&utm_medium=cpc&utm_term=digital_marketing_serives&utm_campaign=services",
+    "location": "Delhi",
+    "phone": "076786 44182",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:18:41.827604"
+  }
+}

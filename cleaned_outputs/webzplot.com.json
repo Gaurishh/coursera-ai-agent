@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is a digital marketing and website design agency that heavily emphasizes client results, sales, brand awareness, ROI, and customer acquisition for their clients, indicating a strong focus on business and sales outcomes.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "General Company Contact",
+        "email": null,
+        "phone": "9901715902"
+      },
+      {
+        "name": null,
+        "title": "General Company Contact",
+        "email": null,
+        "phone": "9972318316"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "WebzPlot",
+    "website_url": "https://webzplot.com/",
+    "location": "Bangalore",
+    "phone": "099723 18316",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:56:57.557744"
+  }
+}

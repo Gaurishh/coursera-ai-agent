@@ -1,0 +1,43 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website prominently features various engineering and technology disciplines, including Computer Science & Engineering and Information Science & Engineering, indicating a strong focus on technical education where programming skills are central.",
+    "recommendation_score": 85
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "General Office / Polytechnic Contact",
+        "email": "nadgir.institute@gmail.com",
+        "phone": "8867065525 / (080)23387333 / (080)23389444"
+      },
+      {
+        "name": "Not Found",
+        "title": "Admissions Office (Polytechnic, Engineering, Paramedical, ITI)",
+        "email": "nadgir.institute@gmail.com",
+        "phone": "8867065525"
+      },
+      {
+        "name": "Not Found",
+        "title": "Nadgir Institute of Paramedical Science Admissions",
+        "email": "Not Found",
+        "phone": "(080)23387333 / (080)23389444"
+      },
+      {
+        "name": "Not Found",
+        "title": "Mount Mallari Industrial Training Institute Admissions",
+        "email": "Not Found",
+        "phone": "8867065525"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Nadgir Institute Of Engineering And Technology",
+    "website_url": "http://www.nadgirinstitute.com/",
+    "location": "Bangalore",
+    "phone": "088670 71103",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:13:01.995258"
+  }
+}

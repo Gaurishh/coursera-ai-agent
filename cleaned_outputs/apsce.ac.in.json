@@ -1,0 +1,55 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website belongs to APS College of Engineering, with extensive content on Computer Science, Information Science, Electronics & Communication Engineering, AI/ML, Cyber Security, IoT, VLSI Design, Quantum Computing, and NLP, demonstrating a strong focus on technical and programming-related fields.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dr. K.S Anand",
+        "title": "Principal I/C",
+        "email": "principal.apsce@gmail.com",
+        "phone": "91-9035994160"
+      },
+      {
+        "name": null,
+        "title": "Principal",
+        "email": "principal@apsce.ac.in",
+        "phone": "080–28432108"
+      },
+      {
+        "name": null,
+        "title": "College Office Contact",
+        "email": "apsceoffice@gmail.com",
+        "phone": null
+      },
+      {
+        "name": null,
+        "title": "Examination Office Contact",
+        "email": "apsce@apsce.ac.in",
+        "phone": null
+      },
+      {
+        "name": null,
+        "title": "General Institutional Contact",
+        "email": null,
+        "phone": "+91 8951887906"
+      },
+      {
+        "name": null,
+        "title": "APS Trust Office",
+        "email": null,
+        "phone": "080-26602586"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "A P S College Of Engineering",
+    "website_url": "http://www.apsce.ac.in/",
+    "location": "Bangalore",
+    "phone": "080 2843 2108",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:11:14.286796"
+  }
+}

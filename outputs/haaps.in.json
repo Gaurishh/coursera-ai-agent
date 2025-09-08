@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content explicitly focuses on digital marketing, SEO, PPC, social media, and helping clients improve leads, sales, and boost conversions, which are core sales and business development activities.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General Contact",
+        "email": "info@haaps.in",
+        "phone": "+91-98150-20111"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "HAAPS - Digital Marketing Agency in Bangalore",
+    "website_url": "https://haaps.in/",
+    "location": "Bangalore",
+    "phone": "096201 75156",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:35:07.242496"
+  }
+}

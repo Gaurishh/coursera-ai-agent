@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content explicitly mentions 'JavaScript' and 'app,' which are technical terms directly related to programming and application development.",
+    "recommendation_score": 45
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General Contact (likely reaches management or HR)",
+        "email": "info@digidzn.com",
+        "phone": ""
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "digidzn - digital marketing agency | best digital marketing company in delhi | seo, ppc, smm",
+    "website_url": "https://digidzn.com/",
+    "location": "Delhi",
+    "phone": "092897 45760",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:28:20.270514"
+  }
+}

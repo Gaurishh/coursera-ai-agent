@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly focuses on digital marketing, lead generation, and increasing online sales for businesses, with services like SEO, PPC, and e-commerce marketing all designed to drive customer acquisition and revenue.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Best Digital Marketing Company in Kalkaji - HitupSolutions",
+    "website_url": "https://hitupsolutions.com/",
+    "location": "Delhi",
+    "phone": "084499 43709",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:43:09.372209"
+  }
+}

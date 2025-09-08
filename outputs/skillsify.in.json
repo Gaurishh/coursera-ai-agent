@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is entirely focused on digital marketing, boosting online presence, driving customer engagement, increasing sales, and generating leads for businesses. There is no mention of programming or software development.",
+    "recommendation_score": 100
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Skillsify-Best Digital Marketing Agency & E-commerce Website Design and Development company in Delhi",
+    "website_url": "https://skillsify.in/",
+    "location": "Delhi",
+    "phone": "077039 05638",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:42:41.610207"
+  }
+}

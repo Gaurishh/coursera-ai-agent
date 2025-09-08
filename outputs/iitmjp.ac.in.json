@@ -1,0 +1,61 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content heavily emphasizes admissions, student recruitment, and marketing their educational programs, which are core sales functions for a course-selling company.",
+    "recommendation_score": 85
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Ms. Sree Anusha Nadimpalli",
+        "title": "Placement Officer, Department of Management Studies",
+        "email": "domspl@smail.iitm.ac.in",
+        "phone": "+91 9052662303"
+      },
+      {
+        "name": null,
+        "title": "MBA Placement Cell, Department of Management Studies",
+        "email": "mbapl@smail.iitm.ac.in",
+        "phone": null
+      },
+      {
+        "name": null,
+        "title": "MBA Councillor, Department of Management Studies",
+        "email": "mbacouncillor@smail.iitm.ac.in",
+        "phone": null
+      },
+      {
+        "name": null,
+        "title": "Placement and Internship Office",
+        "email": "placement@iitm.ac.in",
+        "phone": "044 2257 8130 / 044 2257 8133"
+      },
+      {
+        "name": null,
+        "title": "Career Development Services, IIT Jammu",
+        "email": "placements@iitjammu.ac.in",
+        "phone": "0191 2570289"
+      },
+      {
+        "name": null,
+        "title": "Management Studies (likely Placement/Internship Head or Coordinator)",
+        "email": null,
+        "phone": "+91 9873876526"
+      },
+      {
+        "name": null,
+        "title": "Management Studies (likely Placement/Internship Head or Coordinator)",
+        "email": null,
+        "phone": "+91 9892548343"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "IITM Janakpuri Delhi | Institute of Innovation in Technology & Management (IITM)",
+    "website_url": "http://www.iitmjp.ac.in/",
+    "location": "Delhi",
+    "phone": "011 2852 0894",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T03:56:09.057405"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content overwhelmingly focuses on marketing, branding, advertising, and driving sales and revenue for clients, explicitly mentioning sales as the ultimate aim and offering various services like offline marketing, digital marketing, and retail branding, all geared towards customer acquisition and business growth.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "4Pz – Brand Design, Retail Branding & Digital Marketing Agency",
+    "website_url": "https://www.4pz.in/",
+    "location": "Delhi",
+    "phone": "098114 04043",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:17:59.151244"
+  }
+}

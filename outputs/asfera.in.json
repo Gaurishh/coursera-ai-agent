@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website explicitly identifies Asfera Technologies as a 'Software Development Company' with a mission focused on 'software development,' showcasing extensive technical expertise in 'major programming languages (Java, .net),' databases (Oracle, SQL Server), and 'best software development practices.'",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Asfera Technologies Private Limited | Call Center Solutions | Dialer Software Company | IVR Services Provider Delhi",
+    "website_url": "https://www.asfera.in/",
+    "location": "Delhi",
+    "phone": "090666 77770",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:32:44.943088"
+  }
+}

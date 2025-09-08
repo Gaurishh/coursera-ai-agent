@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is dedicated to selling business management software, ERP, and CRM solutions, with strong emphasis on sales management, lead generation, customer relationships, marketing efforts, and converting prospects into customers.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "General Sales/Inquiry Contact",
+        "email": "sales@sagesoftware.co.in",
+        "phone": "1800-1024-951"
+      },
+      {
+        "name": null,
+        "title": "Mumbai Office Contact",
+        "email": null,
+        "phone": "+91 84548 61144"
+      },
+      {
+        "name": null,
+        "title": "General Company Contact",
+        "email": null,
+        "phone": "+91 2267687872"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Sage Software Solutions Pvt Ltd | ERP & CRM Provider in Bengaluru",
+    "website_url": "https://www.sagesoftware.co.in/",
+    "location": "Bangalore",
+    "phone": "099626 66339",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:34:02.713399"
+  }
+}

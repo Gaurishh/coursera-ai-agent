@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is entirely focused on Salesforce CRM solutions, explicitly mentioning 'drive sales growth,' 'customer interactions,' 'enhance customer experiences,' 'maximize ROI,' and 'accelerate growth' as core benefits for businesses across various industries.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Cloudespacio",
+    "website_url": "http://www.cloudespacio.com/",
+    "location": "Delhi",
+    "phone": "099585 84825",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:47:54.275075"
+  }
+}

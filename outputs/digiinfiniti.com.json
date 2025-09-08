@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The company is a Digital Marketing Agency focused on helping clients with SEO, PPC, social media, and lead generation, with explicit mentions of 'Sales Manager' and 'Sales support' roles, indicating a strong need for sales proficiency to grow their own client base.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Digi Infiniti",
+    "website_url": "http://www.digiinfiniti.com/",
+    "location": "Bangalore",
+    "phone": "098864 54545",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:54:20.500584"
+  }
+}

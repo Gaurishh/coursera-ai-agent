@@ -1,0 +1,79 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website offers a 'BBA (Digital Marketing)' specialization and its blog content heavily emphasizes business, management, and career development into roles like 'Future CEOs' and 'Banking,' which strongly align with sales and marketing skills.",
+    "recommendation_score": 88
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Mr. C. Manoj Kumar",
+        "title": "Training & Placement Officer",
+        "email": "info@acem.ac.in",
+        "phone": "74168 63601"
+      },
+      {
+        "name": "Dr. VVN Bhaskar",
+        "title": "Professor & Dean - Academics",
+        "email": "",
+        "phone": "9885094705"
+      },
+      {
+        "name": "Dr. K. Lakshmaiah",
+        "title": "HOD - Computer Science & Engineering",
+        "email": "",
+        "phone": "74169 63501"
+      },
+      {
+        "name": "Dr. K.V. Vara Prasad",
+        "title": "HOD - Electronics & Communication Engineering",
+        "email": "",
+        "phone": "74169 63401"
+      },
+      {
+        "name": "Dr. M. Roshini",
+        "title": "HOD – CSE (AI)",
+        "email": "",
+        "phone": "7013138130"
+      },
+      {
+        "name": "Dr. T. Amaranatha Reddy",
+        "title": "HOD – Humanities & Sciences",
+        "email": "",
+        "phone": "74168 73701"
+      },
+      {
+        "name": "Dr. R. Md. Shafi",
+        "title": "HOD - AI & DS",
+        "email": "",
+        "phone": "7416943901"
+      },
+      {
+        "name": "",
+        "title": "General Admissions/Contact",
+        "email": "admissions@acem.edu.in",
+        "phone": "+91-8527538785"
+      },
+      {
+        "name": "",
+        "title": "General College Contact",
+        "email": "",
+        "phone": "7416948100"
+      },
+      {
+        "name": "",
+        "title": "General College Contact",
+        "email": "",
+        "phone": "7416963100"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Aravali College of Engineering And Management (ACEM)",
+    "website_url": "https://www.acem.edu.in/",
+    "location": "Delhi",
+    "phone": "085275 38785",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:09:16.805177"
+  }
+}

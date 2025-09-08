@@ -1,0 +1,49 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content explicitly focuses on marketing and sales solutions, lead conversion, maximizing sales velocity, market research, business development, and strategic marketing for real estate developers, with no mention of programming or technical development.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Sandeep Shukla",
+        "title": "Director",
+        "email": "[email protected]",
+        "phone": ""
+      },
+      {
+        "name": "Vikas Winston",
+        "title": "Director",
+        "email": "[email protected]",
+        "phone": ""
+      },
+      {
+        "name": "Ram Mishra",
+        "title": "Director",
+        "email": "[email protected]",
+        "phone": ""
+      },
+      {
+        "name": "Pooran Mishra",
+        "title": "Director",
+        "email": "[email protected]",
+        "phone": ""
+      },
+      {
+        "name": "General Company Contact",
+        "title": "General Company Contact",
+        "email": "[email protected]",
+        "phone": ""
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Nettrix Marketing Pvt Ltd",
+    "website_url": "https://www.nettrixmarketing.com/",
+    "location": "Bangalore",
+    "phone": "079052 50336",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:39:08.672103"
+  }
+}

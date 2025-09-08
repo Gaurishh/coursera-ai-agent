@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "While Logsafe is a software development company with strong technical capabilities, their stated objectives like 'Your business growth is our objective', 'accelerate market speed', and metrics like '30K+ Active Users/Downloads' indicate a focus on scaling their customer base and market presence, which would benefit significantly from enhanced sales strategies.",
+    "recommendation_score": 85
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "",
+        "email": "info@logsafe.in",
+        "phone": "080-29905860"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "info@logsafe.in",
+        "phone": "+91 96067 99418"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Logsafe | Hr & Payroll Software Development Company",
+    "website_url": "https://www.logsafe.in/",
+    "location": "Bangalore",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:55:19.943147"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website explicitly positions EffOne as a global IT consulting company with deep expertise in various technical domains like software development, DevOps, QA, and application integration, indicating a need to maintain and enhance technical skills.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "General Company Contact (Headquarters)",
+        "email": null,
+        "phone": "(408) 830-1010"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Effone Technologies Private Limited",
+    "website_url": "http://www.effone.com/",
+    "location": "Bangalore",
+    "phone": "080 2332 3298",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:09:00.629853"
+  }
+}

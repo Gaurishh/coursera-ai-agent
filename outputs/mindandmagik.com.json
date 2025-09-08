@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The company is a digital marketing agency focused on driving growth, revenue, and customer acquisition for its clients through various marketing channels, making a Sales Course highly relevant to their core business.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Mind And Magik Media Digital Marketing Agency - Bangalore",
+    "website_url": "https://mindandmagik.com/",
+    "location": "Bangalore",
+    "phone": "096634 65465",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:49:14.225587"
+  }
+}

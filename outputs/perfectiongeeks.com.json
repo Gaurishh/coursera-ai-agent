@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "PerfectionGeeks is a professional software development service provider, making a Programming Course redundant for their existing expertise; a Sales Course would directly benefit their client acquisition and business growth as a service business.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "General Company Contact",
+        "email": null,
+        "phone": "(917) 628-2062"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Perfectiongeeks Technologies",
+    "website_url": "https://www.perfectiongeeks.com/",
+    "location": "Delhi",
+    "phone": "089209 47884",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:45:45.968075"
+  }
+}

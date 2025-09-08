@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website clearly positions Digital iMac as a 'Digital Marketing Company' and 'Internet Marketing Agency' with a strong focus on generating leads, increasing sales, boosting revenue, and improving brand visibility for its clients through services like SEO, SMM, Google Ads, and Mobile Marketing. A Sales Course would directly enhance their core business offerings and client acquisition strategies.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Digital iMac - Best Digital Marketing Company in Bangalore | SEO Agency | Web Designing",
+    "website_url": "http://www.digitalimac.com/",
+    "location": "Bangalore",
+    "phone": "099013 06103",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:28:34.143372"
+  }
+}

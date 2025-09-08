@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content is overwhelmingly focused on advanced technical solutions, software development, networking protocols (TSN, DoIP, SOME/IP, YANG/NETCONF), cloud integration (AWS, Azure), AI, algorithms, and embedded systems for the automotive industry, indicating a core business built on engineering and programming expertise.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General Company Contact (Headquarters)",
+        "email": "",
+        "phone": "(510) 868-2500"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Sirius Embedded Software Private Limited",
+    "website_url": "https://excelfore.com/",
+    "location": "Bangalore",
+    "phone": "095133 00147",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:16:34.055790"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website describes a digital growth marketing agency specializing in lead generation, sales enablement, conversion optimization, customer acquisition, and retention for B2B, app, and e-commerce brands.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Monaqo:Full-Funnel Digital Growth Marketing Agency in Bangalore, India for B2B, Apps & Ecommerce",
+    "website_url": "https://monaqo.in/",
+    "location": "Bangalore",
+    "phone": "079965 85956",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:33:49.233998"
+  }
+}

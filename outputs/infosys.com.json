@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content is heavily focused on IT services, digital transformation, AI, cloud, software engineering, data analytics, cybersecurity, and specific technical platforms, indicating a strong need for programming and technical expertise.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Infosys Limited",
+    "website_url": "https://www.infosys.com/",
+    "location": "Bangalore",
+    "phone": "080 2559 2088",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:07:03.315514"
+  }
+}

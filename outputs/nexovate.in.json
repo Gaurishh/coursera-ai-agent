@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The 'Hello world!' message is a classic reference to a first program in software development, and WordPress involves technical setup and customization.",
+    "recommendation_score": 35
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Nexovate Technologies Pvt Ltd",
+    "website_url": "http://www.nexovate.in/",
+    "location": "Bangalore",
+    "phone": "070224 48811",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:45:39.167894"
+  }
+}

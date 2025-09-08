@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly positions itself as an 'online marketing expert' offering 'Digital Marketing Services', 'Catalogue Services', 'Marketplace Solutions', 'Promotions', 'SEO Services', 'Lead Generation', and 'E-commerce Solutions', all of which directly relate to business growth, customer acquisition, and sales.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Digital Team India (DTI)",
+    "website_url": "https://www.digitalteamindia.com/",
+    "location": "Delhi",
+    "phone": "098187 51513",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:32:05.003215"
+  }
+}

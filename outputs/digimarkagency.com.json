@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content clearly indicates that DigiMark Agency is a digital marketing agency focused on driving conversions, generating leads, increasing ROI, and building brands for their clients, which are all directly related to sales and business development.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "Headquarters Contact (Dubai office)",
+        "email": "",
+        "phone": "+971502007126"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Digimark Agency",
+    "website_url": "https://www.digimarkagency.com/?utm_source=GMB&utm_medium=Organic&utm_campaign=Main",
+    "location": "Bangalore",
+    "phone": "088843 30607",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:27:43.165288"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The company's name \"Axis Software Solutions,\" its explicit mission to provide \"IT solutions\" and \"software services\" with \"advanced engineering qualifications,\" and its team heavily composed of developers and IT consultants, highlight a core technical identity where enhanced programming skills would directly improve their primary offerings.",
+    "recommendation_score": 75
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Axis Software Solutions",
+    "website_url": "http://axissoftwaresolutions.com/",
+    "location": "Delhi",
+    "phone": "078386 26861",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:09:08.469482"
+  }
+}

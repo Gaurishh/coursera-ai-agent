@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "No website content was provided, therefore defaulting to 'Programming Course' as per the instruction for unclear cases.",
+    "recommendation_score": 35
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Igeeks Technologies Internship Company",
+    "website_url": "https://www.igeekstechnologies.com/",
+    "location": "Bangalore",
+    "phone": "095905 44567",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:36:39.798319"
+  }
+}

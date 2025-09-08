@@ -1,0 +1,43 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content consistently emphasizes digital marketing, lead generation, increasing sales, ROI, brand awareness, and customer acquisition for businesses, clearly aligning with sales and marketing objectives.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "",
+        "email": "info@kingofdigitalmarketing.com",
+        "phone": "+91 9555696058, +91 9354619104"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "info@kingofdigitalmarketing.com",
+        "phone": "(+91) 9821918208, +91 9205316988"
+      },
+      {
+        "name": "Gaurav Dubey",
+        "title": "Key Decision-Maker",
+        "email": "",
+        "phone": "+91 9555696058"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "+91 9555696058"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "King of Digital Marketing",
+    "website_url": "https://www.kingofdigitalmarketing.com/",
+    "location": "Delhi",
+    "phone": "098219 18208",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:24:31.767214"
+  }
+}

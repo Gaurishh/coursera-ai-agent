@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content extensively covers digital marketing services, lead generation, customer acquisition, conversion rates, and strategies to increase sales and business growth for their clients, indicating a primary focus on sales and marketing outcomes.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "",
+        "email": "nishant.bloom@gmail.com",
+        "phone": ""
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "GSearrch",
+    "website_url": "https://www.gsearchinc.com/digital-marketing-company-in-bangalore/",
+    "location": "Bangalore",
+    "phone": "099023 62006",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:34:27.161400"
+  }
+}

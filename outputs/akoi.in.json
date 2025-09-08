@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "AKOI is explicitly a 'Digital & E-Commerce Marketing Agency' that focuses on acquiring clients and delivering business results, indicating a primary need to enhance its own client acquisition and sales capabilities for its comprehensive service offerings.",
+    "recommendation_score": 92
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "AKOI MARKETING HUB PRIVATE LIMITED",
+    "website_url": "https://www.akoi.in/",
+    "location": "Bangalore",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:29:55.237323"
+  }
+}

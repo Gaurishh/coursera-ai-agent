@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for an engineering college that offers various B.Tech programs including Computer Science and IT, indicating they are a provider of programming education, thus not needing a programming course themselves; however, they have extensive content on admissions, management quotas, counselling, and filling seats, suggesting a need for effective student acquisition and enrollment strategies, which aligns with the benefits of a sales course for organizational growth.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Guru Tegh Bahadur 4th Centenary Engineering College",
+    "website_url": "http://gtb4cec.org/",
+    "location": "Delhi",
+    "phone": "099110 00782",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T03:56:55.116607"
+  }
+}

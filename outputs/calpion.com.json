@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "Calpion is an IT Solutions & Services Provider specializing in AI, Deep Learning, Machine Learning, Robotic Process Automation, Application Development, and Engineering Services, with explicit mentions of programming languages and technical expertise.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Calpion Software Technologies Private Limited",
+    "website_url": "http://www.calpion.com/",
+    "location": "Bangalore",
+    "phone": "080 6976 5000",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:38:10.151710"
+  }
+}

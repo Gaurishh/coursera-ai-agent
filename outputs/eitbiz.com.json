@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "EitBiz is a highly technical software development company with extensive programming expertise and a large team, indicating their primary need is to enhance their sales and client acquisition strategies to grow their service business, rather than acquiring more programming skills themselves.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "General Company Contact",
+        "email": "",
+        "phone": "(317) 766-9035"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "EitBiz - Software, Mobile App & Web Development Company",
+    "website_url": "https://www.eitbiz.com/",
+    "location": "Delhi",
+    "phone": "070420 64408",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:01:29.054547"
+  }
+}

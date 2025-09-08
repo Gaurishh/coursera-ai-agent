@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website 'Sales Magnitude' is a performance marketing agency explicitly focused on generating quality leads and increasing sales through various ad platforms (Facebook, Google, Instagram, LinkedIn), with 'Web UI/UX, Design & Development' acting as a supporting service for their core sales and marketing objectives.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Rosmitha Arun",
+        "title": "General Manager",
+        "email": "r***@salesmagnitude.com",
+        "phone": ""
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Sales Magnitude | META & Google Ads Agency | Quality Leads",
+    "website_url": "https://www.salesmagnitude.com/",
+    "location": "Bangalore",
+    "phone": "083949 97177",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:22:32.240300"
+  }
+}

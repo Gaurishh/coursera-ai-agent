@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is a digital marketing agency offering services like SEO, social media marketing, paid advertising, and website development, all explicitly aimed at generating leads, driving traffic, and increasing sales and ROI for their clients.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Digilinkers - Best Digital Marketing Agency in Delhi | Website Development",
+    "website_url": "https://digilinkers.com/",
+    "location": "Delhi",
+    "phone": "098180 00334",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:30:53.034486"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website focuses entirely on digital advertising, conversion rates, ROAS, revenue generation, and sales for D2C brands, indicating a strong need for sales and marketing expertise.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "The Teaser Company",
+    "website_url": "http://www.theteasercompany.com/",
+    "location": "Delhi",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:32:50.696216"
+  }
+}

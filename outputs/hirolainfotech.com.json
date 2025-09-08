@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content explicitly mentions 'JavaScript' and 'app', and the URL includes 'infotech', strongly indicating a technical and programming context.",
+    "recommendation_score": 40
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Hirola InfoTech Solutions Pvt Ltd - Top Digital Marketing Company in Bangalore | Best SEO Agency in Bengaluru",
+    "website_url": "https://www.hirolainfotech.com/",
+    "location": "Bangalore",
+    "phone": "099161 13646",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:32:58.397743"
+  }
+}

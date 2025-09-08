@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website, while offering software development, heavily emphasizes its role in helping clients 'drive sales,' 'enhance customer engagement,' 'get noticed among your targeted audience,' and improve 'CTR' through marketing, demand generation, and eCommerce strategies. The explicit mention of 'Sale Agent' also indicates a direct need for sales expertise for their own business growth and client service delivery.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General Contact",
+        "email": "info@nexgi.com",
+        "phone": "+91-9910326514"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "NexGen Innovators - Software Company",
+    "website_url": "https://www.nexgi.com/",
+    "location": "Delhi",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:26:18.117482"
+  }
+}

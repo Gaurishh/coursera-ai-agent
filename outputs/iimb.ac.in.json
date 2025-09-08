@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website belongs to a leading business and management institute (IIM Bangalore) with extensive programs in MBA, executive education, entrepreneurship, and various business functions, all of which are directly or indirectly related to sales and market engagement.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Shweta Shree",
+        "title": "Program Manager for SWAYAM",
+        "email": "shweta.shree@iimb.ac.in",
+        "phone": "080-26993894"
+      },
+      {
+        "name": "Not Found",
+        "title": "SWAYAM Program Office Contact",
+        "email": "iimbswayam@iimb.ac.in",
+        "phone": "080-26993894"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Indian Institute Of Management–Bangalore (IIM–Bangalore)",
+    "website_url": "https://www.iimb.ac.in/",
+    "location": "Bangalore",
+    "phone": "080 2699 3000",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:18:35.942933"
+  }
+}

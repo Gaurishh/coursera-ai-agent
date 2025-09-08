@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website is for an engineering college with an overwhelming focus on technical education, computer science, various engineering disciplines, research, and the IT industry, making a Programming Course highly relevant to its core offerings and student body.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General College Contact",
+        "email": "",
+        "phone": "+91 80 4299 1000"
+      },
+      {
+        "name": "",
+        "title": "Reception",
+        "email": "",
+        "phone": "+91 80 4299 1007"
+      },
+      {
+        "name": "",
+        "title": "Placement Office / Training & Placement Officer",
+        "email": "",
+        "phone": "+91 80 4299 1026"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "MVJ College of Engineering",
+    "website_url": "https://www.mvjce.edu.in/",
+    "location": "Bangalore",
+    "phone": "080 4299 1003",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:07:30.703624"
+  }
+}

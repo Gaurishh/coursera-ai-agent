@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is overwhelmingly focused on business applications, client acquisition, partner ecosystems, real estate solutions, and driving business outcomes (e.g., maximizing NOI, retaining tenants, getting demos, getting started). There is no mention of programming languages, software development, engineering, or technical skills related to building the software itself.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "MRI Software India Pvt Ltd",
+    "website_url": "https://www.mrisoftware.com/",
+    "location": "Bangalore",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:06:00.287570"
+  }
+}

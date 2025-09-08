@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly identifies as an 'Innovative Digital Marketing Agency' focused on helping clients 'boost profits,' 'attract more leads,' and 'grow bigger and faster' through services like SEO, Google & Social Media Ads, and lead generation, all of which are sales and marketing driven outcomes.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Digital Spider",
+    "website_url": "https://digitalspider.in/",
+    "location": "Bangalore",
+    "phone": "078922 99043",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:36:18.983602"
+  }
+}

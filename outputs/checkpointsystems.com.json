@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content, despite selling complex RFID/RF technology, heavily emphasizes articulating business benefits, customer partnerships, ROI, and solving client problems (e.g., inventory management, theft prevention, supply chain visibility) for retailers and brands, indicating a strong focus on B2B sales and client acquisition for their solutions.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Checkpoint Systems Software India Pvt Limited",
+    "website_url": "http://www.checkpointsystems.com/",
+    "location": "Bangalore",
+    "phone": "080665 95200",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:18:01.419991"
+  }
+}

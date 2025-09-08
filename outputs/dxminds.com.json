@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "DxMinds is an 'Enterprise Software Development Company' specializing in a vast array of cutting-edge technologies like Generative AI, Mobile App Development, AI/ML, Blockchain, and more, with a clear focus on hiring developers and providing technical solutions.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "DxMinds",
+    "website_url": "https://dxminds.com/",
+    "location": "Bangalore",
+    "phone": "074835 46629",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:27:28.904739"
+  }
+}

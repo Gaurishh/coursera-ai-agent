@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website describes a 'Brand Naming Agency' offering services like brand naming, logo creation, legal registration, product packaging, website creation, and digital marketing, all of which are focused on helping other businesses with their branding and market presence. While website creation involves technical skills, the core business is clearly service-oriented, client-facing, and heavily reliant on marketing, brand strategy, and client acquisition. A Sales Course would directly benefit the company by enhancing their ability to attract new clients, sell their diverse branding and marketing services, and grow their agency.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Inderjeet Singh Baweja",
+        "title": "Founder",
+        "email": "",
+        "phone": "9871446557"
+      },
+      {
+        "name": "",
+        "title": "General Contact (Company Main Line)",
+        "email": "",
+        "phone": "9871446557"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Unboxfame | Brand Naming Agency | Logo Creation | Digital Marketing 360°",
+    "website_url": "https://www.unboxfame.com/",
+    "location": "Delhi",
+    "phone": "098714 46557",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:17:22.871685"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content is overwhelmingly focused on software development, IT services, custom applications, AI solutions, web development, and technical support, indicating a core business rooted in programming and technology.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Binarysoft",
+    "website_url": "http://www.binarysoft.com/",
+    "location": "Delhi",
+    "phone": "099997 06000",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:39:36.784421"
+  }
+}

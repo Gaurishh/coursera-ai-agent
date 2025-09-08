@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for a leading MBA/PGDM management institute with a primary focus on business, leadership, finance, and marketing, and several alumni hold explicit sales or sales-related positions (e.g., 'Sales Lead', 'Senior Account Manager - Large Customer Sales', 'Regional Marketing Director').",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Professor Arvind Sahay",
+        "title": "Director and Professor of Marketing and International Business",
+        "email": "arvind.sahay@mdi.ac.in",
+        "phone": ""
+      },
+      {
+        "name": "Dr. Vibhava Srivastava",
+        "title": "Associate Professor, Faculty In-charge - PGDM (Business Analytics)",
+        "email": "vibhava.srivastava@mdi.ac.in",
+        "phone": "+91-124-4560342"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Management Development Institute (MDI)",
+    "website_url": "http://www.mdi.ac.in/",
+    "location": "Delhi",
+    "phone": "0124 456 0000",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:14:12.989767"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website is for Meerut Institute of Engineering & Technology (MIET), an engineering college offering B.Tech, M.Tech, MCA, and other science-related courses, with strong emphasis on technical education, innovation labs, and MoUs with technology companies.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "Head of Department, MBA",
+        "email": "hodmba@miet.ac.in",
+        "phone": "9897721243"
+      },
+      {
+        "name": "Dr. Ashima Kathuria",
+        "title": "Member (likely faculty, specific department not stated)",
+        "email": "shweta.shukla@miet.ac.in",
+        "phone": "9456007588"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "shailja.tripathi@miet.ac.in",
+        "phone": "7905412820"
+      },
+      {
+        "name": "Prof. MD. Iqbal",
+        "title": "CSE (Computer Science & Engineering), AWS Certified",
+        "email": "",
+        "phone": "7500244244"
+      },
+      {
+        "name": "Prof. Abhishek Kumar",
+        "title": "CSE (Computer Science & Engineering), Microsoft and AWS Certified",
+        "email": "",
+        "phone": "9557207416"
+      },
+      {
+        "name": "",
+        "title": "General Contact (MIET Meerut)",
+        "email": "",
+        "phone": "0121-2439019, 0121-2439057, +91-9927439439"
+      },
+      {
+        "name": "",
+        "title": "General Contact (MIET Meerut)",
+        "email": "contact@miet.ac.in",
+        "phone": "0121-2439019, 0121-2439057, +91-9927439439"
+      },
+      {
+        "name": "",
+        "title": "General Support (MIET Meerut)",
+        "email": "support@miet.ac.in",
+        "phone": "+91 6399001515, +91 9205833433"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Meerut Institute of Engineering and Technology",
+    "website_url": "http://www.miet.ac.in/",
+    "location": "Delhi",
+    "phone": "0121 243 9019",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:05:58.439475"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Fortunesoft is an expert software product engineering and consulting company, demonstrating deep technical proficiency in various programming domains. A Sales Course would benefit them by enhancing their business development, client acquisition, and service selling capabilities, rather than improving their already strong core technical skills.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "Australia Office Contact",
+        "email": null,
+        "phone": "+61-2831-14561"
+      },
+      {
+        "name": null,
+        "title": "US Office Contact (Nashville & San Francisco)",
+        "email": null,
+        "phone": "+1-615-298-7395"
+      },
+      {
+        "name": null,
+        "title": "India Office Contact",
+        "email": null,
+        "phone": "+91-9900002145"
+      },
+      {
+        "name": null,
+        "title": "Singapore Office Contact",
+        "email": null,
+        "phone": "+65-3158-1762"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Fortunesoft IT Innovations",
+    "website_url": "https://www.fortunesoftit.com/",
+    "location": "Bangalore",
+    "phone": "080 4200 5185",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:12:33.476527"
+  }
+}

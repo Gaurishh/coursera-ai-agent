@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website identifies itself as an 'onlinemarketingagency.in' and lists services like 'Social Media Marketing', 'Marketing Strategy Plan', 'Social Media Management', and 'Email Marketing', all of which directly relate to business, marketing, and customer acquisition.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Digital Marketing Agency in Delhi |",
+    "website_url": "https://onlinemarketingagency.in/",
+    "location": "Delhi",
+    "phone": "088605 53836",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:35:17.536887"
+  }
+}

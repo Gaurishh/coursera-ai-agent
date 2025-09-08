@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content consistently describes a marketing agency focused on brand building, digital marketing, social media, lead generation, and customer acquisition for B2B and B2C clients, all directly aligning with sales and business growth.",
+    "recommendation_score": 100
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": null,
+        "email": null,
+        "phone": "+91 9560045755"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Creative Inc",
+    "website_url": "http://www.creative-inc.in/",
+    "location": "Delhi",
+    "phone": "011 4163 4301",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:41:09.771208"
+  }
+}

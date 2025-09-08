@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is almost entirely focused on digital marketing, lead generation, sales boosting, e-commerce marketing, brand promotion, and customer acquisition/retention, which directly align with sales skills.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General Business Contact",
+        "email": "",
+        "phone": "+91-8048073792"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "DigiBrood",
+    "website_url": "https://bangalore.digibrood.in/",
+    "location": "Bangalore",
+    "phone": "087775 71887",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:47:19.905303"
+  }
+}

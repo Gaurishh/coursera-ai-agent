@@ -1,0 +1,49 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for a 'Best MBA College' offering 'PGDM (MBA) Programmes' with an overwhelming focus on management, industry interface, corporate placements, and business-related skills and careers in sectors like FMCG, e-commerce, finance, and advertising. Mentions of 'Business Analytics' and 'Data Visualization through Tableau & Power Bi' are for business insights, not software development. All student testimonials highlight careers in sales, marketing, finance, HR, and general management roles.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General Inquiry / Main Contact",
+        "email": "info@ndimdelhi.org",
+        "phone": "+91-11-40111000, +91-9999993177"
+      },
+      {
+        "name": "Dr. R. C. Sharma",
+        "title": "Director",
+        "email": "director@ndimdelhi.org",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Dean",
+        "email": "dean@ndimdelhi.org",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Training and Placement Officer (TPO) / Placement Cell",
+        "email": "placement@ndimdelhi.org",
+        "phone": "+91-9999993177"
+      },
+      {
+        "name": "",
+        "title": "Administration / Reception",
+        "email": "",
+        "phone": "+91-11-40111000"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "NDIM - New Delhi Institute of Management",
+    "website_url": "https://www.ndimdelhi.org/",
+    "location": "Delhi",
+    "phone": "011 4011 1000",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:13:26.501664"
+  }
+}

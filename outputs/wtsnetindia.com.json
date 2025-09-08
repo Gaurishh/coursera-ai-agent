@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The company offers various technical services and software products, and actively seeks clients through 'Talk to our Experts' and 'Get a call back' calls to action, indicating a strong need for enhanced sales and customer acquisition strategies to grow their business.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "WTS Net India Pvt Ltd -- Best B2B Recharge Software Company",
+    "website_url": "https://www.wtsnetindia.com/",
+    "location": "Delhi",
+    "phone": "085100 64006",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:44:09.430013"
+  }
+}

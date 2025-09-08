@@ -1,0 +1,43 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website is for a 'School of Engineering' offering B.Tech, M.Tech, and Ph.D. programs focused on 'cutting-edge engineering and technology,' emphasizing engineering principles and problem-solving in the technological landscape.",
+    "recommendation_score": 100
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Pawan Kumar Kulriya",
+        "title": "Dean, School of Engineering (SE)",
+        "email": "pkkulriya@mail.jnu.ac.in",
+        "phone": "011-26739283 / 011-26738734"
+      },
+      {
+        "name": "",
+        "title": "Dean's Office, School of Engineering (SE)",
+        "email": "dean.se@mail.jnu.ac.in",
+        "phone": "011-26739283 / 011-26738734"
+      },
+      {
+        "name": "",
+        "title": "School of Engineering, General Contact",
+        "email": "",
+        "phone": "011-26742575 / 011-26741557 / 011-26742676 [Ext. 2229]"
+      },
+      {
+        "name": "",
+        "title": "School of Engineering, General Contact",
+        "email": "",
+        "phone": "011-26739285 / 011-26739283 / 011-26742023"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "School of Engineering",
+    "website_url": "http://soe.jnu.ac.in/",
+    "location": "Delhi",
+    "phone": "011 2673 8734",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:00:32.829958"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website describes a digital marketing agency focused on services like SEO, SMM, online branding, and website design to help clients achieve business growth, maximize reach, and acquire customers. These are all core sales and marketing functions.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Channel Softech Private Limited",
+    "website_url": "https://www.channelsoftech.com/",
+    "location": "Bangalore",
+    "phone": "098456 62183",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:43:52.488699"
+  }
+}

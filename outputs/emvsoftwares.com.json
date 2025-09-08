@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website explicitly identifies as a 'Software Company' and 'IT Company', showcasing extensive services in 'Software Development', 'Mobile Application Development', and 'Website Designing & Development', backed by expertise in specific programming technologies like .NET, Angular, React Native, and Flutter, indicating a core technical business.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "General Contact (likely management or sales)",
+        "email": "emvsoftwares@gmail.com",
+        "phone": "+91-981-031-0101"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "EMV Softwares Pvt. Ltd.",
+    "website_url": "https://www.emvsoftwares.com/",
+    "location": "Delhi",
+    "phone": "092123 45320",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:59:01.155031"
+  }
+}

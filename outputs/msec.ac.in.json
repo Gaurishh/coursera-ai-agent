@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website is for M. S. Engineering College, a technical institution focused on providing high-quality engineering education across various disciplines including Computer Science, AI & Machine Learning, Data Science, Cyber Security, and Electronics and Communication Engineering, with a clear emphasis on technical skills, research, and innovation.",
+    "recommendation_score": 100
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "General College Office",
+        "email": "office@msec.ac.in",
+        "phone": "+91 80 2361 3451"
+      },
+      {
+        "name": null,
+        "title": "Admission Helpdesk",
+        "email": null,
+        "phone": "+91 93433 99909"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "M. S. Engineering College",
+    "website_url": "http://www.msec.ac.in/",
+    "location": "Bangalore",
+    "phone": "093433 99909",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:11:45.363532"
+  }
+}

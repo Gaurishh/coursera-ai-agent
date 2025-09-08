@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly identifies as a 'Digital Marketing Agency' with an overwhelming focus on e-commerce, marketing services (SEO, PPC, social media), business solutions, and driving client growth and sales.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Cielo Ecommerce Private Limited",
+    "website_url": "http://cieloecommerce.com/",
+    "location": "Delhi",
+    "phone": "093104 20735",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:39:46.423207"
+  }
+}

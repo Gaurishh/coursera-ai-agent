@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is overwhelmingly focused on digital marketing, lead generation, customer acquisition, conversion rates, and improving brand presence to drive business results, which are all fundamental aspects of sales.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "iWrite India - Digital Marketing Agency in Delhi | SEO Agency",
+    "website_url": "https://iwriteindia.com/",
+    "location": "Delhi",
+    "phone": "011 4300 3984",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:27:25.977946"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content, despite offering extensive programming and IT services, prominently highlights business outcomes such as 'revenue goals,' 'ROI-driven strategies,' 'market breakthrough,' and 'reaping returns' in its value proposition and client testimonials, suggesting that enhancing client acquisition and sales effectiveness would most directly support their core business objectives.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "",
+        "email": "info@itrobes.com",
+        "phone": "+91-73972 61418"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "iTrobes Technologies - Bangalore",
+    "website_url": "https://www.itrobes.com/",
+    "location": "Bangalore",
+    "phone": "073394 94989",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:17:21.165541"
+  }
+}

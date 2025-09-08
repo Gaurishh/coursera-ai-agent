@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website heavily emphasizes a wide array of programming languages (PHP, Java, Python, C#, JavaScript, etc.), frameworks, and software development services (web, app, custom software, ERP, CRM), indicating a core business deeply rooted in programming and IT solutions.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General Company Contact",
+        "email": "info@bloatwareitsolutions.com",
+        "phone": "+91 8920750797"
+      },
+      {
+        "name": "",
+        "title": "HR Contact",
+        "email": "hr@bloatwareitsolutions.com",
+        "phone": "+91 8920750797"
+      },
+      {
+        "name": "",
+        "title": "General Company Contact",
+        "email": "info@bloatware.in",
+        "phone": "+91 8920750797"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Bloatware IT Software Company | Software Development Company | Software company in delhi",
+    "website_url": "https://bloatwareitsolutions.com/",
+    "location": "Delhi",
+    "phone": "089207 50797",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:44:51.089840"
+  }
+}

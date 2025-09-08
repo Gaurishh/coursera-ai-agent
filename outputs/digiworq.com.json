@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Digiworq is a web design company, which is a service business. Service businesses benefit significantly from improved sales and customer acquisition strategies to grow their client base.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Digiworq Marketing & Technology Solutions",
+    "website_url": "https://www.digiworq.com/",
+    "location": "Bangalore",
+    "phone": "096114 89001",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:53:39.994955"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly identifies as a 'Digital Marketing Agency' with services overwhelmingly focused on increasing client brand presence, traffic, leads, and conversions, which are all sales and marketing objectives.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "+966 920011573"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "AimGlobal Digital",
+    "website_url": "https://aimglobal.digital/",
+    "location": "Bangalore",
+    "phone": "087923 81091",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:35:41.738496"
+  }
+}

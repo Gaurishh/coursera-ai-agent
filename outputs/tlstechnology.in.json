@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly positions itself as a 'Digital Marketing Agency' with a core focus on 'increasing Leads and Sales' for its clients, and its key performance indicators and service descriptions heavily emphasize sales, lead generation, conversions, and revenue growth, indicating a strong need to continuously optimize sales processes for their own business.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "TLS Technology -Web Design | Digital marketing company Delhi",
+    "website_url": "https://tlstechnology.in/",
+    "location": "Delhi",
+    "phone": "099907 25864",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:26:01.944333"
+  }
+}

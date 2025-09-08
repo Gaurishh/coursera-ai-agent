@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for a digital marketing agency focused on driving growth, leads, conversions, and ROI for clients through various marketing strategies, indicating a strong need for sales and business development skills.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Digitally Connects - Digital Marketing Agency",
+    "website_url": "https://digitallyconnects.com/",
+    "location": "Delhi",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:19:12.975437"
+  }
+}

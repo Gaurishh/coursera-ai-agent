@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "GroCat is a digital marketing agency explicitly focused on driving business growth, lead generation, sales, and online visibility for its clients through various marketing strategies.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Sangeetha",
+        "title": "Contact Name",
+        "email": "",
+        "phone": "8792559215"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "GroCat Digital Pvt Ltd",
+    "website_url": "https://www.grocat.in/",
+    "location": "Bangalore",
+    "phone": "087925 59215",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:44:26.151735"
+  }
+}

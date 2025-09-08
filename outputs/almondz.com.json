@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Almondz is a service business specializing in software development, indicating strong existing technical expertise. A Sales Course would better benefit them by enhancing client acquisition and overall business growth for their services.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Almondz Software Development Company in Delhi",
+    "website_url": "https://www.almondz.com/software-development.php",
+    "location": "Delhi",
+    "phone": "088824 72824",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:42:07.751013"
+  }
+}

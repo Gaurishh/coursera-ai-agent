@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "DeepSpace9 Technologies is a service business with clearly defined and strong technical offerings; the website's numerous calls to action, focus on client acquisition, and testimonials about business outcomes suggest that improving sales processes would be most beneficial for the owner to drive company growth.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Ankit Jain",
+        "title": "Captain (Company Leader, likely Founder/CEO)",
+        "email": null,
+        "phone": "+91 9999601446"
+      },
+      {
+        "name": null,
+        "title": "General Company Contact (Headquarters)",
+        "email": null,
+        "phone": "+91 9999601446"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "DeepSpace9 Technologies",
+    "website_url": "https://www.deepspace9.tech/",
+    "location": "Delhi",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:55:55.138780"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content is entirely focused on software development, offering data recovery and backup tools, describing software features, and providing technical how-to guides, indicating a core business in software engineering.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "SysBud Software",
+    "website_url": "https://www.sysbud.com/",
+    "location": "Delhi",
+    "phone": "088605 19860",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:06:17.424910"
+  }
+}

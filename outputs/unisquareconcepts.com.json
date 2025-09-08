@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content overwhelmingly focuses on advertising, marketing, branding, lead generation, digital promotion, client acquisition, and driving sales conversions for their clients, all of which are core components of sales.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "Sales Department / General Sales Contact",
+        "email": "us@unisquareconcepts.com",
+        "phone": "+91-9212426895"
+      },
+      {
+        "name": "Not Found",
+        "title": "HR Department / HR Manager",
+        "email": "us@unisquareconcepts.com",
+        "phone": "+91-7065793637"
+      },
+      {
+        "name": "Not Found",
+        "title": "Not Found",
+        "email": "us@unisquareconcepts.com",
+        "phone": "+91-11-41094511"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Uni Square Concepts",
+    "website_url": "https://unisquareconcepts.com/",
+    "location": "Delhi",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:14:47.537675"
+  }
+}

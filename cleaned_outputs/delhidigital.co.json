@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The name 'Delhi Digital Co' indicates a company, and companies typically focus on business growth, often driven by sales.",
+    "recommendation_score": 40
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "Not Found",
+        "email": "Not Found",
+        "phone": "+91 9205110208"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Delhi Digital Co.",
+    "website_url": "https://delhidigital.co/",
+    "location": "Delhi",
+    "phone": "092051 10208",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:12:52.664697"
+  }
+}

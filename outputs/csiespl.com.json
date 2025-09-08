@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "CSIESPL acts as an exclusive channel partner distributing and supporting structural engineering software; their core activities involve marketing, technical support, and selling licenses/maintenance for existing software, not developing new software.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "CSI ENGINEERING SOFTWARE PVT. LTD. ( ETABS, SAFE, SAP2000, CSIBridge, CSICOL, Perform3D CSIPlant) CSI India Head office",
+    "website_url": "https://www.csiespl.com/",
+    "location": "Delhi",
+    "phone": "099995 52138",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:58:22.402873"
+  }
+}

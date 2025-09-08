@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content overwhelmingly focuses on digital marketing, enhancing online presence, lead generation, conversions, and ROI for businesses, indicating a core business around sales and marketing strategies.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Brand Elite",
+    "website_url": "http://brandelite.in/",
+    "location": "Bangalore",
+    "phone": "086607 38354",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:45:12.655230"
+  }
+}

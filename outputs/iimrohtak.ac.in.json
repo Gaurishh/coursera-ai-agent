@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is exclusively about management education, offering various degrees and programs in management, which inherently involves business, leadership, and strategy, making a Sales Course highly relevant.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Indian Institute Of Management–Rohtak (IIM–Rohtak)",
+    "website_url": "http://www.iimrohtak.ac.in/",
+    "location": "Delhi",
+    "phone": "01262 228 555",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:17:00.910390"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content heavily emphasizes technology, software application development, and various IT solutions like Managed IT and Testing, clearly indicating a core business built on technical expertise and programming skills.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Bangalore, Microgreen Technologies Pvt Ltd, Bangalore",
+    "website_url": "http://www.microgreentech.com/",
+    "location": "Bangalore",
+    "phone": "078159 60452",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:07:49.710354"
+  }
+}

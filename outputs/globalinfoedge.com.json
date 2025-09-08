@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content clearly indicates that Global Info Edge is a Digital Marketing Agency focused on lead generation, performance marketing, branding solutions, SEO, social media, and ad campaigns (Google Ads, Facebook Ads, LinkedIn Ads) to drive business growth and profitability for their clients, all of which are sales and marketing activities.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "Not Found",
+        "email": "Not Found",
+        "phone": "(931) 351-2275"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Global Info Edge - Website Designing & Digital Marketing Agency",
+    "website_url": "https://www.globalinfoedge.com/",
+    "location": "Delhi",
+    "phone": "093135 12275",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:37:59.414220"
+  }
+}

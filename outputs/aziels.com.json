@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Aziels Technologies offers extensive IT and digital marketing services, indicating strong technical capabilities and an understanding of lead generation, but explicitly states that traffic/leads 'would not amount to anything unless they convert to leads or sales,' highlighting a critical need for effective sales conversion strategies for business growth.",
+    "recommendation_score": 88
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Aziels Technologies Pvt Ltd",
+    "website_url": "https://www.aziels.com/",
+    "location": "Delhi",
+    "phone": "084479 68167",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:29:23.975503"
+  }
+}

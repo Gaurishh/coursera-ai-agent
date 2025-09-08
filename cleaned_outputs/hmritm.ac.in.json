@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website is for HMR Institute of Technology and Management, heavily emphasizing 'Technical Excellence', 'Engineering', 'Technology', 'B. Tech' degrees, and uses entrance exams like 'JEE Main/IPU CET', indicating a strong focus on technical education.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dr. Mohd. Izhar",
+        "title": "Associate Professor & HOD, Department of Computer Science & Engineering",
+        "email": "mohd.izhar@hmritm.ac.in",
+        "phone": null
+      },
+      {
+        "name": "Ms. Isha Gupta",
+        "title": "Not Found (Faculty, likely Computer Science or IT)",
+        "email": "isha.gupta@hmritm.ac.in",
+        "phone": null
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "HMR Institute of Technology and Management",
+    "website_url": "https://hmritm.ac.in/",
+    "location": "Delhi",
+    "phone": "081306 43678",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:01:18.182128"
+  }
+}

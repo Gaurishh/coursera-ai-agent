@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content is overwhelmingly technical, focusing on electronic design automation (EDA) tools, semiconductor IP, systems verification, and advanced technologies like AI chip development and multi-die solutions, indicating a core business deeply rooted in complex engineering and software development.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Synopsys",
+    "website_url": "https://www.synopsys.com/",
+    "location": "Delhi",
+    "phone": "011 4923 3903",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:52:06.449513"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content repeatedly emphasizes 'Business and Media,' 'Commerce,' and 'Media & Communication,' indicating a strong focus on business operations, marketing, and student acquisition for the institution as a whole, which a Sales Course would directly support.",
+    "recommendation_score": 75
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "General Enquiries / Administration",
+        "email": "info@isbm.org.in",
+        "phone": "1800-200-4726"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "International School of Business & Media (ISBM)",
+    "website_url": "http://www.isbm.ac.in/",
+    "location": "Delhi",
+    "phone": "077570 29571",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:23:35.121578"
+  }
+}

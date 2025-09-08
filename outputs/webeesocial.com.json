@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly identifies as a 'Digital Marketing Agency' offering services like Social Media Marketing, Performance Marketing, SEO, and Web Analytics, all of which aim to improve client visibility, lead generation, and ultimately, sales.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "WeBeeSocial India | Creative Agency New Delhi | Digital Marketing Services in India",
+    "website_url": "http://webeesocial.com/",
+    "location": "Delhi",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:11:40.363370"
+  }
+}

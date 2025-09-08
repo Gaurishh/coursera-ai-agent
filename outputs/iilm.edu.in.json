@@ -1,0 +1,49 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The university's core business involves attracting and enrolling students, which is a sales and marketing function. The content highlights student success in roles like 'Key Accounts Manager' and offers workshops on 'Digital Marketing' and 'entrepreneurship capacity building', indicating a strong relevance of sales and marketing skills for their ecosystem and operations.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dr. V. V. Gopal",
+        "title": "Professor & Director",
+        "email": "vv.gopal@iilmlko.ac.in",
+        "phone": null
+      },
+      {
+        "name": "Dr. Vibhuti Gupta",
+        "title": "Professor & Associate Dean",
+        "email": "vibhuti.gupta@iilmlko.ac.in",
+        "phone": null
+      },
+      {
+        "name": "Dr. Sheetal Sharma",
+        "title": "Professor (OB & HR)",
+        "email": "sheetal.sharma@iilmlko.ac.in",
+        "phone": null
+      },
+      {
+        "name": "Dr. Fawad Ali Khan",
+        "title": "Associate Professor (Marketing)",
+        "email": "fawad.khan@iilmlko.ac.in",
+        "phone": null
+      },
+      {
+        "name": "Tauseef Irfan",
+        "title": "Assistant Professor (Management)",
+        "email": "tauseef.irfan@iilmlko.ac.in",
+        "phone": null
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "IILM University, Gurugram",
+    "website_url": "https://iilm.edu.in/?utm_source=google&utm_medium=organic&utm_campaign=gmb_listing",
+    "location": "Delhi",
+    "phone": "095991 71240",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:07:42.259903"
+  }
+}

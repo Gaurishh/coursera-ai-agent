@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content is overwhelmingly focused on software testing, quality assurance, automation, API testing, and backend development, indicating a core business deeply rooted in programming and technical services.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Gowri Software Solutions Pvt. Ltd",
+    "website_url": "http://www.gowrisoftsolutions.com/",
+    "location": "Bangalore",
+    "phone": "090368 98958",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:34:39.268057"
+  }
+}

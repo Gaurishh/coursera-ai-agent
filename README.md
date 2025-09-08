@@ -1,123 +1,271 @@
-# Coursera AI Agent
+# Coursera AI Agent - Lead Generation & Course Recommendation System
 
-An AI agent that analyzes websites to recommend either a "Programming Course" or "Sales Course" based on the website content.
+A comprehensive AI-powered lead generation system that discovers institutions, analyzes their websites, recommends appropriate courses, and extracts contact information for sales outreach.
 
-## Features
+## 🎯 Project Overview
 
-- **Website Analysis**: Crawls websites and extracts text content
-- **URL Discovery**: Finds all internal links on a website
-- **AI-Powered Recommendations**: Uses Gemini AI to analyze content and make course recommendations
-- **Smart Crawling**: Visits multiple pages (up to 15 steps) to gather comprehensive data
-- **Intelligent URL Filtering**: Uses AI to select only the most relevant URLs for analysis
-- **Contact Information Extraction**: Extracts contact details (names, titles, emails, phones) from websites
-- **Early Termination**: Stops when enough data is gathered for a confident recommendation
-- **Forced Recommendations**: Makes recommendations even with limited data, assigning lower confidence scores
+This system automates the entire lead generation pipeline for a course-selling company, from discovering potential customers to providing actionable contact information. It uses Google Places API for lead discovery, AI models (Gemini & Perplexity) for content analysis, and intelligent web scraping for data extraction.
 
-## Setup
+## 🏗️ System Architecture
 
-1. **Install Dependencies**:
+The system consists of 3 main Python scripts that work sequentially:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **Set API Key**:
-   Set your Gemini API key as an environment variable:
-
-   ```bash
-   # Windows PowerShell
-   $env:GEMINI_API_KEY="your_actual_api_key_here"
-
-   # Or create a .env file
-   echo "GEMINI_API_KEY=your_actual_api_key_here" > .env
-   ```
-
-## Usage
-
-### Basic Usage
-
-```python
-from coursera_agent import run_agent, get_course_recommendation, get_contact_info
-
-# Analyze a website using the main agent function (returns both course recommendation and contacts)
-result = run_agent("example.com")
-
-# Access course recommendation
-course_rec = result['course_recommendation']
-print(f"Recommended Course: {course_rec['recommended_course']}")
-print(f"Reasoning: {course_rec['recommendation_reasoning']}")
-print(f"Confidence Score: {course_rec['recommendation_score']}")
-
-# Access contact information
-contact_info = result['contact_info']
-print(f"Found {len(contact_info['contacts'])} contacts")
-for contact in contact_info['contacts']:
-    print(f"- {contact.get('name', 'Unknown')}: {contact.get('title', 'No title')}")
-
-# Or use functions directly
-recommendation = get_course_recommendation("example.com")
-contacts = get_contact_info("example.com", recommendation['recommended_course'])
+```
+1_institutions_list_fetcher.py → 2_coursera_agent.py → 3_output_cleaner.py
 ```
 
-### Command Line Usage
+## 📋 Prerequisites
+
+### Required API Keys
+
+- **Google Places API Key**: For discovering institutions
+- **Gemini API Key**: For AI-powered content analysis
+- **Perplexity API Key**: For deep web research and contact extraction
+
+### Python Dependencies
 
 ```bash
-python coursera_agent.py
+pip install requests beautifulsoup4 pandas python-dotenv
 ```
 
-## How It Works
+### Environment Setup
 
-1. **URL Normalization**: Handles URLs in any format (with/without www, http/https)
-2. **Content Extraction**: Extracts clean text from web pages
-3. **Link Discovery**: Finds all internal links on the website
-4. **Intelligent URL Filtering**: Uses AI to select only the most relevant URLs (e.g., /about, /departments, /courses) while filtering out irrelevant ones (e.g., /sports, /gallery)
-5. **Iterative Analysis**: Visits multiple pages to gather comprehensive data
-6. **AI Analysis**: Uses Gemini AI to analyze content and determine course recommendation
-7. **Smart Termination**: Stops early when confident recommendation is made
-8. **Forced Recommendation**: If insufficient data after 15 steps, forces a recommendation with lower confidence (20-50 score)
+Create a `.env` file in the project root:
 
-## API Response Format
+```env
+GOOGLE_PLACES_API_KEY=your_google_places_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
+PERPLEXITY_API_KEY=your_perplexity_api_key_here
+```
 
-The agent returns a dictionary with two main sections:
+## 🚀 Sequential Workflow
 
-### Course Recommendation
+### Step 1: Institution Discovery (`1_institutions_list_fetcher.py`)
 
-- `recommended_course`: "Programming Course" or "Sales Course"
-- `recommendation_reasoning`: One-line explanation of the recommendation
-- `recommendation_score`: Confidence score (0-100)
+**Purpose**: Discovers potential customer institutions using Google Places API
 
-### Contact Information
+**What it does**:
 
-- `contacts`: Array of contact objects, each containing:
-  - `name`: Full name (if available)
-  - `title`: Job title/position (if available)
-  - `phone`: Phone number (if available)
-  - `email`: Email address (if available)
+- Searches for institutions in specified cities (Bangalore, Delhi)
+- Targets two types: "Corporates" and "Schools"
+- Uses intelligent search queries:
+  - **Corporates**: "Software companies", "Sales and marketing companies"
+  - **Schools**: "Engineering colleges", "Business schools"
+- Fetches detailed information including websites, phone numbers, and addresses
+- Filters institutions to only include those with valid websites
+- Categorizes locations (Bangalore vs Delhi) based on keywords
 
-Maximum 10 contacts are extracted per website.
+**Output**: `1_discovered_leads.csv`
 
-## Requirements
+- Institution Name
+- Institution Type (Corporates/Schools)
+- Website URL
+- Location (Bangalore/Delhi)
+- Phone Number
 
-- Python 3.7+
-- requests
-- beautifulsoup4
-- Gemini API key
+**Key Features**:
 
-## Example Output
+- Rate limiting to respect Google Places API limits
+- Pagination handling for comprehensive results
+- Duplicate prevention using place IDs
+- Robust error handling and retry logic
+
+### Step 2: AI-Powered Analysis (`2_coursera_agent.py`)
+
+**Purpose**: Analyzes each institution's website to recommend courses and extract contact information
+
+**What it does**:
+
+#### 2.1 Course Recommendation Analysis
+
+- **Website Crawling**: Intelligently crawls institution websites with anti-bot protection bypass
+- **Content Analysis**: Uses Gemini AI to analyze website content
+- **Course Classification**: Determines whether to recommend:
+  - **Programming Course**: For technical institutions, engineering colleges, software companies
+  - **Sales Course**: For business schools, marketing companies, sales organizations
+- **Confidence Scoring**: Provides 0-100 confidence scores for recommendations
+
+#### 2.2 Contact Information Extraction
+
+- **Targeted Research**: Uses Perplexity API for deep web research
+- **Course-Specific Targeting**:
+  - **Programming Course**: Targets CTOs, technical directors, IT managers, faculty heads
+  - **Sales Course**: Targets sales managers, business development directors, marketing managers
+- **Contact Parsing**: Extracts names, titles, emails, and phone numbers
+- **Quality Filtering**: Only includes contacts with valid email or phone information
+
+**Output**: Individual JSON files in `outputs/` directory
+
+```json
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "Technical content and engineering focus",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dr. John Smith",
+        "title": "Head of Computer Science",
+        "email": "john.smith@university.edu",
+        "phone": "+91-9876543210"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Example University",
+    "website_url": "https://example.edu",
+    "location": "Delhi",
+    "phone": "+91-11-12345678",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T10:30:00"
+  }
+}
+```
+
+**Key Features**:
+
+- Advanced web scraping with multiple fallback strategies
+- AI-powered URL filtering for relevant content
+- Intelligent content analysis with confidence scoring
+- Comprehensive contact extraction with role-based targeting
+- Robust error handling and retry mechanisms
+
+### Step 3: Data Cleaning (`3_output_cleaner.py`)
+
+**Purpose**: Filters and cleans the analysis results to include only high-quality leads
+
+**What it does**:
+
+- Processes all JSON files from the `outputs/` directory
+- Filters files that contain at least one valid contact entry
+- Creates cleaned versions in `cleaned_outputs/` directory
+- Provides detailed processing statistics
+
+**Output**: `cleaned_outputs/` directory with filtered JSON files
+
+**Key Features**:
+
+- Quality filtering based on contact availability
+- Comprehensive error handling for malformed files
+- Detailed progress reporting with success/failure indicators
+- UTF-8 encoding support for international characters
+
+## 📊 Usage Instructions
+
+### 1. Run Institution Discovery
+
+```bash
+python 1_institutions_list_fetcher.py
+```
+
+This will create `1_discovered_leads.csv` with discovered institutions.
+
+### 2. Run AI Analysis
+
+```bash
+python 2_coursera_agent.py
+```
+
+This will process all institutions from the CSV file and create individual JSON files in `outputs/`.
+
+### 3. Clean and Filter Results
+
+```bash
+python 3_output_cleaner.py
+```
+
+This will create filtered results in `cleaned_outputs/` directory.
+
+## 📈 Performance Metrics
+
+Based on the latest run:
+
+- **Total Institutions Discovered**: 299
+- **Successfully Processed**: 151 (50.5% success rate)
+- **Files with Valid Contacts**: 151
+- **Average Processing Time**: ~2-3 minutes per institution
+
+## 🔧 Configuration
+
+### Search Parameters (in `constants.py`)
+
+- **Cities**: Bangalore, Delhi
+- **Institution Types**: Corporates, Schools
+- **Max Pages per Query**: 3
+- **Rate Limiting**: 100ms between API calls
+
+### AI Model Settings
+
+- **Gemini Model**: gemini-2.5-flash
+- **Perplexity Model**: sonar-pro
+- **Max Tokens**: 4000
+- **Temperature**: 0.2 (for consistent results)
+
+## 📁 Output Structure
 
 ```
-Analyzing website: nitdelhi.ac.in
-==================================================
-Starting analysis of: nitdelhi.ac.in
-
---- Step 1 ---
-Analyzing: https://nitdelhi.ac.in
-LLM Analysis: {'ready': True, 'recommended_course': 'Programming Course', ...}
-
-LLM has enough data to make a recommendation!
-
-Final Recommendation:
-Course: Programming Course
-Reasoning: The website clearly belongs to the National Institute of Technology Delhi...
-Score: 98
+project/
+├── 1_discovered_leads.csv          # Initial institution list
+├── outputs/                         # Raw analysis results
+│   ├── institution1.com.json
+│   ├── institution2.edu.json
+│   └── ...
+├── cleaned_outputs/                 # Filtered results
+│   ├── institution1.com.json
+│   ├── institution2.edu.json
+│   └── ...
+└── constants.py                     # Configuration file
 ```
+
+## 🛠️ Troubleshooting
+
+### Common Issues
+
+1. **API Key Errors**: Ensure all API keys are properly set in `.env` file
+2. **Rate Limiting**: The system includes built-in rate limiting, but monitor API usage
+3. **Website Access**: Some websites may block automated access; the system includes fallback strategies
+4. **Memory Usage**: For large datasets, consider processing in batches
+
+### Error Handling
+
+- All scripts include comprehensive error handling
+- Failed requests are logged with detailed error messages
+- The system continues processing even if individual institutions fail
+
+## 🔒 Security & Compliance
+
+- **Rate Limiting**: Respects API rate limits to avoid service disruption
+- **User Agent Rotation**: Uses realistic browser headers to avoid detection
+- **Data Privacy**: Only extracts publicly available information
+- **Error Logging**: Comprehensive logging for debugging without exposing sensitive data
+
+## 📝 License
+
+This project is for educational and research purposes. Ensure compliance with:
+
+- Google Places API Terms of Service
+- Website Terms of Service for scraped content
+- Data protection regulations in your jurisdiction
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## 📞 Support
+
+For issues or questions:
+
+1. Check the troubleshooting section
+2. Review error logs in the console output
+3. Ensure all API keys are valid and have sufficient quotas
+4. Verify network connectivity for web scraping operations
+
+---
+
+**Note**: This system is designed for legitimate business lead generation. Always respect website terms of service and applicable laws when using web scraping capabilities.

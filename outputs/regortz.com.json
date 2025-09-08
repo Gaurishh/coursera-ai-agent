@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content consistently emphasizes digital marketing, lead generation, sales, conversions, ROI, and helping businesses grow their revenue, explicitly stating 'Helping Businesses Get More Leads & Sales Online' and 'drive sales, and turn clicks into conversions'. While 'Website & App Development' is offered, it's framed as a service 'built to attract sales', making sales and marketing the core focus.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Regortz",
+    "website_url": "https://www.regortz.com/",
+    "location": "Bangalore",
+    "phone": "096635 14043",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:32:33.223743"
+  }
+}

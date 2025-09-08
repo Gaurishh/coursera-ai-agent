@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for St. Joseph's Institute of Management (SJIM), an MBA and PGDM college, with content heavily focused on business management, HR analytics, consumer behavior, advertising strategies, business analytics (in a management context), and alumni holding various roles in business development, sales, marketing, and corporate management.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "St Joseph's Institute of Management",
+    "website_url": "http://www.sjim.edu.in/?utm_source=GMBListing&utm_medium=organic",
+    "location": "Bangalore",
+    "phone": "080 2559 7781",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:21:31.346946"
+  }
+}

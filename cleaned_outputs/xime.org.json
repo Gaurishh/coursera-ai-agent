@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for XIME, a Post Graduate Diploma in Management (PGDM) institute, focusing on general management, business analytics, entrepreneurship, and developing managers for various industry roles, with no mention of programming or software development.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dr. Francy T. V.",
+        "title": "Professor (Former Director, XIME Kochi)",
+        "email": "admissionskochi@xime.org",
+        "phone": "+91-484-2752500, +91 9048779888"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Xavier Institute of Management & Entrepreneurship, Bangalore",
+    "website_url": "http://www.xime.org/",
+    "location": "Bangalore",
+    "phone": "080 2852 8477",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:20:50.024145"
+  }
+}

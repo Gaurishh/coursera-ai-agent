@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for a business school offering various PGDM programs, focusing on management, entrepreneurship, and placements, indicating a need for effective student acquisition and conversion strategies which a Sales Course would directly address.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "Admissions Office / General Contact",
+        "email": "admission@empi.ac.in",
+        "phone": "+91 8800010971 / +91 8800010972"
+      },
+      {
+        "name": "",
+        "title": "Main Reception / General Contact",
+        "email": "",
+        "phone": "+91 1126654732"
+      },
+      {
+        "name": "",
+        "title": "Admissions / General Inquiry",
+        "email": "",
+        "phone": "+91 7290000175"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "EMPI Business School",
+    "website_url": "https://empi.ac.in/",
+    "location": "Delhi",
+    "phone": "088000 10971",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:19:38.632980"
+  }
+}

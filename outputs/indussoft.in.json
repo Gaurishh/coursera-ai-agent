@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "Indus Soft is clearly a software development company offering various technical solutions (ERP, HR, Billing, Barcode, Email solutions), with content heavily focused on software features and technical integration, indicating a core need for programming and development expertise.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Indus Software Solutions - Inventory Management Software Company in Delhi",
+    "website_url": "https://indussoft.in/",
+    "location": "Delhi",
+    "phone": "098108 00740",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:03:44.218163"
+  }
+}

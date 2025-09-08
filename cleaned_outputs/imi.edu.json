@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content consistently emphasizes business, management, consulting, entrepreneurship, and various management-focused PGDM programs, aligning perfectly with the need for sales and business development skills.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "General Contact, Irish Management Institute",
+        "email": "Not Found",
+        "phone": "+353-1-207-8400"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "International Management Institute",
+    "website_url": "http://www.imi.edu/",
+    "location": "Delhi",
+    "phone": "011 4719 4100",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:10:15.539527"
+  }
+}

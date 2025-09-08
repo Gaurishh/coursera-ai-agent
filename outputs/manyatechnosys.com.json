@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content describes a comprehensive e-commerce platform with extensive product categories, features for sellers, customer service, promotions, and transaction management, strongly indicating a business focused on online sales.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "ManyaTechnosys Private Limited",
+    "website_url": "https://manyatechnosys.com/",
+    "location": "Bangalore",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:59:14.042188"
+  }
+}

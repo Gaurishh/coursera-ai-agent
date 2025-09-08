@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Digitalkeddy explicitly identifies as a 'Marketing Agency' and focuses heavily on 'digital marketing,' 'SEO,' 'social media marketing,' and 'connecting with target audiences' for client growth, indicating a core business need for strong sales and client acquisition skills to sell their diverse services.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": null,
+        "email": "digitalkeddy@gmail.com",
+        "phone": "096253 50146"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Digital Keddy Internet Marketing Services in Delhi | SEO Agency in Delhi | Social Media Agency Delhi | SEO Services in Delhi",
+    "website_url": "https://www.digitalkeddy.com/",
+    "location": "Delhi",
+    "phone": "096253 50146",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:44:25.571567"
+  }
+}

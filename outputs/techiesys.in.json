@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The company is a service business offering extensive technical services and training; a sales course would directly help them acquire more clients and improve revenue for their existing offerings.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": null,
+        "email": "sales@techiesys.in",
+        "phone": "+91-9900344725"
+      },
+      {
+        "name": null,
+        "title": null,
+        "email": "sales@techiesys.in",
+        "phone": "+91-9900004541"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Techiesys",
+    "website_url": "https://www.techiesys.in/",
+    "location": "Bangalore",
+    "phone": "099000 04541",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:15:35.169825"
+  }
+}

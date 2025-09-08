@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website belongs to an architectural school that is actively recruiting students, indicating a need for strong marketing and sales strategies to attract enrollments. There is no content related to programming or software development.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "General College Contact",
+        "email": "info@ewsa.edu.in",
+        "phone": "+91 8867325152"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "East West School of Architecture",
+    "website_url": "http://www.ewsa.edu.in/",
+    "location": "Bangalore",
+    "phone": "093417 81949",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:13:42.804509"
+  }
+}

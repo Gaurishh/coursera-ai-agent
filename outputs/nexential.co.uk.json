@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "Nexential is a 'Custom Software Development Company' with extensive technical offerings (AI, VR, ML, IoT, web/mobile development) and prominently features its technical expertise and 'Technical Training' within its services, indicating a core focus on advancing its engineering capabilities.",
+    "recommendation_score": 85
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Nexential Technology Solutions Pvt. Ltd.",
+    "website_url": "https://nexential.co.uk/",
+    "location": "Bangalore",
+    "phone": "095008 64111",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:02:31.971804"
+  }
+}

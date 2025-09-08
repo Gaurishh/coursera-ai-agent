@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content overwhelmingly details software development services, programming languages, technical processes, and a large team of app engineers, indicating a core business focused on programming and engineering.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "General Contact (Likely reaches HR or company leadership)",
+        "email": "info@brillmindz.com",
+        "phone": "+91-80-4411-4411"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Brill Mindz Technologies",
+    "website_url": "https://www.brillmindz.com/",
+    "location": "Bangalore",
+    "phone": "095384 48421",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:36:11.871715"
+  }
+}

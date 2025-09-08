@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Numa Soft is a technology 'service business' with strong demonstrated technical expertise and recognition in design and mobile app development. For a service company with established technical capabilities, enhancing sales, client acquisition, and business development skills is often the most impactful path to growth and increased profitability.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Nikhil B",
+        "title": "CEO",
+        "email": "",
+        "phone": "+91-8861562478"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Numa Soft Technology Services Pvt. Ltd",
+    "website_url": "https://numasoft.in/",
+    "location": "Bangalore",
+    "phone": "088615 62478",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:01:49.775628"
+  }
+}

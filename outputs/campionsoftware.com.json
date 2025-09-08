@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Despite their strong technical expertise in software development, Campion Software is a service business, and improving their ability to sell their complex, bespoke solutions to new clients would likely yield greater business growth than further generic programming training for their already expert team.",
+    "recommendation_score": 85
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Campion Software Solutions Pvt Ltd",
+    "website_url": "https://www.campionsoftware.com/",
+    "location": "Bangalore",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:09:55.357172"
+  }
+}

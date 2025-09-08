@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website owner, MAIT, is an educational institution. While they offer many programming-related courses, their operational success as a business relies on attracting and enrolling students. A 'Sales Course' would directly benefit them by improving their admissions, marketing, and student acquisition strategies to fill vacant seats and increase enrollment.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "Registrar",
+        "email": "registrar@mait.ac.in",
+        "phone": "91-9999985214"
+      },
+      {
+        "name": "Prof. (Mrs.) Namita Gupta",
+        "title": "Head of Department, Computer Science and Engineering",
+        "email": "namita@mait.ac.in",
+        "phone": null
+      },
+      {
+        "name": "Dr. Amit Gupta",
+        "title": "Associate Professor (Management Department)",
+        "email": "amitgupta@mait.ac.in",
+        "phone": null
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Maharaja Agrasen Institute Of Technology(MAIT)",
+    "website_url": "https://www.mait.ac.in/",
+    "location": "Delhi",
+    "phone": "084481 86942",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T03:50:24.463775"
+  }
+}

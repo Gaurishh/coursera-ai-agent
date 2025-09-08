@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The provided website content is empty, so the recommendation defaults to 'Programming Course' as per the instructions.",
+    "recommendation_score": 30
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Shiryu Software",
+    "website_url": "http://shiryusoftware.com/",
+    "location": "Delhi",
+    "phone": "087502 48824",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:30:19.292136"
+  }
+}

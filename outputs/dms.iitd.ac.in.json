@@ -1,0 +1,55 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "Default recommendation due to limited data and technical error",
+    "recommendation_score": 20
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Abhilash Jindal",
+        "title": "Assistant Professor, Department of Computer Science & Engineering, IIT Delhi",
+        "email": "ajindal@cse.iitd.ac.in",
+        "phone": ""
+      },
+      {
+        "name": "Dr. Priyanka Golia",
+        "title": "Faculty, Department of Computer Science & Engineering, IIT Delhi",
+        "email": "pgolia@cse.iitd.ac.in",
+        "phone": "+91-11-2659-1288"
+      },
+      {
+        "name": "Prof. Huzur Saran",
+        "title": "Coordinator, Department of Computer Science & Engineering, IIT Delhi",
+        "email": "",
+        "phone": "+91 (11) 2659-1291"
+      },
+      {
+        "name": "Prof. Ranjan Bose",
+        "title": "Professor, Department of Electrical Engineering, IIT Delhi",
+        "email": "rbose@ee.iitd.ac.in",
+        "phone": "+91 (11) 2659-1048"
+      },
+      {
+        "name": "Prof. Sanjiva Prasad",
+        "title": "Professor, Department of Computer Science & Engineering, IIT Delhi",
+        "email": "",
+        "phone": "+91 (11) 2659-1294"
+      },
+      {
+        "name": "Prof. Smruti Ranjan Sarangi",
+        "title": "Professor, Department of Computer Science & Engineering, IIT Delhi",
+        "email": "",
+        "phone": "+91-9650622884"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Department of Management Studies, Indian Institute of Technology Delhi",
+    "website_url": "http://dms.iitd.ac.in/",
+    "location": "Delhi",
+    "phone": "011 2659 7034",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:11:53.380628"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "Sunplus Software Technologies is a CMMI Level 5 certified tech company specializing in IT services, consulting, technology solutions, and digital transformation. Their focus on web & app development, AI & ML solutions, and their staff of technical and team leads makes them an ideal candidate for advanced programming courses to upskill their employees.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Saritha Shetty",
+        "title": "Founder & Managing Director",
+        "email": "",
+        "phone": ""
+      },
+      {
+        "name": "Saba Sibgath",
+        "title": "Human Resources Manager",
+        "email": "",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Head of Learning & Development (L&D)",
+        "email": "info@sunplussoftware.com",
+        "phone": "+91 804 300 3225"
+      },
+      {
+        "name": "Parthibha T",
+        "title": "Technical Lead",
+        "email": "info@sunplussoftware.com",
+        "phone": "+91 804 300 3225"
+      },
+      {
+        "name": "Deepika Ramakrishna",
+        "title": "Team Lead",
+        "email": "info@sunplussoftware.com",
+        "phone": "+91 804 300 3225"
+      },
+      {
+        "name": "Ashwani Kumar Mishra",
+        "title": "Sales and Marketing Professional",
+        "email": "info@sunplussoftware.com",
+        "phone": "+91 804 300 3225"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Sunplus Software Technologies Pvt. Ltd",
+    "website_url": "https://sunplussoftware.com/",
+    "location": "Bangalore",
+    "phone": "080 4300 3225",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:44:52.184305"
+  }
+}

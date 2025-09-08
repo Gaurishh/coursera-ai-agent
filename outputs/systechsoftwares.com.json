@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Systech Softwares develops and offers a range of software products and services, indicating established programming capabilities, but explicitly lists a 'Sales Team' suggesting a need for customer acquisition and product monetization.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "SYSTECH Softwares Pvt Ltd",
+    "website_url": "https://systechsoftwares.com/",
+    "location": "Bangalore",
+    "phone": "093412 25269",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:05:18.393057"
+  }
+}

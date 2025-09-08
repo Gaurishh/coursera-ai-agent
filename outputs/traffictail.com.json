@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content explicitly focuses on digital marketing, lead generation, brand growth, customer acquisition, and driving revenue for clients, with services like SEO, ad campaigns, and social media management.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Damandeep Singh",
+        "title": "Founder",
+        "email": "info@traffictail.com",
+        "phone": "877-024-7277"
+      },
+      {
+        "name": "Not Found",
+        "title": "General Company Contact",
+        "email": "info@traffictail.com",
+        "phone": "877-024-7277"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Traffic Tail",
+    "website_url": "https://traffictail.com/",
+    "location": "Delhi",
+    "phone": "087702 47277",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:40:30.307209"
+  }
+}

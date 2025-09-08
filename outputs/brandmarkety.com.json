@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is exclusively focused on digital marketing services, business growth, customer acquisition, and improving online presence for clients, with no mention of programming or software development.",
+    "recommendation_score": 100
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Brand Markety - Digital Marketing Agency",
+    "website_url": "https://brandmarkety.com/",
+    "location": "Bangalore",
+    "phone": "090351 04184",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:38:40.271379"
+  }
+}

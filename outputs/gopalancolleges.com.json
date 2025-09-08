@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for an architecture college focused on attracting and enrolling students for Bachelor and Master of Architecture programs, which is a clear sales and marketing function for an educational institution. There is no content related to software development or programming languages.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Gopalan School of Architecture & Planning",
+    "website_url": "http://www.gopalancolleges.com/gsap/",
+    "location": "Bangalore",
+    "phone": "087927 47575",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:12:16.662002"
+  }
+}

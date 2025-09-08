@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website is for an 'Institute of Engineering and Technology' offering a vast array of B.Tech, M.Tech, BCA, MCA programs with numerous specializations in Computer Science, IT, AI, ML, Data Science, Cyber-Security, IoT, and Electronics Engineering, supported by extensive technical innovation labs like AWS, Salesforce, Robotics, and IoT labs.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dr. Vinod M. Kapse",
+        "title": "Professor & Director (Chairperson)",
+        "email": "director@niet.co.in",
+        "phone": "+91 9599446607"
+      },
+      {
+        "name": "",
+        "title": "Admissions Office (General Contact)",
+        "email": "admission@niet.co.in",
+        "phone": "+91-8010500700, 8448384601"
+      },
+      {
+        "name": "",
+        "title": "NIET General Office (Institutional Contact)",
+        "email": "",
+        "phone": "0120 – 2328062"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Noida Institute of Engineering and Technology (NIET, Greater Noida)",
+    "website_url": "https://www.niet.co.in/?utm_source=GMB&utm_medium=organic",
+    "location": "Delhi",
+    "phone": "080105 00700",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:02:07.858898"
+  }
+}

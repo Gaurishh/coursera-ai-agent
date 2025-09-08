@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website belongs to an Institute of Technology that offers numerous engineering disciplines (Computer Science, IT, AI/ML, Data Science, ECE, EEE) and frequently hosts technical workshops, hackathons, and research-focused events, demonstrating an overwhelming focus on programming and technology.",
+    "recommendation_score": 100
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "General Institutional Contact",
+        "email": "contact@gtbit.ac.in",
+        "phone": "+91 011 45599900"
+      },
+      {
+        "name": null,
+        "title": "General Institutional Contact",
+        "email": "gtbit@rediffmail.com",
+        "phone": "01145599900"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Guru Tegh Bahadur Institute of Technology",
+    "website_url": "http://gtbit.ac.in/",
+    "location": "Delhi",
+    "phone": "011 4559 9900",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T03:57:59.982797"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Mindroit Technologies is a service business providing software development, and like any service business, would benefit significantly from improving its sales and customer acquisition strategies to grow, aligning with its stated goal of 'business empowerment' and getting 'more prospective customers'.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Mindroit Technologies Pvt Ltd",
+    "website_url": "http://www.mindroit.com/",
+    "location": "Bangalore",
+    "phone": "078296 52092",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:35:27.947424"
+  }
+}

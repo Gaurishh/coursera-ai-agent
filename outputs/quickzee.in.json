@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "QuickZee Media is a Digital Marketing Company whose services and core mission revolve around lead generation, brand building, increasing ROI, and improving client sales, making a Sales Course highly relevant for their business and employees.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "QuickZee Media",
+    "website_url": "https://quickzee.in/",
+    "location": "Bangalore",
+    "phone": "090668 05661",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:48:45.578544"
+  }
+}

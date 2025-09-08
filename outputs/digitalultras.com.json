@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "While the company is a digital marketing agency focused on sales for its clients, it explicitly lists a wide array of specific programming and web development services (e.g., Node.js, React.js, Laravel, Django, Full-Stack Development), indicating a strong need for current and advanced technical skills.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Digital Ultras | Digital Marketing Agency in Delhi | Social Media Marketing Agency",
+    "website_url": "https://digitalultras.com/",
+    "location": "Delhi",
+    "phone": "070428 40441",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:14:08.429421"
+  }
+}

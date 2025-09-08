@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content describes an online gambling platform focused on attracting and retaining customers through bonuses, fast transactions, 24/7 support, and promoting a high win-rate, all of which are sales and marketing strategies for a service business.",
+    "recommendation_score": 100
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "Not Found",
+        "email": "info@marketingagencyindiaa.com",
+        "phone": "+91-93540 04744"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Marketing Agency Indiaa",
+    "website_url": "https://marketingagencyindiaa.com/",
+    "location": "Delhi",
+    "phone": "076785 41983",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:10:59.732010"
+  }
+}

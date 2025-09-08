@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Fusion Informatics is a well-established software development and consulting company (a service business) whose primary need for continued growth and profitability would be enhancing their client acquisition and sales strategies, rather than improving their already proven technical expertise.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General Company Contact",
+        "email": "",
+        "phone": "(424) 235-7391"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Fusion Informatics",
+    "website_url": "https://www.fusioninformatics.com/",
+    "location": "Bangalore",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:18:58.810379"
+  }
+}

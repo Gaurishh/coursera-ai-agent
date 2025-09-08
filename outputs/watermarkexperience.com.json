@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content focuses on brand strategy, customer success, content & creative, planning, and contact centre management, all of which are directly related to business development, marketing, and customer acquisition/retention, without any mention of programming or technical development.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "Official Contact",
+        "email": "Not Found",
+        "phone": "******5707"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Watermark Marketing Private Limited",
+    "website_url": "http://www.watermarkexperience.com/",
+    "location": "Bangalore",
+    "phone": "099806 33727",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:36:53.166465"
+  }
+}

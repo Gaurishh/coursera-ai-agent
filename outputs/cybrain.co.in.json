@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Cybrain is a leading IT Software Development Company with extensive expertise in over 40 technologies and 15+ years of experience, making them highly proficient in programming; therefore, a Sales Course would offer more direct benefit by enhancing their ability to acquire more high-value clients for their comprehensive software development and digital marketing services, as evidenced by their 'US Sales Office' and consistent calls to action.",
+    "recommendation_score": 92
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Cybrain Software Solutions Pvt Ltd - Web Designing | IT Company | Software Company in Vidyaranyapura Bangalore",
+    "website_url": "https://www.cybrain.co.in/",
+    "location": "Bangalore",
+    "phone": "1800 891 3958",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:04:43.497905"
+  }
+}

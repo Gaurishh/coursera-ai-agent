@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content clearly identifies the company as a 'Digital Marketing Agency' focused on 'Digital Marketing' and 'growing website traffic', all of which are directly related to marketing, customer acquisition, and business development.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Bright Ads Digital Marketing Agency Bangalore | SEO Agency | Website Development in Bangalore",
+    "website_url": "https://www.brightads.in/",
+    "location": "Bangalore",
+    "phone": "088840 05400",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:26:21.181325"
+  }
+}

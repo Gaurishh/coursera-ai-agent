@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website exclusively offers digital marketing services like SEO, SMO, PPC, and content marketing, all aimed at generating leads, increasing sales, and building brand awareness for their clients, indicating a core focus on sales and marketing principles.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "𝗗𝗶𝗴𝗶𝘁𝗮𝗹𝗶𝗻𝗱𝗶𝗮𝗮𝗱𝗱",
+    "website_url": "https://www.digitalindiaadd.com/",
+    "location": "Bangalore",
+    "phone": "063608 07351",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:31:58.282745"
+  }
+}

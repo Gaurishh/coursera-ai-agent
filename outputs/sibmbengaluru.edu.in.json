@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is entirely focused on Master of Business Administration (MBA) programs, business leadership, management, entrepreneurship, and the corporate world, with no mention of programming or software development.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Symbiosis Institute of Business Management Bengaluru",
+    "website_url": "http://sibmbengaluru.edu.in/",
+    "location": "Bangalore",
+    "phone": "080671 39573",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:20:21.261480"
+  }
+}

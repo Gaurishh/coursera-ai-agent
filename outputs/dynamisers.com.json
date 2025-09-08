@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The company is primarily a Digital Marketing Agency focused on generating leads, conversions, and scaling brands for clients, making a sales course highly beneficial to enhance their core offering and client acquisition strategies.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Dynamisers Solutions - Digital Marketing Agency in Delhi, India | Website Development | SEO Services",
+    "website_url": "https://www.dynamisers.com/",
+    "location": "Delhi",
+    "phone": "098992 69989",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:26:50.823993"
+  }
+}

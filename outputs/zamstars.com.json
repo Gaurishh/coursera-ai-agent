@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Zamstars' core business is customer acquisition, engagement, and advocacy, with offerings heavily focused on brand, outreach, and sales enablement, including explicit \"Sales Team Training\" and metrics on \"sales solutions\" and \"conversions.\"",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Company Main Contact",
+        "title": "Company Main Contact",
+        "email": "",
+        "phone": "******8953"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Zamstars Management Services (India) Private Limited",
+    "website_url": "https://www.zamstars.com/",
+    "location": "Bangalore",
+    "phone": "097414 71391",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:38:06.300006"
+  }
+}

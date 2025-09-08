@@ -1,0 +1,61 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website is for an Information Technology institute (IIIT-Delhi) with departments, programs, and research heavily focused on Computer Science, Electronics, AI, Data Science, Computational Biology, and related engineering fields, indicating a strong technical and programming orientation.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Sambuddho Chakravarty",
+        "title": "Head, Department of Computer Science and Engineering (CSE), Associate Professor (CSE)",
+        "email": "sambuddho@iiitd.ac.in",
+        "phone": ""
+      },
+      {
+        "name": "Rajiv Ratn Shah",
+        "title": "Associate Professor (CSE, HCD), Head (Human-Centered Design), Faculty Sponsor for ACM-IIITD Student Chapter",
+        "email": "rajivratn@iiitd.ac.in",
+        "phone": ""
+      },
+      {
+        "name": "Vikram Goyal",
+        "title": "Professor (CSE), Faculty Co-Sponsor for ACM-IIITD Student Chapter",
+        "email": "vikram@iiitd.ac.in",
+        "phone": ""
+      },
+      {
+        "name": "Anirban Mondal",
+        "title": "Associate Professor (CSE)",
+        "email": "anirban@iiitd.ac.in",
+        "phone": "+91-11-2509 9203"
+      },
+      {
+        "name": "Ashish Sureka",
+        "title": "Assistant Professor (CSE)",
+        "email": "ashish@iiitd.ac.in",
+        "phone": "+91-11-2509 9201"
+      },
+      {
+        "name": "Amarjeet Singh",
+        "title": "Assistant Professor (CSE)",
+        "email": "amarjeet@iiitd.ac.in",
+        "phone": "+91-11-2509 9211"
+      },
+      {
+        "name": "",
+        "title": "General Institute Contact",
+        "email": "info@iiitd.ac.in",
+        "phone": "+91-11-26907400"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Indraprastha Institute of Information Technology Delhi",
+    "website_url": "http://www.iiitd.ac.in/",
+    "location": "Delhi",
+    "phone": "011 2690 7400",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T03:52:48.785031"
+  }
+}

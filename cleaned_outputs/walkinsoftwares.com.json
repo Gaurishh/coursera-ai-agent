@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website clearly indicates a strong technical foundation with a team of 'talented engineers' building diverse software products and offering extensive development services. However, it also features a dedicated 'Digital Marketing Studio' and offers numerous digital marketing services, including SEO, content marketing, social media marketing, and CRM solutions like TriServe, indicating a focus on business growth, customer acquisition, and marketing. A Sales Course would help them better market and sell their advanced technical products and services, converting their engineering excellence into increased revenue and client partnerships, which is crucial for a service-oriented business.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "Not Found",
+        "email": "info@walkinsoftwares.com",
+        "phone": "+91 7338430816"
+      },
+      {
+        "name": "Not Found",
+        "title": "Not Found",
+        "email": "contact@walkinsoftwares.com",
+        "phone": "+91 7338430816"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "WAKINSOFTWARES BHARAT PVT LTD",
+    "website_url": "http://www.walkinsoftwares.com/",
+    "location": "Bangalore",
+    "phone": "073384 30816",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:37:12.194415"
+  }
+}

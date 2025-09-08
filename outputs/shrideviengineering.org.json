@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for an engineering and technology institute that offers technical programs; therefore, their operational need as a business is to enhance student recruitment and campus growth, aligning with sales and customer acquisition strategies, not programming skills which they already teach.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Shridevi Institute of Engineering & Technology",
+    "website_url": "https://shrideviengineering.org/",
+    "location": "Bangalore",
+    "phone": "0816 221 2629",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:16:03.688280"
+  }
+}

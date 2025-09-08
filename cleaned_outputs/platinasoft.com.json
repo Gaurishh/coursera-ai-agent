@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The company builds AI-powered software for recruiting and staffing businesses, explicitly mentioning 'Sales CRM' as an application and aiming to help customers 'grow your Recruiting and Staffing business', indicating a strong focus on business growth and sales enablement.",
+    "recommendation_score": 88
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Shivani Kalkhande",
+        "title": "Not Found",
+        "email": "s***@platinasoft.com",
+        "phone": "Not Found"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Platina Software Pvt. Ltd.",
+    "website_url": "http://platinasoft.com/",
+    "location": "Delhi",
+    "phone": "011 4674 7700",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:56:34.695966"
+  }
+}

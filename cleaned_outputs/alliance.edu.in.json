@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content is exclusively dedicated to the 'School of Engineering and Design' and 'Alliance School of Advanced Computing,' offering numerous B.Tech, M.Tech, and BCA programs heavily focused on Computer Science, Information Technology, AI, Data Science, Cybersecurity, and other programming and technology-related fields.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dr. Reeba Korah",
+        "title": "Registrar",
+        "email": "registrar@alliance.edu.in",
+        "phone": "080-46199101"
+      },
+      {
+        "name": "",
+        "title": "General Contact for B.Tech Programs",
+        "email": "btech@alliance.edu.in",
+        "phone": "91 80 3093 8050"
+      },
+      {
+        "name": "",
+        "title": "General Enquiry Contact",
+        "email": "enquiry@alliance.edu.in",
+        "phone": "+91 80 4619 9000 / 9100 / +91 80 4129 9200"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Alliance College of Engineering and Design",
+    "website_url": "https://www.alliance.edu.in/school/school-of-engineering-and-design",
+    "location": "Bangalore",
+    "phone": "080 4619 9000",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:17:43.796133"
+  }
+}

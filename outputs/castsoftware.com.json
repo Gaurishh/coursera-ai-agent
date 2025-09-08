@@ -1,0 +1,43 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content is overwhelmingly technical, focusing on software, applications, code analysis, technical debt, cloud migration, AI, architectural context, programming languages, and engineering roles.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General Contact, CAST USA Office",
+        "email": "",
+        "phone": "+1 212 871 8330"
+      },
+      {
+        "name": "",
+        "title": "General Contact, CAST USA Office",
+        "email": "",
+        "phone": "+1 703 863 9908"
+      },
+      {
+        "name": "",
+        "title": "General Contact, CAST Bangalore Office",
+        "email": "",
+        "phone": "+91 (80) 49 13 25 25"
+      },
+      {
+        "name": "",
+        "title": "Support Contact, CAST Bangalore Office",
+        "email": "",
+        "phone": "+91 888 44 99 66 7"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "CAST Software India Private Limited",
+    "website_url": "https://www.castsoftware.com/",
+    "location": "Bangalore",
+    "phone": "088844 99667",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:56:35.530602"
+  }
+}

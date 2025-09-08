@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "DigiOn Solutions is a digital marketing and AI automation agency focused on driving business growth, lead generation, conversions, and ROI for its clients, indicating a strong need for refined sales and marketing strategies for both their own services and to better serve their clients.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "DigiOn Solutions",
+    "website_url": "https://www.digion.in/",
+    "location": "Bangalore",
+    "phone": "096206 52556",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:31:13.161744"
+  }
+}

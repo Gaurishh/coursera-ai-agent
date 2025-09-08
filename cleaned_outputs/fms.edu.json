@@ -1,0 +1,67 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for the Faculty of Management Studies, offering various MBA and management programs, with a strong focus on corporate relations, placements, and business administration, without any mention of programming or technical fields.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "Dean",
+        "email": "dean@fms.edu",
+        "phone": null
+      },
+      {
+        "name": null,
+        "title": "Dean's Office",
+        "email": "deanoffice@fms.edu",
+        "phone": null
+      },
+      {
+        "name": null,
+        "title": "Administrative Officer",
+        "email": "adminoffice@fms.edu",
+        "phone": "011-2766 6382/6383/6384"
+      },
+      {
+        "name": "Prof. Kavita Singh",
+        "title": "MSA Advisor / Professor",
+        "email": "kavita@fms.edu",
+        "phone": null
+      },
+      {
+        "name": "Prof. Amit Bardhan",
+        "title": "MSA Advisor / Professor",
+        "email": "amit-bardhan@fms.edu",
+        "phone": null
+      },
+      {
+        "name": "Prof. Soma Dey",
+        "title": "MSA Advisor / Professor",
+        "email": "soma.dey@fms.edu",
+        "phone": null
+      },
+      {
+        "name": "Dr. Shikha Sachdeva",
+        "title": "MSA Advisor / Professor",
+        "email": "shikhasachdeva@fms.edu",
+        "phone": null
+      },
+      {
+        "name": "Dr. Anshu Mehta",
+        "title": "MSA Advisor / Professor",
+        "email": "anshumehta@fms.edu",
+        "phone": null
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Faculty of Management Studies - Main Campus",
+    "website_url": "http://www.fms.edu/",
+    "location": "Delhi",
+    "phone": "095011 13335",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:10:52.753056"
+  }
+}

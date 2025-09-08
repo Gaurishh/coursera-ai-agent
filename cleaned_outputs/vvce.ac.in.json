@@ -1,0 +1,61 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website is for an engineering college, Vidyavardhaka College of Engineering, with its primary offerings focused on various Bachelor of Engineering (BE), Master of Technology (M.Tech), and Master of Computer Applications (MCA) degrees, all heavily emphasizing computer science, software development, AI/ML, and other technical engineering disciplines.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "Principal",
+        "email": "principal@vvce.ac.in",
+        "phone": "+91 821 4276 225"
+      },
+      {
+        "name": "",
+        "title": "Admissions Office",
+        "email": "ao@vvce.ac.in",
+        "phone": "+91 821 4276 201 / 203 / 204"
+      },
+      {
+        "name": "Dr. B. Sadashive Gowda",
+        "title": "Principal",
+        "email": "sadashivegowdab@vvce.ac.in",
+        "phone": ""
+      },
+      {
+        "name": "Dr. R. Jagadeesh",
+        "title": "Professor & Dean, Department of Business Administration",
+        "email": "jagadeeshr@vvce.ac.in",
+        "phone": ""
+      },
+      {
+        "name": "Dr. P S V. Balaji Rao",
+        "title": "Professor & Head of the Department, Department of Business Administration",
+        "email": "psvbalajirao@vvce.ac.in",
+        "phone": ""
+      },
+      {
+        "name": "Dr. J. Madegowda",
+        "title": "Professor, Department of Business Administration",
+        "email": "jmadegowda@vvce.ac.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Office (General College Contact)",
+        "email": "",
+        "phone": "+91 821 4276 200"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Vidyavardhaka College of Engineering",
+    "website_url": "http://www.vvce.ac.in/",
+    "location": "Bangalore",
+    "phone": "0821 427 6200",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:15:10.139276"
+  }
+}

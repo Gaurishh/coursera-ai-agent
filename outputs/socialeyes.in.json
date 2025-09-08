@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is exclusively focused on digital marketing, SEO, social media, PPC, content development, e-commerce marketing, and brand management, all aimed at generating leads, increasing sales, and driving conversions for their clients. A Sales Course would directly benefit this service-based business in acquiring and retaining clients for their marketing services.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Social Eyes",
+    "website_url": "https://socialeyes.in/",
+    "location": "Delhi",
+    "phone": "097666 95666",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:23:41.047315"
+  }
+}

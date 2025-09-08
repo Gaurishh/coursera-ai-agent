@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Tenwave Infotech is an established 'Healthcare IT company' that already develops and offers various sophisticated software solutions; to expand its client base and 'win more customers and revenue,' improving sales and business development strategies would be most beneficial.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "Not Found",
+        "email": "Not Found",
+        "phone": "+91 1126301554"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Tenwave Infotech Pvt. Ltd. - Hospital Management Software | Best EMR Software India",
+    "website_url": "https://www.tenwavehealthcare.com/",
+    "location": "Delhi",
+    "phone": "070116 57478",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:35:55.789577"
+  }
+}

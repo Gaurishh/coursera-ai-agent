@@ -1,0 +1,91 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Dronacharya College of Engineering is an educational institution (service business) focused on providing technical education; a Sales Course would benefit them by improving their student recruitment, marketing, and admissions processes for customer acquisition.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General College Contact",
+        "email": "",
+        "phone": "0120-2322022"
+      },
+      {
+        "name": "",
+        "title": "General College Contact",
+        "email": "",
+        "phone": "0120-2323851"
+      },
+      {
+        "name": "",
+        "title": "General College Contact",
+        "email": "",
+        "phone": "0120-2323852"
+      },
+      {
+        "name": "",
+        "title": "General College Contact",
+        "email": "",
+        "phone": "0120-2323854"
+      },
+      {
+        "name": "",
+        "title": "General College Contact",
+        "email": "",
+        "phone": "0120-2323855"
+      },
+      {
+        "name": "",
+        "title": "General College Contact",
+        "email": "",
+        "phone": "0120-2323856"
+      },
+      {
+        "name": "",
+        "title": "General College Contact",
+        "email": "",
+        "phone": "0120-2323853"
+      },
+      {
+        "name": "",
+        "title": "General College Mobile Contact",
+        "email": "",
+        "phone": "9910380113"
+      },
+      {
+        "name": "",
+        "title": "General College Contact (Gurugram Campus)",
+        "email": "",
+        "phone": "0124-2253144"
+      },
+      {
+        "name": "",
+        "title": "General College Contact (Gurugram Campus)",
+        "email": "",
+        "phone": "0124-2251602"
+      },
+      {
+        "name": "",
+        "title": "General College Contact (Gurugram Campus)",
+        "email": "",
+        "phone": "0124-4087145"
+      },
+      {
+        "name": "",
+        "title": "Admissions Contact",
+        "email": "",
+        "phone": "8828912891"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Dronacharya College of Engineering",
+    "website_url": "https://ggnindia.dronacharya.info/",
+    "location": "Delhi",
+    "phone": "099103 80109",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T03:59:52.909488"
+  }
+}

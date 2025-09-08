@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "RPD Software explicitly defines itself as a 'Result Driven Digital Marketing Agency' offering services heavily focused on marketing, branding, client acquisition, and revenue growth for their clients, making a Sales Course highly relevant.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": null,
+        "email": null,
+        "phone": "+91 9999591983"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "RPD Software | Digital marketing Company in Delhi | Website Design Company | Web Development Services",
+    "website_url": "https://rpdsoftware.com/",
+    "location": "Delhi",
+    "phone": "080907 06048",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:35:13.451389"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website belongs to an 'ENGINEERING COLLEGE' with departments like Computer Science, Information Science, and Electronics, and mentions events like 'Hackathon' and 'FDP on IOT & it's Applications', strongly indicating a focus on technical and programming skills.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Prof. Arun Kumar T.H",
+        "title": "Professor, Sapthagiri College of Physiotherapy",
+        "email": "arunkumarth@simsrc.edu.in",
+        "phone": "+919980911090"
+      },
+      {
+        "name": "Mr. Mohan Raj K",
+        "title": "Professor, Academic Coordinator, Sapthagiri College of Physiotherapy",
+        "email": "mohaan23@gmail.com",
+        "phone": "9842971246"
+      },
+      {
+        "name": "Prof. A. Sridhar",
+        "title": "Principal and HOD, Sapthagiri College of Physiotherapy",
+        "email": "principalsipt@simsrc.edu.in",
+        "phone": ""
+      },
+      {
+        "name": "Prof. A. Sridhar",
+        "title": "Principal and HOD, Sapthagiri College of Physiotherapy",
+        "email": "",
+        "phone": "8075676300"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Sapthagiri College of Engineering, Bengaluru.",
+    "website_url": "http://www.sapthagiri.edu.in/",
+    "location": "Bangalore",
+    "phone": NaN,
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:06:59.374174"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website belongs to Vemana Institute of Technology, an educational institution focused entirely on engineering disciplines such as Computer Science, Information Science, AI/ML, and Cyber Security, training future engineers with strong technical skills.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dr. B.G. Vijayasimha Reddy",
+        "title": "Principal / Head of Department",
+        "email": "bvgsreddy@gmail.com",
+        "phone": ""
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Vemana Institute of Technology",
+    "website_url": "https://vemanait.edu.in/",
+    "location": "Bangalore",
+    "phone": "095354 44571",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:08:09.611397"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Bangalore Softsell is a software engineering company offering highly technical services; a Sales Course would benefit them most by enhancing their client acquisition and business growth for their existing technical expertise.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "HR Manager",
+        "email": "hr@bangaloresoftsell.com",
+        "phone": "+91 94813 14812, +91 80411 04111"
+      },
+      {
+        "name": "S. Ragothaman",
+        "title": "Not Found",
+        "email": "sragothaman@bangaloresoftsell.com",
+        "phone": "080 41104111"
+      },
+      {
+        "name": "Not Found",
+        "title": "Not Found",
+        "email": "mail@bangaloresoftsell.com",
+        "phone": "+91 94813 14812"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Bangalore Softsell Ltd",
+    "website_url": "http://www.bangaloresoftsell.com/",
+    "location": "Bangalore",
+    "phone": "080 4110 4111",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:11:10.870655"
+  }
+}

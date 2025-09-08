@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly identifies as a 'Creative Marketing Agency' with a strong focus on content strategizing, brand building, and client acquisition, indicating that enhancing sales and client outreach skills would directly benefit their core business model and growth.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "General Contact",
+        "title": "General Contact (Contact Us page)",
+        "email": "info@illucus.com",
+        "phone": ""
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Illucus",
+    "website_url": "https://www.illucus.com/",
+    "location": "Bangalore",
+    "phone": "063647 28007",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:26:59.168019"
+  }
+}

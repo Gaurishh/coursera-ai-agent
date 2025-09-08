@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is exclusively focused on digital sales, performance marketing, lead generation, advertising, and business growth strategies, with no mention of programming or software development.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Digital Sales Solutions",
+    "website_url": "http://digitalsalesolutions.com/",
+    "location": "Delhi",
+    "phone": "099582 30707",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:29:21.953405"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The domain '.ac.in' indicates an academic institution, making a Programming Course more relevant.",
+    "recommendation_score": 40
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Satyaban Behuria",
+        "title": "Director – Training & Placements",
+        "email": "placements@adgips.ac.in",
+        "phone": "+91-9999816096"
+      },
+      {
+        "name": "",
+        "title": "General Institutional Contact",
+        "email": "info@adgitmdelhi.ac.in",
+        "phone": "+91(11) 49905900-99"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Dr. Akhilesh Das Gupta Institute of Professional Studies",
+    "website_url": "https://adgips.ac.in/",
+    "location": "Delhi",
+    "phone": "011 4990 5900",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T03:48:47.255872"
+  }
+}

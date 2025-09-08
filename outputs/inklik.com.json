@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is a digital marketing agency explicitly focused on generating leads, acquiring customers, driving sales, and improving conversion rates for their clients, with repeated emphasis on customer acquisition and ROI.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Inklik - Digital Marketing Agency",
+    "website_url": "https://inklik.com/",
+    "location": "Delhi",
+    "phone": "099118 40808",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:25:09.290803"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website clearly belongs to an engineering college (Bahubali College of Engineering) offering courses like Computer Science, Artificial Intelligence, and Information Science, all of which are programming-intensive fields. Their core business is technical education.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "",
+        "email": "info@bharatchamber.com",
+        "phone": "+91 - 33 - 2282 - 9591 / 2283 - 9608"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "bharat.chamber@gmail.com",
+        "phone": "+91 - 33 - 2282 - 9591 / 2283 - 9608"
+      },
+      {
+        "name": "",
+        "title": "President",
+        "email": "president@bharatchamber.com",
+        "phone": ""
+      },
+      {
+        "name": "Pavan Poddar",
+        "title": "",
+        "email": "pavan.poddar@bharatchamber.com",
+        "phone": ""
+      },
+      {
+        "name": "Keka Sarma",
+        "title": "",
+        "email": "keka.sarma@bharatchamber.com",
+        "phone": ""
+      },
+      {
+        "name": "Avik Roy",
+        "title": "",
+        "email": "avik.roy@bharatchamber.com",
+        "phone": ""
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Bahubali College of Engineering Shravanabelagola",
+    "website_url": "http://www.bce.org.in/",
+    "location": "Bangalore",
+    "phone": "092435 05666",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:10:28.963892"
+  }
+}

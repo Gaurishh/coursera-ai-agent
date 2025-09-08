@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website explicitly identifies itself as a 'College of Engineering' and lists academic details for 'BE' and 'M.Tech' degrees, indicating a strong focus on technical education which often involves programming.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "Placement Cell (for Placement related queries)",
+        "email": "pdaplacements@gmail.com",
+        "phone": "+91 9483644725"
+      },
+      {
+        "name": "",
+        "title": "Placement Cell (for Placement related queries)",
+        "email": "placements@pdaengg.com",
+        "phone": "+91 9483644725"
+      },
+      {
+        "name": "Sangmesh Jeevangi",
+        "title": "Admissions Contact",
+        "email": "",
+        "phone": "+91 97438 41111"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "PDA College of Engineering",
+    "website_url": "https://pdacek.ac.in/",
+    "location": "Bangalore",
+    "phone": "084722 24360",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:16:52.611088"
+  }
+}

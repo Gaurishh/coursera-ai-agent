@@ -1,0 +1,49 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for a business management college (PGDM, BBA) with programs and testimonials heavily focused on general management, entrepreneurship, international management, HR, talent management, and placements in various industry sectors, clearly indicating a strong alignment with business development, marketing, and sales skills.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dr. V. V. Gopal",
+        "title": "Professor & Director",
+        "email": "vv.gopal@iilmlko.ac.in",
+        "phone": ""
+      },
+      {
+        "name": "Dr. Vibhuti Gupta",
+        "title": "Professor & Associate Dean",
+        "email": "vibhuti.gupta@iilmlko.ac.in",
+        "phone": ""
+      },
+      {
+        "name": "Dr. Sheetal Sharma",
+        "title": "Professor (OB & HR)",
+        "email": "sheetal.sharma@iilmlko.ac.in",
+        "phone": ""
+      },
+      {
+        "name": "Dr. Fawad Ali Khan",
+        "title": "Associate Professor (Marketing)",
+        "email": "fawad.khan@iilmlko.ac.in",
+        "phone": ""
+      },
+      {
+        "name": "Tauseef Irfan",
+        "title": "Assistant Professor",
+        "email": "tauseef.irfan@iilmlko.ac.in",
+        "phone": ""
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "IILM Lodhi Road, New Delhi",
+    "website_url": "https://iilmlr.ac.in/",
+    "location": "Delhi",
+    "phone": NaN,
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:17:43.259962"
+  }
+}

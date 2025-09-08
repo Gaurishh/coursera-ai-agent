@@ -1,0 +1,127 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website clearly belongs to an Engineering college, Sri Krishna Institute of Technology (SKIT), offering various engineering disciplines including Computer Science, AI/ML, and Information Science. The content heavily features technical events, hackathons, workshops on web application development, robotics, and research in technical fields, indicating a strong focus on programming and engineering skills.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Mrs. Vani B.A.",
+        "title": "Dean & H.O.D, Information Science and Engineering",
+        "email": "isehod@skit.org.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Professor, Information Science and Engineering",
+        "email": "sandeepvmise@skit.org.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Assistant Professor, Information Science and Engineering",
+        "email": "vanibaise@skit.org.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Assistant Professor, Information Science and Engineering",
+        "email": "veenaise@skit.org.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Assistant Professor, Information Science and Engineering",
+        "email": "sindhuise@skit.org.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Assistant Professor, Computer Science and Engineering",
+        "email": "shweta.cse@skit.org.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Assistant Professor, Computer Science and Engineering",
+        "email": "shilpavcse@skit.org.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Assistant Professor, Computer Science and Engineering",
+        "email": "supriyagdcse@skit.org.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Assistant Professor, Computer Science and Engineering",
+        "email": "Priyankarathodcse@skit.org.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Assistant Professor, Computer Science and Engineering",
+        "email": "pavithracse@skit.org.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Professor & HOD, Mechanical Engineering",
+        "email": "mechhod@skit.org.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Professor, Mechanical Engineering",
+        "email": "krishnegowdamech@skit.org.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Assistant Professor, Mechanical Engineering",
+        "email": "chandraiahmech@skit.org.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Assistant Professor, Mechanical Engineering",
+        "email": "pramodmech@skit.org.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Assistant Professor, Mechanical Engineering",
+        "email": "dineshmech@skit.org.in",
+        "phone": ""
+      },
+      {
+        "name": "Dr. Mahesha K",
+        "title": "Principal",
+        "email": "principal@skit.org.in",
+        "phone": "080-23721315"
+      },
+      {
+        "name": "",
+        "title": "General Campus Contact",
+        "email": "",
+        "phone": "+91 9036790005"
+      },
+      {
+        "name": "",
+        "title": "General Campus Contact",
+        "email": "",
+        "phone": "+91 9148760346"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Sri Krishna Institute Of Technology - Bangalore",
+    "website_url": "https://www.skit.org.in/index.html",
+    "location": "Bangalore",
+    "phone": "096060 91262",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:08:54.705865"
+  }
+}

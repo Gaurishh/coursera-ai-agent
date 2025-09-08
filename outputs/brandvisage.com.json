@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for a digital marketing agency explicitly focused on improving brand visibility, lead generation, sales growth, and ROI for its clients, making a Sales Course highly relevant.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Brand Visage Communications Pvt. Ltd.",
+    "website_url": "https://brandvisage.com/",
+    "location": "Delhi",
+    "phone": "097175 80410",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:22:35.020362"
+  }
+}

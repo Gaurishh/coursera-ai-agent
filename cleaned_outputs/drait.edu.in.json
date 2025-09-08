@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content clearly indicates a technical institution focused on engineering, computer applications (MCA), technology (M.Tech, B.E.), and features like machine learning, technical knowledge, and placements in software companies.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "H Uma Devi",
+        "title": "Professor and Head of Department, Electronics and Communication Engineering",
+        "email": "umadevi.ec@drait.edu.in",
+        "phone": "9880324895"
+      },
+      {
+        "name": "Satish B Basapur",
+        "title": "Assistant Professor, Information Science and Engineering",
+        "email": "satish.basapur.is@drait.edu.in",
+        "phone": "9886563814"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Dr. Ambedkar Institute Of Technology",
+    "website_url": "https://drait.edu.in/",
+    "location": "Bangalore",
+    "phone": NaN,
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:01:24.527948"
+  }
+}

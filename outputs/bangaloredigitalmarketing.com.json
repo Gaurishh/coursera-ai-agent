@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is entirely focused on digital marketing, lead generation, customer acquisition, and campaign management, which directly contribute to sales and business growth.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "BDM",
+    "website_url": "https://bangaloredigitalmarketing.com/",
+    "location": "Bangalore",
+    "phone": "080955 38194",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:39:44.840976"
+  }
+}

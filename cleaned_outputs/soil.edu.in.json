@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for SOIL Institute of Management, a B-School offering various management and business leadership programs, with a strong focus on business strategy, human resources, leadership, and digital transformation for business advantage, not software development or programming.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dakshita Kapoor",
+        "title": "Not Found",
+        "email": "cmssobd@soil.edu.in",
+        "phone": "9810236934 / 9810241344"
+      },
+      {
+        "name": "Not Found",
+        "title": "Not Found",
+        "email": "connect@soilindia.net",
+        "phone": "0124 4302222"
+      },
+      {
+        "name": "Not Found",
+        "title": "Not Found",
+        "email": "Not Found",
+        "phone": "9289270707"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "SOIL Institute of Management",
+    "website_url": "https://www.soil.edu.in/",
+    "location": "Delhi",
+    "phone": "092053 33417",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:16:22.549598"
+  }
+}

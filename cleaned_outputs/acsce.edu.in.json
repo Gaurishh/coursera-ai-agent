@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website is for an engineering college with departments like Computer Science and Engineering (CSE) and Electronics and Communication Engineering (ECE), and features skill development programs like 'PC Building Bootcamp' and 'Design to Deploy: Front & Backend Journey', indicating a strong focus on technical and programming skills.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "Training and Placement Cell (General Contact)",
+        "email": "admission@acsce.edu.in",
+        "phone": "+91-9743277777"
+      },
+      {
+        "name": "",
+        "title": "Campus Main Line (General Contact)",
+        "email": "",
+        "phone": "+91-80-29748777 / 333"
+      },
+      {
+        "name": "",
+        "title": "Principal (Direct Line)",
+        "email": "",
+        "phone": "080-29748999"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "ACS College of Engineering",
+    "website_url": "http://www.acsce.edu.in/",
+    "location": "Bangalore",
+    "phone": "080 2974 8222",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:03:36.663951"
+  }
+}

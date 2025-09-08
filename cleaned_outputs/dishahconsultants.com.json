@@ -1,0 +1,61 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is exclusively focused on 'Sales Training', 'Soft Skills Training', 'Corporate Training', and 'Business Communication', with numerous mentions of sales teams, sales performance, sales strategies, and sales-related awards and testimonials.",
+    "recommendation_score": 100
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "",
+        "email": "enquiry@dishahconsultants.com",
+        "phone": "+91-9884 62 3854"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "+91-9884 62 3854"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "+91-9884 62 3854"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "+91-9884 62 3854"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "+91-9884 62 3854"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "+91-9884 62 3854"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "+91-9884 62 3854"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Sales Training | Soft Skills Training | Corporate Sales Training Programs | Best Sales Training Companies Delhi NCR",
+    "website_url": "https://www.dishahconsultants.com/sales-training-in-delhi",
+    "location": "Delhi",
+    "phone": "098846 23854",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:21:13.243734"
+  }
+}

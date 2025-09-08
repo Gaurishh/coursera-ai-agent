@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content is overwhelmingly focused on software development, programming languages (JAVA, Python, PHP, etc.), web/mobile application development, cloud consulting, DevOps, and various software solutions (CRM, ERP, MLM, ePOS, Inventory). While digital marketing services are offered, the core business and displayed expertise are deeply technical.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Bloatware IT Solutions | Software Development Company | Mobile Apps Development | CRM Software | ERP Software & Website",
+    "website_url": "https://bloatware.in/",
+    "location": "Delhi",
+    "phone": "089207 50797",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:49:15.546238"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website is a mobile app and web development company, heavily focused on technical services, advanced AI/ML technologies, development processes, and solving technical challenges for clients.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "",
+        "email": "info@appsplusweb.com",
+        "phone": "9899778847"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "9899778847"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "𝗔𝗽𝗽𝘀𝐏𝗹𝘂𝘀𝗪𝗲𝗯 - 𝗠𝗼𝗯𝗶𝗹𝗲 𝗔𝗽𝗽 𝗗𝗲𝐯𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 𝗖𝗼𝗺𝗽𝗮𝗻𝘆 𝗶𝗻 𝗗𝗲𝗹𝗵𝗶 | 𝗶𝗢𝗦 𝗮𝗻𝗱 𝗔𝗻𝗱𝗿𝗼𝗶𝗱 𝗔𝗽𝗽 𝗗𝗲𝐯𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 𝗖𝗼𝗺𝗽𝗮𝗻𝘆 𝗶𝗻 𝗗𝗲𝗹𝗵𝗶",
+    "website_url": "https://www.appsplusweb.com/",
+    "location": "Delhi",
+    "phone": "098997 78847",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:05:39.153912"
+  }
+}

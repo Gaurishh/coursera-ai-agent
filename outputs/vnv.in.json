@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "VNV Software is an established software vendor with a diverse product line (ERP, Payroll, Medical, Mobile Apps) and a large, existing customer base (1600+ clients over 16 years). While they clearly have strong programming capabilities, a sales course would directly enhance their ability to acquire new customers, expand market reach, and optimize revenue for their developed software products, which is a critical growth area for a company focused on selling solutions.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "General Contact / Helpdesk",
+        "email": "support@vnv.in",
+        "phone": null
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "VNV Software Pvt. Ltd.",
+    "website_url": "http://www.vnv.in/",
+    "location": "Delhi",
+    "phone": "011 4183 4899",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:03:04.015198"
+  }
+}

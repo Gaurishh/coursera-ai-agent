@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website operates as a Digital Marketing Agency, explicitly stating its purpose is to 'deliver real customers—not just traffic—for impactful growth and lasting success' and provides services like SEO, PPC, and social media management, all geared towards boosting leads and sales for its clients, demonstrating a core focus on sales and business development.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "",
+        "email": "info@mahiradigital.com",
+        "phone": "+91 8285552527"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Mahira Digital SEO Agency in Delhi, India",
+    "website_url": "https://www.mahiradigital.com/",
+    "location": "Delhi",
+    "phone": "099539 62966",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:15:29.315183"
+  }
+}

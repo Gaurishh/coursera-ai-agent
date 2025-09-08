@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Canticle Technologies is a software development company that offers various ERP solutions and custom software development services; while their core is programming, the entire website functions as a sales tool, promoting their products and benefits to acquire customers, indicating that improving their sales strategies, customer acquisition, and market penetration would be highly beneficial for their business growth.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Canticle Technologies Pvt. Ltd. | ERP Software For Security | Software Development | HR And Payroll Software | HRMS Software",
+    "website_url": "http://www.canticleindia.com/",
+    "location": "Delhi",
+    "phone": "092127 63762",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:33:44.210085"
+  }
+}

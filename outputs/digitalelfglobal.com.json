@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website describes a digital marketing and management consultancy focused on lead generation, SEO, PPC, social media, e-commerce, and achieving client ROI, all of which are directly related to sales and business growth.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Digital Elf SMART Solutions",
+    "website_url": "http://digitalelfglobal.com/",
+    "location": "Bangalore",
+    "phone": "096326 84999",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:56:20.039056"
+  }
+}

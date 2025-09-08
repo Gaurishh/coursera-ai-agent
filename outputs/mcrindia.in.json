@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website explicitly mentions \"in-house developers,\" using \"Tally Definition Language (TDL)\" to \"develop solutions,\" and that \"Our developers will create web applications,\" indicating a core technical and programming-focused service.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Tally on cloud bangalore",
+    "website_url": "http://mcrindia.in/",
+    "location": "Bangalore",
+    "phone": "099647 40243",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:20:06.464784"
+  }
+}

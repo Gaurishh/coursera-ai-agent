@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The Delhi School of Management explicitly focuses on developing 'managers and future leaders' for the 'business environment', teaching 'management studies' and preparing students for the 'corporate world' and to solve 'business problems', which strongly aligns with the objectives of a Sales Course.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dr Saurabh Agrawal",
+        "title": "Head of Department, Associate Professor (Delhi School of Management)",
+        "email": "saurabh.agrawal@dtu.ac.in",
+        "phone": ""
+      },
+      {
+        "name": "Dr. Anil Singh Parihar",
+        "title": "Head of Training & Placement",
+        "email": "placements@dtu.ac.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "General University Contact (Delhi Technological University)",
+        "email": "",
+        "phone": "011-27871018"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Delhi School of Management",
+    "website_url": "http://www.dtu.ac.in/Web/Departments/DSM/about/",
+    "location": "Delhi",
+    "phone": "011 2729 6203",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:18:52.961148"
+  }
+}

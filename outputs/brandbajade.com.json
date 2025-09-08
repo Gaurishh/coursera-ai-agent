@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website describes a branding and advertising agency with strong emphasis on marketing, creative strategy, client acquisition, and digital outreach, not software development or programming.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Brandbajade - Advertising agency in delhi",
+    "website_url": "https://brandbajade.com/",
+    "location": "Delhi",
+    "phone": "091237 47558",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:45:22.746225"
+  }
+}

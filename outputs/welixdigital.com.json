@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Welix Digital is a digital marketing company focused on generating leads, improving conversions, and driving sales for its clients, making a Sales Course highly relevant to its core business and mission.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Welix Digital | Digital Marketing Company In Bangalore | Web Designing Company Bangalore",
+    "website_url": "https://www.welixdigital.com/",
+    "location": "Bangalore",
+    "phone": "070901 70524",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:30:32.076200"
+  }
+}

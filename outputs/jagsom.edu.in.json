@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for a School of Management offering numerous business-focused programs like PGDM, MBA, and BBA, with specializations in Marketing, Finance, and Entrepreneurship, all of which directly relate to sales and business growth, even the analytics programs are framed within a business management context.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Jagdish Sheth School of Management (JAGSoM)",
+    "website_url": "https://jagsom.edu.in/?utm_source=Google&utm_medium=organic&utm_campaign=gmb",
+    "location": "Bangalore",
+    "phone": "081479 73132",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:19:39.476301"
+  }
+}

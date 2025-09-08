@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The company identifies as an 'AI-Driven Digital Marketing Agency' and offers numerous marketing, branding, and client acquisition services, making sales skills crucial for its core business growth, even with its technical offerings.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Webenza",
+    "website_url": "https://www.webenza.com/",
+    "location": "Bangalore",
+    "phone": "080 2521 0083",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:55:06.919451"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for a 'Regional College Of Management' and 'B-School' with a strong emphasis on management, leadership, and preparing students for the global economy, offering numerous business-focused programs (MBA, BBA, PGDM, MATA, MFC) alongside some technical ones (BCA, MCA), indicating a broader need for business-driving skills like sales.",
+    "recommendation_score": 85
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Regional College of Management",
+    "website_url": "https://rcm.ac.in/",
+    "location": "Delhi",
+    "phone": "090900 80801",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:25:07.544000"
+  }
+}

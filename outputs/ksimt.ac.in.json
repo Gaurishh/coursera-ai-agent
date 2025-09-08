@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "KSIMT is an educational service business, and the content highlights active efforts in student acquisition (e.g., 'Instant Admission Helpline', 'Request Callback'). A Sales Course would directly benefit the website owner by enhancing their marketing, enrollment strategies, and conversion rates to attract more students for their diverse programs.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "KSIMT - Khatu Shyam Institute of Management and Technology",
+    "website_url": "https://www.ksimt.ac.in/",
+    "location": "Delhi",
+    "phone": "099536 31363",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:02:47.046854"
+  }
+}

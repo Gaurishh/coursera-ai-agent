@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly states 'Sales Driven Influencer Marketing', indicating a strong focus on business development, marketing, and sales strategies.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "CAESAR.AI - Sales-driven Influencer Marketing Agency",
+    "website_url": "http://caesarai.com/",
+    "location": "Bangalore",
+    "phone": "080166 06661",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:22:54.309342"
+  }
+}

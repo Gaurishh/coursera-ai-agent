@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is overwhelmingly focused on digital marketing, brand awareness, lead generation, customer acquisition, and converting customers into sales, indicating a strong need for sales and marketing skills.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "K2 Digital Marketing Agency",
+    "website_url": "https://k2digitalmarketing.com/",
+    "location": "Delhi",
+    "phone": "088005 10419",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:43:45.927213"
+  }
+}

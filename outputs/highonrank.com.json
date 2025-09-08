@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly identifies as a 'Digital Marketing Company' and 'E-commerce Marketplace Services,' heavily emphasizing driving sales, growth, market presence, and conversion for clients through services like SEO, PPC, e-commerce management, and offering 'AMAZON SALES TRAINING,' which aligns perfectly with a Sales Course.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Chandra Prakash Sharma",
+        "title": "Founder",
+        "email": "contact@highonrank.com",
+        "phone": "+91-9654078140"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "contact@highonrank.com",
+        "phone": "+91-9667482591"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "contact@highonrank.com",
+        "phone": "+1 (872) 278-3586"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "HighOnRank Ecommerce Marketplace Seller Services",
+    "website_url": "https://highonrank.com/",
+    "location": "Delhi",
+    "phone": "096540 78140",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:16:31.470853"
+  }
+}

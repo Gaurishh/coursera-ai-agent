@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "SuperiorCodeLabs is an established IT services and technology consulting company, already possessing strong programming and technical expertise; therefore, a Sales Course would be more beneficial to enhance their ability to acquire new clients and expand their market for their existing technical services.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Superior Codelabs - Best Software development company in Bangalore, India",
+    "website_url": "http://www.superiorcodelabs.com/",
+    "location": "Bangalore",
+    "phone": "096112 01204",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:10:32.057020"
+  }
+}

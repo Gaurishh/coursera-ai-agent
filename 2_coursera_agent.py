@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 import json
 import os
+import time
+import random
 
 # Try to load from .env file first, then environment variable
 def load_api_key():
@@ -20,114 +22,29 @@ def load_api_key():
 GEMINI_API_KEY = load_api_key()
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
 
-# Course-specific contact extraction prompt templates
-PROGRAMMING_CONTACT_EXTRACTION_PROMPT = """
-Persona:
-You are an expert data extraction specialist specializing in identifying key decision-makers and influencers for programming course sales.
+# Perplexity API Configuration
+def load_perplexity_api_key():
+    # Check for .env file first
+    if os.path.exists('.env'):
+        with open('.env', 'r') as f:
+            for line in f:
+                if line.startswith('PERPLEXITY_API_KEY='):
+                    return line.split('=', 1)[1].strip()
+    
+    # Fallback to environment variable
+    return os.environ.get("PERPLEXITY_API_KEY", "YOUR_PERPLEXITY_API_KEY_HERE")
 
-Context:
-Your goal is to analyze the provided text from an institution's website and extract contact information ONLY for personnel who would be relevant for selling programming courses. Focus on individuals who make decisions about technical training, curriculum development, or have influence over educational technology purchases.
+PERPLEXITY_API_KEY = load_perplexity_api_key()
+PERPLEXITY_BASE_URL = "https://api.perplexity.ai/chat/completions"
+PERPLEXITY_HEADERS = {
+    "Authorization": f"Bearer {PERPLEXITY_API_KEY}",
+    "Content-Type": "application/json"
+}
 
-Target Contacts for Programming Course Sales:
-- CTO, Chief Technology Officer, Technical Directors
-- IT Managers, IT Directors, Systems Administrators
-- Engineering Department Heads, Engineering Managers
-- Computer Science Department Heads, CS Faculty
-- Technical Training Coordinators, Professional Development Managers
-- Academic Deans with technical focus
-- Research Directors in technical fields
-- Technology Integration Specialists
-- Software Development Managers
-- Technical Curriculum Coordinators
+# Debug: Print API key status (remove in production)
+print(f"Perplexity API Key loaded: {'Yes' if PERPLEXITY_API_KEY != 'YOUR_PERPLEXITY_API_KEY_HERE' else 'No'}")
+print(f"Perplexity API Key length: {len(PERPLEXITY_API_KEY)}")
 
-Exclusion Criteria:
-- General administrative staff (unless they handle training decisions)
-- Non-technical department heads
-- Support staff without decision-making authority
-- Faculty in non-technical fields
-- General contact information without specific names
-
-Inclusion Criteria: A contact must only be included if it contains at least one phone number OR at least one email address AND appears to be relevant for programming course sales.
-
-Website Content:
-{website_content}
-
-Your Task:
-Respond ONLY with a valid JSON object containing an array of contact objects. Each contact object should have the following structure (include only the fields that are available):
-{{
-"contacts": [
-{{
-"name": "Full Name",
-"title": "Job Title/Position",
-"phone": "Phone Number",
-"email": "Email Address"
-}},
-{{
-"name": "Another Person",
-"title": "Another Title",
-"phone": "Another Phone"
-}},
-...
-]
-}}
-
-Note: Only include the fields that are available in the source text. If a field is not available, simply omit it from the contact object.
-If no relevant contacts for programming course sales are found, return: {{"contacts": []}}
-"""
-
-SALES_CONTACT_EXTRACTION_PROMPT = """
-Persona:
-You are an expert data extraction specialist specializing in identifying key decision-makers and influencers for sales course sales.
-
-Context:
-Your goal is to analyze the provided text from an institution's website and extract contact information ONLY for personnel who would be relevant for selling sales courses. Focus on individuals who make decisions about business training, sales development, or have influence over professional development purchases.
-
-Target Contacts for Sales Course Sales:
-- Sales Managers, Sales Directors, VP of Sales
-- Business Development Managers, BD Directors
-- Marketing Managers, Marketing Directors
-- HR Directors, Training Managers, Professional Development Managers
-- Business School Deans, Management Department Heads
-- Executive Directors, General Managers
-- Partnership Managers, Business Relations Managers
-- Customer Success Managers
-- Revenue Managers, Growth Managers
-- Business Training Coordinators
-
-Exclusion Criteria:
-- Technical staff (unless they also handle business development)
-- General administrative staff (unless they handle training decisions)
-- Support staff without decision-making authority
-- Faculty in non-business fields
-- General contact information without specific names
-
-Inclusion Criteria: A contact must only be included if it contains at least one phone number OR at least one email address AND appears to be relevant for sales course sales.
-
-Website Content:
-{website_content}
-
-Your Task:
-Respond ONLY with a valid JSON object containing an array of contact objects. Each contact object should have the following structure (include only the fields that are available):
-{{
-"contacts": [
-{{
-"name": "Full Name",
-"title": "Job Title/Position",
-"phone": "Phone Number",
-"email": "Email Address"
-}},
-{{
-"name": "Another Person",
-"title": "Another Title",
-"phone": "Another Phone"
-}},
-...
-]
-}}
-
-Note: Only include the fields that are available in the source text. If a field is not available, simply omit it from the contact object.
-If no relevant contacts for sales course sales are found, return: {{"contacts": []}}
-"""
 
 # Master prompts for URL filtering based on course type
 PROGRAMMING_MASTER_PROMPT_TEMPLATE = """
@@ -145,14 +62,14 @@ Select the most informative URLs from the list below that are most likely to con
 - Software development managers and technical leads
 
 PRIORITY URLs (select these if available):
-- URLs containing: "faculty", "staff", "team", "leadership", "director", "head", "dean"
-- URLs containing: "computer-science", "engineering", "technology", "research", "development"
-- URLs containing: "academic", "training", "professional-development"
-- URLs containing: "contact", "about", "administration"
-- Department pages (e.g., "computer-science-engineering", "electrical-engineering", "applied-sciences")
+- URLs containing: "faculty", "staff", "team", "leadership"
+- URLs containing: "computer-science", "technology"
+- URLs containing: "professional-development"
+- URLs containing: "contact", "administration"
+- Programming-related department pages: "computer-science-engineering", "applied-sciences", "mathematics", "statistics"
 - Faculty directory pages and staff listing pages
-- ANY URL with "computer-science" in the path (these contain faculty contacts)
-- ANY URL with "engineering" in the path (these contain faculty contacts)
+- ANY URL with "computer-science" in the path (these contain programming faculty contacts)
+- URLs with "software", "programming", "computing", "informatics", "data-science", "artificial-intelligence"
 
 AVOID these types of URLs:
 - Student-focused pages (admissions, applications, student life, student-*, how-to-apply)
@@ -163,6 +80,9 @@ AVOID these types of URLs:
 - PDF files and documents
 - Administrative pages without personnel information
 - Course catalog or curriculum pages (unless they also contain faculty information)
+- Non-programming engineering departments: "civil-engineering", "electrical-engineering", "mechanical-engineering", "aerospace-engineering", "chemical-engineering"
+- Physical sciences departments: "physics", "chemistry", "biology" (unless they have computing focus)
+- Non-technical departments: "humanities", "social-sciences", "arts", "sports"
 
 This information will be used for programming course sales outreach and lead generation. Use your own expert judgment to determine the most relevant URLs from the list.
 
@@ -213,6 +133,70 @@ Example: {{"selected_urls": ["url_1", "url_2", "url_3"]}}
 
 # Debug: Print API key status (remove in production)
 # print(f"API Key loaded: {'Yes' if GEMINI_API_KEY != 'YOUR_API_KEY_HERE' else 'No'}")
+
+def perplexity_deep_research(query: str, max_searches: int = 10) -> dict:
+    """
+    Perform a deep research query using Perplexity API.
+
+    Args:
+      query: The research question or topic.
+      max_searches: Maximum number of web searches allowed.
+
+    Returns:
+      JSON response with:
+        - 'answer': synthesized summary,
+        - 'citations': list of source URLs,
+        - 'breakdown': token usage and cost details.
+    """
+    if not PERPLEXITY_API_KEY:
+        raise RuntimeError("PERPLEXITY_API_KEY environment variable not set")
+    
+    payload = {
+        "model": "sonar-pro",
+        "messages": [
+            {
+                "role": "user",
+                "content": query
+            }
+        ],
+        "max_tokens": 4000,
+        "temperature": 0.2
+    }
+    
+    try:
+        print(f"\n🔍 Sending query to Perplexity API...")
+        print(f"Query length: {len(query)} characters")
+        
+        resp = requests.post(PERPLEXITY_BASE_URL, json=payload, headers=PERPLEXITY_HEADERS, timeout=60)
+        resp.raise_for_status()
+        result = resp.json()
+        
+        print(f"✅ Perplexity API response received")
+        print(f"Response status: {resp.status_code}")
+        
+        # Extract the response content
+        if 'choices' in result and len(result['choices']) > 0:
+            content = result['choices'][0]['message']['content']
+            
+            # Print the full response from Perplexity
+            print(f"\n📋 PERPLEXITY RESPONSE:")
+            print("="*80)
+            print(content)
+            print("="*80)
+            
+            return {
+                "answer": content,
+                "citations": [],  # Perplexity doesn't provide citations in this format
+                "breakdown": result.get('usage', {})
+            }
+        else:
+            print(f"❌ No choices found in Perplexity response")
+            print(f"Full response: {result}")
+            return {"answer": "", "citations": [], "breakdown": {}}
+            
+    except Exception as e:
+        print(f"❌ Error in Perplexity API call: {e}")
+        return {"answer": "", "citations": [], "breakdown": {}}
 # print(f"API Key length: {len(GEMINI_API_KEY)}")
 
 def normalize_url(url):
@@ -221,12 +205,93 @@ def normalize_url(url):
         url = 'https://' + url
     return url
 
+def get_enhanced_headers():
+    """Get enhanced headers that mimic a real browser"""
+    user_agents = [
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/121.0'
+    ]
+    
+    return {
+        'User-Agent': random.choice(user_agents),
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1',
+        'Sec-Fetch-Dest': 'document',
+        'Sec-Fetch-Mode': 'navigate',
+        'Sec-Fetch-Site': 'none',
+        'Sec-Fetch-User': '?1',
+        'Cache-Control': 'max-age=0',
+        'DNT': '1',
+        'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+        'Sec-Ch-Ua-Mobile': '?0',
+        'Sec-Ch-Ua-Platform': '"Windows"'
+    }
+
+def make_robust_request(url, max_retries=3):
+    """Make a robust HTTP request with multiple fallback strategies"""
+    session = requests.Session()
+    
+    for attempt in range(max_retries):
+        try:
+            # Get fresh headers for each attempt
+            headers = get_enhanced_headers()
+            
+            # Add random delay
+            time.sleep(random.uniform(1, 3))
+            
+            if attempt == 0:
+                # First attempt: Standard request
+                response = session.get(url, headers=headers, timeout=15, allow_redirects=True)
+            elif attempt == 1:
+                # Second attempt: Add referer
+                headers['Referer'] = 'https://www.google.com/'
+                response = session.get(url, headers=headers, timeout=15, allow_redirects=True)
+            else:
+                # Third attempt: Different approach with more realistic headers
+                headers.update({
+                    'Referer': 'https://www.google.com/',
+                    'Origin': 'https://www.google.com',
+                    'Sec-Fetch-Site': 'cross-site'
+                })
+                response = session.get(url, headers=headers, timeout=15, allow_redirects=True)
+            
+            if response.status_code == 200:
+                print(f"✅ Successfully accessed {url} on attempt {attempt + 1}")
+                return response
+            elif response.status_code == 406:
+                print(f"⚠️  Attempt {attempt + 1}: Got 406 error, trying different approach...")
+                time.sleep(random.uniform(3, 7))  # Wait longer between attempts
+                continue
+            else:
+                print(f"⚠️  Attempt {attempt + 1}: Got status {response.status_code}, retrying...")
+                time.sleep(random.uniform(2, 5))
+                continue
+                
+        except requests.exceptions.RequestException as e:
+            print(f"❌ Attempt {attempt + 1} failed: {e}")
+            if attempt < max_retries - 1:
+                time.sleep(random.uniform(3, 7))
+            continue
+    
+    print(f"❌ All attempts failed for {url}")
+    return None
+
 def find_urls(url):
-    """Find all URLs present as hyperlinks in the website"""
+    """Find all URLs present as hyperlinks in the website with anti-bot protection"""
     try:
         normalized_url = normalize_url(url)
-        response = requests.get(normalized_url, timeout=10)
-        response.raise_for_status()
+        
+        # Use the robust request function
+        response = make_robust_request(normalized_url)
+        
+        if response is None:
+            return []
         
         soup = BeautifulSoup(response.content, 'html.parser')
         base_domain = urlparse(normalized_url).netloc
@@ -241,22 +306,28 @@ def find_urls(url):
             if parsed_url.netloc == base_domain:
                 urls.append(full_url)
         
+        print(f"Found {len(set(urls))} unique URLs from {normalized_url}")
         return list(set(urls))  # Remove duplicates
     except Exception as e:
         print(f"Error finding URLs from {url}: {e}")
         return []
 
 def browse_website(url):
-    """Extract text content from a website"""
+    """Extract text content from a website with anti-bot protection bypass"""
     try:
         normalized_url = normalize_url(url)
-        response = requests.get(normalized_url, timeout=10)
-        response.raise_for_status()
         
+        # Use the robust request function
+        response = make_robust_request(normalized_url)
+        
+        if response is None:
+            return ""
+        
+        # Parse HTML and extract text
         soup = BeautifulSoup(response.content, 'html.parser')
         
         # Remove script and style elements
-        for script in soup(["script", "style"]):
+        for script in soup(["script", "style", "nav", "footer", "header"]):
             script.decompose()
         
         # Get text content
@@ -267,9 +338,11 @@ def browse_website(url):
         chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
         text = ' '.join(chunk for chunk in chunks if chunk)
         
+        print(f"Successfully extracted {len(text)} characters from {normalized_url}")
         return text
+        
     except Exception as e:
-        print(f"Error browsing website {url}: {e}")
+        print(f"Error browsing {url}: {e}")
         return ""
 
 def course_recommendation(text_content):
@@ -655,118 +728,204 @@ def get_course_recommendation(url):
     return result
 
 def get_contact_info(url, recommended_course):
-    """Extract contact information from website using similar structure to get_course_recommendation"""
+    """
+    Extract contact information from a website using Perplexity API
+    """
     print(f"Starting contact extraction for: {url}")
     
     # Normalize the input URL
     base_url = normalize_url(url)
-    visited_urls = {base_url}
-    visited_urls_list = [base_url]  # Track order of visited URLs
-    extracted_contacts = {"contacts": []}
     
-    # Start with the base URL
-    urls_to_visit = [base_url]
-    
-    for step in range(1, 16):  # Max 15 steps
-        print(f"\n--- Contact Extraction Step {step} ---")
-        
-        if not urls_to_visit:
-            print("No more URLs to visit for contact extraction")
-            break
-        
-        # Get next URL to visit
-        current_url = urls_to_visit.pop(0)
-        
-        if current_url in visited_urls and step > 1:
-            continue
-            
-        print(f"Extracting contacts from: {current_url}")
-        
-        # Mark as visited
-        visited_urls.add(current_url)
-        visited_urls_list.append(current_url)
-        
-        # Extract text content from current URL only (not accumulated)
-        text_content = browse_website(current_url)
-        if text_content:
-            # Extract contacts from current URL content
-            try:
-                contacts = extract_contacts_from_text(text_content, recommended_course)
-            except Exception as e:
-                if "429" in str(e) or "Too Many Requests" in str(e):
-                    print(f"API rate limit hit, waiting 5 seconds...")
-                    import time
-                    time.sleep(5)
-                    contacts = extract_contacts_from_text(text_content, recommended_course)
-                else:
-                    print(f"Error extracting contacts: {e}")
-                    contacts = []
-            
-            if contacts and len(contacts) > 0:
-                # Add new contacts to extracted_contacts, avoiding duplicates
-                for contact in contacts:
-                    if len(extracted_contacts["contacts"]) < 10:  # Limit to 10 contacts max
-                        # Check for duplicates based on name and email
-                        is_duplicate = False
-                        for existing_contact in extracted_contacts["contacts"]:
-                            if (contact.get("name") == existing_contact.get("name") and 
-                                contact.get("email") == existing_contact.get("email")):
-                                is_duplicate = True
-                                break
-                        
-                        if not is_duplicate:
-                            extracted_contacts["contacts"].append(contact)
-                            print(f"Added contact: {contact.get('name', 'Unknown')} - {contact.get('title', 'No title')}")
-        
-
-        # Find new URLs from current page (recursive traversal)
-        all_new_urls = find_urls(current_url)
-        print(f"Found {len(all_new_urls)} total URLs for contact extraction")
-        
-        # Filter out non-HTML files and invalid URLs before LLM processing
-        filtered_urls = []
-        for url in all_new_urls:
-            # Skip PDFs, images, documents, and other non-HTML files
-            if not any(ext in url.lower() for ext in ['.pdf', '.jpg', '.jpeg', '.png', '.gif', '.xlsx', '.doc', '.docx', '.ppt', '.pptx']):
-                filtered_urls.append(url)
-        
-        print(f"After filtering non-HTML files: {len(filtered_urls)} URLs")
-        
-        # Use LLM to filter URLs that are most relevant for contact information
-        base_domain = urlparse(current_url).netloc
-        good_urls = detect_good_urls_for_contact_info_extraction(filtered_urls, base_domain, recommended_course)
-        
-        # Add filtered URLs to visit (check both visited_urls and urls_to_visit for duplicates)
-        for new_url in good_urls:
-            if new_url not in visited_urls and new_url not in urls_to_visit:
-                urls_to_visit.append(new_url)
-        
-        # Add small delay to avoid API rate limiting
-        import time
-        time.sleep(1)
-        
-        # Stop if we have enough contacts
-        if len(extracted_contacts["contacts"]) >= 10:
-            print("Reached maximum contact limit (10)")
-            break
-    
-    print(f"Contact extraction completed. Found {len(extracted_contacts['contacts'])} contacts")
-    
-    # Print all visited URLs
-    print(f"\nVisited URLs for contact extraction ({len(visited_urls_list)} total):")
-    print("-" * 60)
-    for i, visited_url in enumerate(visited_urls_list, 1):
-        print(f"{i}. {visited_url}")
-    
-    return extracted_contacts
-
-def extract_contacts_from_text(text_content, recommended_course):
-    """Extract contacts from text content using course-specific LLM prompts"""
-    # Choose the appropriate prompt based on recommended course
+    # Create course-specific query for Perplexity
     if "Programming" in recommended_course:
-        prompt = PROGRAMMING_CONTACT_EXTRACTION_PROMPT.format(website_content=text_content)
-    else:  # Sales Course or any other type
-        prompt = SALES_CONTACT_EXTRACTION_PROMPT.format(website_content=text_content)
+        query = f"""Act as a lead generation specialist. Your task is to thoroughly analyze the website provided below and extract contact information for key individuals who are potential buyers or key influencers for a programming course.
+
+Website to Analyze:
+{base_url}
+
+---
+
+**Scenario A: If the website is an Educational Institution (e.g., an engineering college)**
+
+**Target Roles:**
+* Head of Department (HOD) for Computer Science (CS), Information Technology (IT), or other software-related branches.
+* Training and Placement Officer (TPO) or Head of Career Services.
+* Dean of Academics or Dean of Student Affairs.
+* Faculty coordinators for technical student clubs (e.g., Coding Club, AI/ML Club).
+* Contact Pages
+
+**Search Locations on Website:** Look for pages titled "Departments," "Faculty," "Placement Cell," "Contact Us," "Administration," or "Student Clubs."
+
+---
+
+**Scenario B: If the website is a Tech Company**
+
+**Target Roles:**
+* Head of Learning & Development (L&D).
+* HR Manager or Director (specifically those involved in employee training and upskilling).
+* Chief Technology Officer (CTO) or VP of Engineering.
+* Head of University Relations or Campus Recruitment.
+* Contact Pages
+
+**Search Locations on Website:** Look for pages titled "About Us," "Leadership," "Careers," "HR," "L&D," or "University Programs."
+
+---
+
+**Required Information for each Contact:**
+For each relevant contact found, please extract as many of the following details as possible. If a field is not found, please write "Not Found".
+* Email
+* Phone
+* Name
+* Job Title
+
+**Output Format:**
+Present the findings as a simple text list. Separate each contact with a line of dashes (---). Do not use a table.
+
+Example:
+
+Email: jane.doe@example.edu
+Phone: Not Found
+Name: Jane Doe
+Job Title: Head of Department, Computer Science
+---
+Email: j.smith@example.edu
+Phone: +1-123-456-7890
+Name: John Smith
+Job Title: Training & Placement Officer"""
+    else:  # Sales Course
+        query = f"""Act as a lead generation specialist. Your task is to thoroughly analyze the website provided below and extract contact information for key individuals who are potential buyers or key influencers for a sales training course.
+
+Website to Analyze:
+{base_url}
+
+---
+
+**Scenario A: If the website is an Educational Institution (e.g., a business school)**
+
+**Target Roles:**
+* Head of Department (HOD) for Marketing, Sales, or Business Management.
+* Dean of the Business School or Director of MBA Programs.
+* Training and Placement Officer (TPO) or Head of Career Services.
+* Faculty coordinators or professors specializing in sales and marketing.
+* Director of Executive Education programs.
+* Contact Pages
+
+**Search Locations on Website:** Look for pages titled "Departments," "Faculty," "Placement Cell," "Executive Education," "Contact Us," or "Administration."
+
+---
+
+**Scenario B: If the website is a Sales and Marketing Company**
+
+**Target Roles:**
+* VP of Sales / Head of Sales / Chief Revenue Officer (CRO).
+* Sales Training Manager or Head of Sales Enablement.
+* Head of Learning & Development (L&D).
+* HR Manager responsible for sales team training.
+* Regional or National Sales Directors.
+* Contact Pages
+
+**Search Locations on Website:** Look for pages titled "About Us," "Leadership," "Our Team," "Sales," "Careers," or "Contact Us."
+
+---
+
+**Required Information for each Contact:**
+For each relevant contact found, please extract as many of the following details as possible. If a field is not found, please write "Not Found".
+* Email
+* Phone
+* Name
+* Job Title
+
+**Output Format:**
+Present the findings as a simple text list. Separate each contact with a line of dashes (---). Do not use a table.
+
+Example:
+
+Email: jane.doe@example.com
+Phone: Not Found
+Name: Jane Doe
+Job Title: VP of Sales
+---
+Email: j.smith@example.edu
+Phone: +1-123-456-7890
+Name: John Smith
+Job Title: Head of Career Services"""
+    
+    print(f"Querying Perplexity for contact information...")
+    print(f"Course type: {recommended_course}")
+    print(f"Target website: {base_url}")
+    
+    try:
+        # Use Perplexity to find contact information
+        result = perplexity_deep_research(query, max_searches=15)
+        
+        # Extract contacts from the answer using LLM
+        contacts = extract_contacts_from_perplexity_result(result, recommended_course)
+        
+        print(f"Contact extraction completed. Found {len(contacts)} contacts")
+        
+        # Print extracted contacts for debugging
+        if contacts:
+            print(f"\n📞 EXTRACTED CONTACTS:")
+            print("-" * 60)
+            for i, contact in enumerate(contacts, 1):
+                print(f"{i}. {contact.get('name', 'Unknown Name')}")
+                if contact.get('title'):
+                    print(f"   Title: {contact['title']}")
+                if contact.get('email'):
+                    print(f"   Email: {contact['email']}")
+                if contact.get('phone'):
+                    print(f"   Phone: {contact['phone']}")
+                print()
+        else:
+            print("No contacts extracted from Perplexity response")
+        
+        # Print citations for transparency
+        if result.get('citations'):
+            print(f"\nSources consulted ({len(result['citations'])} total):")
+            print("-" * 60)
+            for i, cite in enumerate(result['citations'][:15], 1):  # Show first 15 sources
+                title = cite.get('title', 'No title')
+                url = cite.get('url', 'No URL')
+                print(f"{i}. {title}")
+                print(f"   {url}")
+            if len(result['citations']) > 5:
+                print(f"   ... and {len(result['citations']) - 5} more sources")
+        
+        return {"contacts": contacts}
+        
+    except Exception as e:
+        print(f"Error in contact extraction: {e}")
+        return {"contacts": []}
+
+def extract_contacts_from_perplexity_result(perplexity_result, recommended_course):
+    """Extract all contacts from Perplexity API result using LLM"""
+    answer = perplexity_result.get('answer', '')
+    if not answer:
+        return []
+    
+    # Create a prompt to extract ALL contact information from the Perplexity answer
+    prompt = f"""
+    Extract ALL contact information from the following text.. 
+    Include any person mentioned with their name, title, email address, or phone number.
+
+    Text: {answer}
+
+    Return ONLY a valid JSON object with this structure:
+    {{
+        "contacts": [
+            {{
+                "name": "Full Name",
+                "title": "Job Title/Position", 
+                "email": "Email Address",
+                "phone": "Phone Number"
+            }}
+        ]
+    }}
+
+    Include ALL contacts found in the text, regardless of their role or department.
+    Only include contacts that have at least an email address or phone number.
+    If no contacts are found, return: {{"contacts": []}}
+    """
     
     try:
         payload = {
@@ -798,12 +957,19 @@ def extract_contacts_from_text(text_content, recommended_course):
                     content = content[start:end].strip()
             
             analysis = json.loads(content)
-            return analysis.get('contacts', [])
+            contacts = analysis.get('contacts', [])
+            
+            # Print found contacts
+            for contact in contacts:
+                print(f"Added contact: {contact.get('name', 'Unknown')} - {contact.get('title', 'No title')}")
+            
+            return contacts
             
     except Exception as e:
-        print(f"Error extracting contacts: {e}")
+        print(f"Error extracting contacts from Perplexity result: {e}")
     
     return []
+
 
 def run_agent(url):
     """Main agent function that gets course recommendation and contact info, then returns both"""
@@ -815,38 +981,129 @@ def run_agent(url):
         "contact_info": contact_info
     }
 
+def process_all_websites(csv_file_path, max_websites=None):
+    """Process all websites from CSV file and save results to individual JSON files"""
+    import pandas as pd
+    import json
+    import os
+    from urllib.parse import urlparse
+    
+    # Start timing for batch processing
+    batch_start_time = time.time()
+    
+    # Create outputs directory if it doesn't exist
+    os.makedirs('outputs', exist_ok=True)
+    
+    # Read CSV file
+    try:
+        df = pd.read_csv(csv_file_path)
+        print(f"Loaded {len(df)} websites from {csv_file_path}")
+    except Exception as e:
+        print(f"Error reading CSV file: {e}")
+        return
+    
+    # Limit websites if specified
+    if max_websites:
+        df = df.head(max_websites)
+        print(f"Processing first {len(df)} websites")
+    
+    # Process each website
+    successful = 0
+    failed = 0
+    
+    for index, row in df.iterrows():
+        institution_name = row['Institution Name']
+        website_url = row['Website']
+        
+        # Extract domain name for filename
+        try:
+            parsed_url = urlparse(website_url)
+            domain = parsed_url.netloc or parsed_url.path
+            domain = domain.replace('www.', '').replace('https://', '').replace('http://', '')
+            if domain.endswith('/'):
+                domain = domain[:-1]
+        except:
+            domain = f"website_{index}"
+        
+        print(f"\n{'='*60}")
+        print(f"Processing {index + 1}/{len(df)}: {institution_name}")
+        print(f"Website: {website_url}")
+        print(f"Domain: {domain}")
+        print(f"{'='*60}")
+        
+        try:
+            # Run the agent
+            result = run_agent(website_url)
+            
+            # Add metadata
+            result['metadata'] = {
+                'institution_name': institution_name,
+                'website_url': website_url,
+                'location': row.get('Location', 'N/A'),
+                'phone': row.get('Phone', 'N/A'),
+                'institution_type': row.get('Institution Type', 'N/A'),
+                'processed_at': pd.Timestamp.now().isoformat()
+            }
+            
+            # Save to JSON file
+            output_file = f"outputs/{domain}.json"
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(result, f, indent=2, ensure_ascii=False)
+            
+            print(f"✅ Successfully processed and saved to {output_file}")
+            successful += 1
+            
+            # Print summary
+            print(f"Course: {result['course_recommendation']['recommended_course']}")
+            print(f"Score: {result['course_recommendation']['recommendation_score']}")
+            print(f"Contacts: {len(result['contact_info']['contacts'])} found")
+            
+        except Exception as e:
+            print(f"❌ Error processing {institution_name}: {e}")
+            failed += 1
+            
+            # Save error info
+            error_result = {
+                'error': str(e),
+                'metadata': {
+                    'institution_name': institution_name,
+                    'website_url': website_url,
+                    'location': row.get('Location', 'N/A'),
+                    'phone': row.get('Phone', 'N/A'),
+                    'institution_type': row.get('Institution Type', 'N/A'),
+                    'processed_at': pd.Timestamp.now().isoformat(),
+                    'status': 'failed'
+                }
+            }
+            
+            output_file = f"outputs/{domain}_ERROR.json"
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(error_result, f, indent=2, ensure_ascii=False)
+    
+    # Calculate and print batch processing time
+    batch_end_time = time.time()
+    batch_execution_time = batch_end_time - batch_start_time
+    
+    print(f"\n{'='*60}")
+    print(f"BATCH PROCESSING COMPLETE")
+    print(f"{'='*60}")
+    print(f"Total websites processed: {len(df)}")
+    print(f"Successful: {successful}")
+    print(f"Failed: {failed}")
+    print(f"Success rate: {(successful/len(df)*100):.1f}%")
+    print(f"Results saved in 'outputs/' directory")
+    print(f"\nBATCH EXECUTION TIME: {batch_execution_time:.2f} seconds ({batch_execution_time/60:.2f} minutes)")
+    print(f"Average time per website: {batch_execution_time/len(df):.2f} seconds")
+    print("="*60)
+
 # Example usage
 if __name__ == "__main__":
-    # Example: Analyze a single website
-    url = "nitdelhi.ac.in"  # You can change this to any website URL
+    # Process all websites from CSV file
+    csv_file = "1_discovered_leads.csv"
     
-    print(f"Analyzing website: {url}")
-    print("="*50)
+    print("🚀 Starting batch processing of all websites...")
+    print(f"CSV file: {csv_file}")
+    print("="*60)
     
-    result = run_agent(url)
-    
-    # Print course recommendation
-    course_rec = result['course_recommendation']
-    print(f"\nFinal Recommendation:")
-    print(f"Course: {course_rec['recommended_course']}")
-    print(f"Reasoning: {course_rec['recommendation_reasoning']}")
-    print(f"Score: {course_rec['recommendation_score']}")
-    
-    # Print contact information
-    contact_info = result['contact_info']
-    print(f"\nExtracted Contacts ({len(contact_info['contacts'])} found):")
-    print("-" * 50)
-    
-    if contact_info['contacts']:
-        for i, contact in enumerate(contact_info['contacts'], 1):
-            print(f"{i}. {contact.get('name', 'Unknown Name')}")
-            if contact.get('title'):
-                print(f"   Title: {contact['title']}")
-            if contact.get('email'):
-                print(f"   Email: {contact['email']}")
-            if contact.get('phone'):
-                print(f"   Phone: {contact['phone']}")
-            print()
-    else:
-        print("No contacts found.")
-
+    # Process all websites (remove max_websites limit to process all)
+    process_all_websites(csv_file)

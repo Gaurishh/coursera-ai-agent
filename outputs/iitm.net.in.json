@@ -1,0 +1,133 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website heavily emphasizes 'Information Technology,' 'Computer Science Engineering,' 'Software Engineers,' 'Data Science,' 'Code Blitz,' and offers technical degrees like B.Tech (CSE) and BCA, indicating a strong focus on technical and programming skills.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dr. Sekar, G.",
+        "title": "Professor and Head of the Department, Chemistry",
+        "email": "gsekar@iitm.ac.in",
+        "phone": "+91-44-2257-4229"
+      },
+      {
+        "name": "Dr. Mahiuddin Baidya, MD",
+        "title": "Professor, Chemistry",
+        "email": "mbaidya@iitm.ac.in",
+        "phone": "+91-44-2257-4212"
+      },
+      {
+        "name": "Dr. Muraleedharan, K. M.",
+        "title": "Professor, Chemistry",
+        "email": "mkm@iitm.ac.in",
+        "phone": "+91-44-2257-4233"
+      },
+      {
+        "name": "Dr. Pradeep, T.",
+        "title": "Professor, Chemistry",
+        "email": "pradeep@iitm.ac.in",
+        "phone": "+91-44-2257-4208"
+      },
+      {
+        "name": "Dr. Rajakumar Balla",
+        "title": "Professor, Chemistry",
+        "email": "rajakumar@iitm.ac.in",
+        "phone": "+91-44-2257-4231"
+      },
+      {
+        "name": "Dr. Ramesh Laxminarayan Gardas",
+        "title": "Professor, Chemistry",
+        "email": "gardas@iitm.ac.in",
+        "phone": "+91-44-2257-4248"
+      },
+      {
+        "name": null,
+        "title": "Assistant Professor, Chemistry",
+        "email": "ygshelke@iitm.ac.in",
+        "phone": "+91-44-2257-4217"
+      },
+      {
+        "name": "Joe Thomas Karackattu",
+        "title": "Associate Professor, Humanities and Social Sciences",
+        "email": "joe@iitm.ac.in",
+        "phone": "+91 44 2257 4541"
+      },
+      {
+        "name": "Sonika Gupta",
+        "title": "Professor, Humanities and Social Sciences",
+        "email": "sonika@iitm.ac.in",
+        "phone": "+91 44 2257 4541"
+      },
+      {
+        "name": null,
+        "title": "Professor, Humanities and Social Sciences",
+        "email": "sureshbabum@iitm.ac.in",
+        "phone": "+91 44 2257 4527"
+      },
+      {
+        "name": null,
+        "title": "Professor, Humanities and Social Sciences",
+        "email": "dash@iitm.ac.in",
+        "phone": "+91 44 2257 4500"
+      },
+      {
+        "name": null,
+        "title": "Faculty, Chinese Language",
+        "email": "hasiao@iitm.ac.in",
+        "phone": "+91 44 2257 4510"
+      },
+      {
+        "name": null,
+        "title": "Faculty, Korean Language",
+        "email": "shim@iitm.ac.in",
+        "phone": "+91 44 2257 4547"
+      },
+      {
+        "name": "Anil Meena",
+        "title": "Faculty, Mechanical Engineering",
+        "email": "anilm@iitm.ac.in",
+        "phone": "4726"
+      },
+      {
+        "name": "Anil Prabhakar",
+        "title": "Faculty, Electrical Engineering",
+        "email": "anilpr@iitm.ac.in",
+        "phone": "4425"
+      },
+      {
+        "name": "Anindita Sahoo",
+        "title": "Faculty, Humanities and Social Sciences",
+        "email": "anindita@iitm.ac.in",
+        "phone": "4534"
+      },
+      {
+        "name": "Aniruddhan S",
+        "title": "Faculty, Electrical Engineering",
+        "email": "ani@iitm.ac.in",
+        "phone": "4468"
+      },
+      {
+        "name": "Anjan Chakravorty",
+        "title": "Faculty, Electrical Engineering",
+        "email": "anjan@iitm.ac.in",
+        "phone": "4460"
+      },
+      {
+        "name": "Anju Chadha",
+        "title": "Institute Chair Professor, Department Of Biotechnology",
+        "email": "anjuc@iitm.ac.in",
+        "phone": "4106"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Indraprastha Institute Of Technology And Management(IITM Delhi)",
+    "website_url": "http://iitm.net.in/",
+    "location": "Delhi",
+    "phone": "011 2852 0890",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T03:59:03.593287"
+  }
+}

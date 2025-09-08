@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly identifies as a 'Marketing Agency,' which focuses on business growth, customer acquisition, and selling services, making a Sales Course highly relevant.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "7D Design Marketing Agency",
+    "website_url": "https://7ddesign.in/",
+    "location": "Bangalore",
+    "phone": "096329 97879",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:57:16.948205"
+  }
+}

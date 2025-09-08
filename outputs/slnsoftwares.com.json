@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "SLN Softwares is a service-based business providing software development, web design, and digital marketing; while they have strong technical skills (programming), their primary need for growth as a service company is to acquire more clients, which a Sales Course would directly address.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "SLN Softwares - Software Development Company",
+    "website_url": "https://www.slnsoftwares.com/",
+    "location": "Delhi",
+    "phone": "093158 98126",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:27:02.308385"
+  }
+}

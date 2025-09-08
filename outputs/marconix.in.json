@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is exclusively focused on B2B and B2C sales outsourcing services, trade marketing, account-based sales, retail solutions, and sales staffing, with no mention of programming or technical development.",
+    "recommendation_score": 100
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Marconix Sales and Marketing Pvt. Ltd.",
+    "website_url": "http://www.marconix.in/",
+    "location": "Bangalore",
+    "phone": "093413 72105",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:41:54.296647"
+  }
+}

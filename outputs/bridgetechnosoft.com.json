@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "No website content was provided, leading to the default recommendation for a Programming Course.",
+    "recommendation_score": 30
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "General Contact (Likely reaches administration or management)",
+        "email": "info@bridgetechnosoft.com",
+        "phone": null
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "BridgeTechnoSoft - Best PHP Classes | Web Design & Development Course in Delhi",
+    "website_url": "https://www.bridgetechnosoft.com/",
+    "location": "Delhi",
+    "phone": "097117 71854",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:08:23.868993"
+  }
+}

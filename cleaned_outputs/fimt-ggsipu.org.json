@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website operates as a course-selling company (an educational institution) with a strong emphasis on attracting and enrolling students for its diverse programs, making improved student acquisition (a sales function) a direct benefit.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Praveen",
+        "title": "Academic Head of the Institution",
+        "email": "praveen@fimt-ggsipu.org",
+        "phone": ""
+      },
+      {
+        "name": "Anil Kumar Sharma",
+        "title": "Executive Member, Governing Body",
+        "email": "anilsharma@fimt-ggsipu.org",
+        "phone": ""
+      },
+      {
+        "name": "Mahesh Kumar Sharma",
+        "title": "Executive Member, Governing Body",
+        "email": "maheshsharma@fimt-ggsipu.org",
+        "phone": ""
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Fairfield Institute of Management and Technology | FIMT COLLEGE",
+    "website_url": "https://www.fimt-ggsipu.org/",
+    "location": "Delhi",
+    "phone": "093123 52942",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:05:15.520804"
+  }
+}

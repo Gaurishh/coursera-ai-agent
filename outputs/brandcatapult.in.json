@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Brand Catapult is a branding and marketing agency that offers services like GTM strategy, launch campaigns, performance marketing, and lead generation systems, all aimed at driving business growth and client acquisition.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Brand Catapult | Best Branding & Marketing agency in Delhi",
+    "website_url": "https://www.brandcatapult.in/?utm_source=organic&utm_medium=gmblisting&utm_campaign=gmblisting",
+    "location": "Delhi",
+    "phone": "099995 32333",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:32:27.295215"
+  }
+}

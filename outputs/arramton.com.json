@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The company is a service business offering both software development and digital marketing, indicating a need to acquire and convert clients for growth; a sales course would directly enhance their ability to secure more projects.",
+    "recommendation_score": 85
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Arramton Infotech Pvt Ltd, Software Development, Web Design, Digital Marketing",
+    "website_url": "https://www.arramton.com/",
+    "location": "Delhi",
+    "phone": "098211 99979",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:48:36.904442"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website explicitly describes itself as a 'Software & Web solutions' provider and 'tech firm,' offering extensive services in Web Design, Mobile App Development, Software Development, and detailing numerous programming tools and languages (ASP.NET, MVC, SQL Server, JavaScript, PHP, VB.Net, etc.) used in their projects, indicating their core business is technical development.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "PCC Softech Pvt. Ltd.",
+    "website_url": "http://www.pccsoftech.com/",
+    "location": "Delhi",
+    "phone": "011 4706 4605",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:00:33.966456"
+  }
+}

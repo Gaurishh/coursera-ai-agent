@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "As a service business offering custom software development, the owner would benefit from enhancing strategies to acquire and retain clients for their core technical offerings.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "CognitiveClouds Software Pvt. Ltd.",
+    "website_url": "https://www.cognitiveclouds.app/",
+    "location": "Bangalore",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:21:02.108671"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly identifies as a 'Digital Marketing Agency' with services like SEO, social media marketing, branding, and content marketing, all directly aimed at boosting client sales and customer acquisition.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "Not Found",
+        "email": "info@inbounderz.com",
+        "phone": "+91 8553305600"
+      },
+      {
+        "name": "Not Found",
+        "title": "Not Found",
+        "email": "info@inbounderz.com",
+        "phone": "+91 8105758700"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Inbounderz",
+    "website_url": "https://www.inbounderz.com/",
+    "location": "Bangalore",
+    "phone": "081470 02753",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:24:16.192730"
+  }
+}

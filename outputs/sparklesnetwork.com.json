@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is entirely focused on advertising, marketing solutions, digital marketing, SEO, SMM, and client acquisition, all of which align with business and sales strategies.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Sparkles Network",
+    "website_url": "http://www.sparklesnetwork.com/",
+    "location": "Bangalore",
+    "phone": "096639 84711",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:51:09.720996"
+  }
+}

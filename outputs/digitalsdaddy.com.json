@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website heavily emphasizes digital marketing, ROI, customer acquisition, conversion, business growth, and branding for their clients, making a Sales Course highly relevant to their core offerings and their own business development.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": null,
+        "email": "info@digitalsdaddy.com",
+        "phone": "+91-987-133-9998"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Digitals Daddy: Best Digital Marketing Agency India",
+    "website_url": "https://www.digitalsdaddy.com/",
+    "location": "Delhi",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:31:41.481277"
+  }
+}

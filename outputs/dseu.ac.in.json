@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The URL's '.ac.in' domain indicates an educational institution, which aligns with offering programming courses to students.",
+    "recommendation_score": 40
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dr. Ranbir Singh Sharma",
+        "title": "Campus Director",
+        "email": "director-ABIT@dseu.ac.in",
+        "phone": "01127426263"
+      },
+      {
+        "name": "",
+        "title": "General Query",
+        "email": "",
+        "phone": "18003093209"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Aryabhatt Institute Of Technology",
+    "website_url": "https://dseu.ac.in/ashok-vihar/",
+    "location": "Delhi",
+    "phone": "011 2742 6263",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T03:57:21.237482"
+  }
+}

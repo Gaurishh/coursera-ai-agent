@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content clearly indicates an educational institution focused on technology and engineering (CSE, IT, ECE, EEE departments), mentions a 'Techfest,' 'Smart Delhi Ideathon,' 'IEEE,' and 'Smart India Hackathon' winners, all of which are strongly related to programming and technical skills.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Prof. (Dr.) Archana Balyan",
+        "title": "Head of the Institution (Director)",
+        "email": "director@msit.in",
+        "phone": "011-45037193"
+      },
+      {
+        "name": "",
+        "title": "General College Contact (potentially redirected to administration or relevant department)",
+        "email": "admission@msit.in",
+        "phone": "011-45037193 (B.Tech. only)"
+      },
+      {
+        "name": "",
+        "title": "General College Contact (for non-engineering programs)",
+        "email": "",
+        "phone": "011-45656183 (BBA, BCA, B. Com, B.Ed, MBA, LLB)"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Maharaja Surajmal Institute Of Technology",
+    "website_url": "http://www.msit.in/",
+    "location": "Delhi",
+    "phone": "011 4503 7193",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T03:54:02.973994"
+  }
+}

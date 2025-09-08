@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content overwhelmingly describes a 'Digital Marketing Agency' focused on boosting digital presence, generating leads, and maximizing ROAS for clients, indicating a strong business and sales orientation.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "General Contact (from agency directory)",
+        "email": "[email protected]",
+        "phone": "Not Found"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "RepIndia: Best Digital Marketing Agency in Delhi",
+    "website_url": "https://www.repindia.com/agency/digital-marketing-agency-in-delhi/",
+    "location": "Delhi",
+    "phone": "098183 50700",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:22:01.176151"
+  }
+}

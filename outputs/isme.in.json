@@ -1,0 +1,61 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The institution's core business is selling educational programs (a service business), and a Sales Course would directly enhance its ability to attract and enroll students across its diverse management and computer application offerings.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "Placement Department Head",
+        "email": "headplacements@isme.in",
+        "phone": "9986860198"
+      },
+      {
+        "name": "",
+        "title": "General Information Contact",
+        "email": "info@isme.in",
+        "phone": "8880612345"
+      },
+      {
+        "name": "",
+        "title": "General Contact",
+        "email": "contactus@isme.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "Admissions Office",
+        "email": "admissions@isme.in",
+        "phone": ""
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "8433910206"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "7718818210"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "7304464621"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "International School of Management Excellence",
+    "website_url": "http://www.isme.in/",
+    "location": "Bangalore",
+    "phone": "088806 12345",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:22:22.199761"
+  }
+}

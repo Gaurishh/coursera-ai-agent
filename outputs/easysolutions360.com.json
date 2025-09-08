@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website describes an IT solutions company specializing in web development, mobile app development, e-commerce, and DevOps, explicitly mentioning programming languages and platforms like HTML/CSS, JavaScript, WordPress, Shopify, Flutter, React Native, PHP Laravel, and React JS.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Easy Solutions 360 - Website, App & Software Development Company in Delhi, India",
+    "website_url": "https://easysolutions360.com/",
+    "location": "Delhi",
+    "phone": "083688 79567",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:06:53.115375"
+  }
+}

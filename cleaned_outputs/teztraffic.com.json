@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content consistently highlights digital marketing, SEO, PPC, social media marketing, and explicitly mentions 'Sales, Sales, Sales' and 'online sales leads' as primary goals for their clients, indicating a strong focus on business growth, customer acquisition, and revenue generation.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "+91-9311710516"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Tez Traffic: Creative Digital Marketing & Branding Solutions",
+    "website_url": "https://teztraffic.com/",
+    "location": "Delhi",
+    "phone": "093117 10516",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:12:24.805941"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for a service business providing extensive technical and programming solutions; for such a business with established technical capabilities, a Sales Course would significantly benefit client acquisition and overall business growth.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "(408) 622-0434"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Cumulations Technologies",
+    "website_url": "https://www.cumulations.com/",
+    "location": "Bangalore",
+    "phone": "098458 25982",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:33:28.734987"
+  }
+}

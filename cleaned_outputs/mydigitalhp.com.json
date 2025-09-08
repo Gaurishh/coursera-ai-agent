@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The content mentions 'hosting provider,' which is a technical term related to web infrastructure, aligning with technical skills.",
+    "recommendation_score": 35
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "General Company Contact",
+        "email": null,
+        "phone": "+91 7007823374"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "MyDigitalHp IT Solutions - Best Software & Website Development Company in Noida, Delhi NCR",
+    "website_url": "https://mydigitalhp.com/",
+    "location": "Delhi",
+    "phone": "070078 23374",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:05:00.527049"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly identifies as a 'Digital Marketing Company' offering services like Lead Generation, SEO, Google Ads, Facebook Ads, and Social Media Marketing, all of which are core sales and marketing functions aimed at customer acquisition and business growth.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Mohammed Arif",
+        "title": "Contact Person",
+        "email": "",
+        "phone": "9916672926"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "MIND OMEGA",
+    "website_url": "https://www.mindomega.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-organic-link",
+    "location": "Bangalore",
+    "phone": "099166 72926",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:28:14.621022"
+  }
+}

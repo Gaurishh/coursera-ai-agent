@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The company, 4TechBugs, explicitly operates as a service business providing software and web development; for service businesses, enhancing sales strategies and client acquisition is critical for growth and market expansion, complementing their strong technical foundation.",
+    "recommendation_score": 88
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "4TechBugs Technologies Pvt. Ltd - Software Development Company, Web Designing services in Delhi Ncr",
+    "website_url": "http://www.4techbugs.com/",
+    "location": "Delhi",
+    "phone": "099997 98701",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:49:57.098362"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website, being for an educational institution, heavily emphasizes 'Admission opens' and student enrollment, indicating a primary business need for effective student acquisition which aligns with sales and marketing strategies.",
+    "recommendation_score": 85
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dr. Majed A.A. Sabha",
+        "title": "Chairman",
+        "email": "principal@brindavancollege.com",
+        "phone": "+91-80-25479137, +91-80-25479139"
+      },
+      {
+        "name": "",
+        "title": "General Contact (useful for reaching administration or requesting faculty contacts)",
+        "email": "info@brindavancollege.com",
+        "phone": "+91-80-25479137, +91-80-25479139"
+      },
+      {
+        "name": "",
+        "title": "Training and Placement Officer (Placement Cell)",
+        "email": "brindavanplacement@gmail.com",
+        "phone": "+91-98450 25035"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Brindavan Group of Institutions",
+    "website_url": "http://www.brindavancollege.com/",
+    "location": "Bangalore",
+    "phone": "096064 87201",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:06:20.359160"
+  }
+}

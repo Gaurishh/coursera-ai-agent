@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is entirely focused on digital marketing, growth hacking, paid media, lead generation, customer acquisition, sales funnels, and conversion rate optimization for businesses like eCommerce and SaaS, with no mention of programming or software development.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General Contact (Company-wide)",
+        "email": "contact@marketingmasala.com",
+        "phone": "+91-8377968232"
+      },
+      {
+        "name": "",
+        "title": "General Contact (Agency Listing)",
+        "email": "",
+        "phone": "+91-(95) 822-2897"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Marketing Masala | Growth Marketing Agency",
+    "website_url": "https://www.marketingmasala.com/",
+    "location": "Delhi",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:22:58.930136"
+  }
+}

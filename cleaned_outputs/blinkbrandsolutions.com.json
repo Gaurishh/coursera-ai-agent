@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website clearly states its core services revolve around 'Sales, Marketing, Consulting, Digital, and PR & Communication solutions' for the tourism and hospitality industry, and its team includes 'Sales & Marketing Experts' and 'sales leaders'. There is no mention of programming or software development.",
+    "recommendation_score": 100
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Noel Saxena",
+        "title": "Chief Executive Officer & Co-Founder",
+        "email": "noel.saxena@blinkbrandsolutions.com",
+        "phone": "+91 1144783866"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "BlinkBrand Solutions Private Limited",
+    "website_url": "https://www.blinkbrandsolutions.com/",
+    "location": "Delhi",
+    "phone": "011 4478 3866",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:34:42.499887"
+  }
+}

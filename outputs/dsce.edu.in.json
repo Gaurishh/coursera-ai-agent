@@ -1,0 +1,67 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website belongs to Dayananda Sagar College of Engineering, which offers an extensive list of undergraduate and postgraduate programs heavily focused on engineering, computer science, artificial intelligence, data science, robotics, and other highly technical fields, clearly indicating a primary need for programming and technical skill enhancement.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dr. B G Prasad",
+        "title": "Principal, DSCE",
+        "email": "ppl-dsce@dayanandasagar.edu",
+        "phone": "080-42161753 / 26662226 / 2753"
+      },
+      {
+        "name": "Dr. Dattatreya P Mankame",
+        "title": "Head of Department, Computer Science and Business Systems",
+        "email": "",
+        "phone": "080-42161753 / 2753"
+      },
+      {
+        "name": "Dr. Mohammed Tajuddin",
+        "title": "Head of Department, Computer Science (Cyber Security)",
+        "email": "",
+        "phone": "080-42161753 / 2753"
+      },
+      {
+        "name": "Dr. Rashmi S",
+        "title": "Head of Department, Computer Science (Data Science)",
+        "email": "",
+        "phone": "080-42161753 / 2753"
+      },
+      {
+        "name": "Dr. Suma V",
+        "title": "Vice Principal & Head of Department, Computer Science and Design",
+        "email": "",
+        "phone": "080-42161753 / 2753"
+      },
+      {
+        "name": "Dr. D.R. Ramesh Babu",
+        "title": "Head of Department, Computer Science & Engineering",
+        "email": "",
+        "phone": "080-42161726 / 2726"
+      },
+      {
+        "name": "Not Found",
+        "title": "General Admissions Contact",
+        "email": "",
+        "phone": "9741882324 / 9741889394 / 9741214448 / 9916075170"
+      },
+      {
+        "name": "Not Found",
+        "title": "General Enquiry Contact",
+        "email": "",
+        "phone": "+918792909121 / +919972780251 / +918792909113 / +919972560251"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Dayananda Sagar College of Engineering",
+    "website_url": "http://www.dsce.edu.in/",
+    "location": "Bangalore",
+    "phone": "080 4216 1751",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:00:45.954180"
+  }
+}

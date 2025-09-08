@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Micro Mind is an established Software & IT Development Company with strong technical offerings, but also provides extensive digital marketing services focused on 'traffic growth & better sales' for clients, and as a service-based business, would benefit from enhancing their sales capabilities to acquire more clients globally for both their technical and marketing services.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General Contact / Inquiries",
+        "email": "info@micromind.in",
+        "phone": "+91-981-050-8844"
+      },
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "+91-981-050-8844"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Digital Marketing Agency, Software Development Company, SEO Services Company in Delhi",
+    "website_url": "https://www.micromind.in/",
+    "location": "Delhi",
+    "phone": "098183 53030",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:53:44.252178"
+  }
+}

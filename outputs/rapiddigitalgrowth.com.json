@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is entirely focused on digital marketing services, lead generation, brand building, increasing online presence, and ultimately driving sales and revenue for their clients through various marketing strategies.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Rapid Digital Growth - Best Digital Marketing Agency in Delhi",
+    "website_url": "https://www.rapiddigitalgrowth.com/",
+    "location": "Delhi",
+    "phone": "083681 23312",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:34:08.223885"
+  }
+}

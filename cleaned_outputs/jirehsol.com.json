@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content overwhelmingly highlights Jireh as a software development company offering a wide array of highly technical services including AI, Blockchain, Cloud computing, and various application developments, making enhanced programming skills crucial for their core business and competitiveness.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "General Contact",
+        "email": "info@jirehsol.com",
+        "phone": null
+      },
+      {
+        "name": null,
+        "title": "General Contact",
+        "email": null,
+        "phone": "+91-80-4093-5093"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Jireh Software Solutions - Best Software Development in Bangalore | Mobile App Development|Website App in Bangalore|React.JS",
+    "website_url": "https://jirehsol.com/",
+    "location": "Bangalore",
+    "phone": "080 4120 0197",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:32:14.185843"
+  }
+}

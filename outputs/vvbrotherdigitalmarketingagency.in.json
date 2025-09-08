@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "No website content was provided, so the recommendation defaults to 'Programming Course' as per the instructions.",
+    "recommendation_score": 25
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "V V Brother Group| Best Digital Marketing Agency in Delhi | Social Media Marketing Services",
+    "website_url": "https://vvbrotherdigitalmarketingagency.in/",
+    "location": "Delhi",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:30:17.666769"
+  }
+}

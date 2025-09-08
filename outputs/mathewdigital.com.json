@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly functions as a 'Digital Marketing Agency' focused on 'ROI-Driven Performance Marketing' and creating 'online sales generating machines' for clients, with services like lead generation, SEO, PPC, and conversion optimization, all directly contributing to business sales.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Mathew Digital - Digital Marketing Agency In Bangalore | SEO & Web Design Company",
+    "website_url": "https://mathewdigital.com/",
+    "location": "Bangalore",
+    "phone": "090198 88640",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:50:36.641630"
+  }
+}

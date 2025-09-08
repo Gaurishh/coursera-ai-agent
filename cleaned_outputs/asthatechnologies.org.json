@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Astha Technologies is primarily a service business offering mobile app development and other marketing services; improving sales and client acquisition skills would significantly enhance their business growth for both their core technical offerings and listed marketing services.",
+    "recommendation_score": 85
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "Not Found",
+        "email": "info@asthatechnology.com",
+        "phone": "+91 97276 27842"
+      },
+      {
+        "name": "Not Found",
+        "title": "HR Manager",
+        "email": "Not Found",
+        "phone": "+91 81538 27842"
+      },
+      {
+        "name": "Not Found",
+        "title": "Sales Department",
+        "email": "Not Found",
+        "phone": "+91 97276 27842"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Astha Technologies - Mobile App Development Company in Delhi NCR | iOS, Android App Development",
+    "website_url": "https://asthatechnologies.org/mobile-app-development-company-delhi/",
+    "location": "Delhi",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:40:25.144420"
+  }
+}

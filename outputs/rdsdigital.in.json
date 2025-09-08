@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for a digital marketing agency offering services like branding, paid marketing, content marketing, SEO, and digital strategy, all focused on increasing client visibility, lead generation, and business growth, which are core sales and marketing objectives.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "RDS Digital",
+    "website_url": "https://rdsdigital.in/",
+    "location": "Bangalore",
+    "phone": "063637 38608",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:21:46.531555"
+  }
+}

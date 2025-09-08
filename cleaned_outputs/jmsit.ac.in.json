@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website heavily emphasizes technical education, offering numerous B.Tech, BCA, MCA, and B.Sc Computer Science programs, indicating a strong focus on technology and programming-related fields.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General Institutional Contact (Jaipur Institute of Technology)",
+        "email": "info@jitjaipur.com",
+        "phone": "(0141) 2173762, 8003722400, 8003988000"
+      },
+      {
+        "name": "",
+        "title": "General Institutional Contact (Jaipur Institute of Technology)",
+        "email": "",
+        "phone": "+91-141-2173762, +91-8003722400"
+      },
+      {
+        "name": "",
+        "title": "Admissions Office (JIMS Jaipur, Management Institution)",
+        "email": "admissions@jimsjaipur.org",
+        "phone": "+91-9829861716, 0141-3020650"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "JMS Institute of Technology, Ghaziabad",
+    "website_url": "http://www.jmsit.ac.in/",
+    "location": "Delhi",
+    "phone": "093112 18317",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:08:23.019278"
+  }
+}

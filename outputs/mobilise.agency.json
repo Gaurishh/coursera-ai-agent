@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly identifies as a 'B2B Growth Marketing Agency & Sales Enablement' firm, with services, testimonials, and team expertise heavily focused on marketing, sales, customer acquisition, lead generation, and business growth, rather than core software development or programming.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "MOBILISE 3302",
+    "website_url": "https://mobilise.agency/",
+    "location": "Bangalore",
+    "phone": "073497 49404",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:52:32.202955"
+  }
+}

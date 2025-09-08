@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website clearly operates as a digital marketing agency, focusing on 'Digital Marketing Solutions for Growth,' 'elevating business online,' and 'achieving online potential.' While 'IT services' are mentioned, they are framed within the context of supporting marketing goals rather than core software development. The overall content emphasizes marketing, business goals, and client acquisition, indicating a greater need for sales skills to secure more clients for their services.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Brain Brew Marketing - Digital Marketing Service Provider",
+    "website_url": "https://brainbrewmarketing.com/",
+    "location": "Delhi",
+    "phone": "083840 90725",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:44:53.117567"
+  }
+}

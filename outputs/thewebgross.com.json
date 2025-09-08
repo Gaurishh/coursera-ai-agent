@@ -1,0 +1,37 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website identifies as a 'Digital Marketing Company' and 'MARKETING AGENCY' that offers various services, including technical ones, but its primary focus and calls to action like 'Ready to grow your business? GET FREE PROPOSAL' strongly indicate a need to enhance client acquisition and sales strategies for its service-based business model.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "Sales Query Contact",
+        "email": "info@thewebgross.com",
+        "phone": "+91-7827291387"
+      },
+      {
+        "name": null,
+        "title": "HR Manager (Job Query Contact)",
+        "email": "hr@thewebgross.com",
+        "phone": null
+      },
+      {
+        "name": null,
+        "title": "Headquarters Contact",
+        "email": null,
+        "phone": "+91-9999497819"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Webgross - Best Digital Marketing Agency in South Delhi",
+    "website_url": "https://thewebgross.com/",
+    "location": "Delhi",
+    "phone": "099994 97819",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:28:56.074747"
+  }
+}

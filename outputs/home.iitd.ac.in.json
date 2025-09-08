@@ -1,0 +1,97 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "No website content was provided, so the recommendation defaults to 'Programming Course' as per the instructions.",
+    "recommendation_score": 25
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Anil Sharma",
+        "title": "Consultant, Computer Science and Engineering",
+        "email": "anilsharma@cse.iitd.ac.in",
+        "phone": "6048"
+      },
+      {
+        "name": "Hemant Prasad",
+        "title": "Project Assistant, Computer Science and Engineering",
+        "email": "office@cse.iitd.ac.in",
+        "phone": "1291/6017"
+      },
+      {
+        "name": "Manju Rani",
+        "title": "Technical Assistant, Computer Science and Engineering",
+        "email": "ranimanju@iitd.ac.in",
+        "phone": "7303"
+      },
+      {
+        "name": "Monika Rajan",
+        "title": "Technical Assistant, Computer Science and Engineering",
+        "email": "mrajan@iitd.ac.in",
+        "phone": "6061"
+      },
+      {
+        "name": "Rekha Rathee",
+        "title": "Administrative Staff, Computer Science and Engineering",
+        "email": "rekharathee@cse.iitd.ac.in",
+        "phone": "011-26591291"
+      },
+      {
+        "name": "Som Dutt Sharma",
+        "title": "Consultant, Computer Science and Engineering",
+        "email": "27902a@cse.iitd.ac.in",
+        "phone": "6037"
+      },
+      {
+        "name": "Subhash Chand",
+        "title": "Consultant, Computer Science and Engineering",
+        "email": "a26350@cse.iitd.ac.in",
+        "phone": "6008"
+      },
+      {
+        "name": "Vandana Ahluwalia",
+        "title": "Technical Officer, Computer Science and Engineering",
+        "email": "a26111@cse.iitd.ac.in",
+        "phone": "6049"
+      },
+      {
+        "name": "Dr. Priyanka Golia",
+        "title": "Faculty, Department of Computer Science & Engineering, Cyber Security",
+        "email": "pgolia@cse.iitd.ac.in",
+        "phone": "+91-11-2659-1288"
+      },
+      {
+        "name": "Prof. Huzur Saran",
+        "title": "Coordinator, Department of Computer Science & Engineering, Cyber Security",
+        "email": "",
+        "phone": "+91 (11) 2659-1291"
+      },
+      {
+        "name": "Prof. Ranjan Bose",
+        "title": "Faculty, Department of Electrical Engineering",
+        "email": "rbose@ee.iitd.ac.in",
+        "phone": "+91 (11) 2659-1048"
+      },
+      {
+        "name": "Prof. Sanjiva Prasad",
+        "title": "Faculty, Department of Computer Science & Engineering, Cyber Security",
+        "email": "",
+        "phone": "+91 (11) 2659 1294"
+      },
+      {
+        "name": "Prof. Smruti Ranjan Sarangi",
+        "title": "Faculty, Department of Computer Science & Engineering",
+        "email": "",
+        "phone": "+91-9650622884"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Indian Institute Of Technology Delhi (IIT Delhi)",
+    "website_url": "https://home.iitd.ac.in/",
+    "location": "Delhi",
+    "phone": "011 2659 7135",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T03:51:56.814324"
+  }
+}

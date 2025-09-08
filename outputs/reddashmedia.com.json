@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content is entirely focused on digital marketing, social media, SEO, branding, and advertising, with explicit goals like generating sales, leads, conversions, and increasing brand presence for their clients.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "(732) 993-6753"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Red Dash Media - Creative Social Media & Digital Marketing Agency",
+    "website_url": "https://www.reddashmedia.com/",
+    "location": "Delhi",
+    "phone": "098107 46506",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:13:22.806745"
+  }
+}

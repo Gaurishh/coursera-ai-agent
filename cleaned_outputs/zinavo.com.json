@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Zinavo is a highly established web development company with extensive programming expertise and a large portfolio. While they deliver technical services, their website emphasizes helping clients with business growth, lead generation, sales, and digital marketing, indicating that improving their own sales and client acquisition strategies would be more beneficial for their continued business expansion.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "Not Found",
+        "email": "info@zinavo.com",
+        "phone": "91-8041644089"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Zinavo Private Limited",
+    "website_url": "https://www.zinavo.com/",
+    "location": "Bangalore",
+    "phone": "080 3569 4395",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:41:16.645834"
+  }
+}

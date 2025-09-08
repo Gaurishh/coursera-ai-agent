@@ -1,0 +1,31 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content highlights an 'Electrical Engg. Deptt.', 'Research Projects', 'Innovation & Entrepreneurship', and 'Virtual Labs', indicating a strong focus on technical, engineering, and research fields where programming skills are highly beneficial.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Dr. Qamar Irshad",
+        "title": "Professor & Head of the Department of Architecture",
+        "email": "qirshad@jmi.ac.in",
+        "phone": "9990409231"
+      },
+      {
+        "name": "Prof. Hina Zia",
+        "title": "Professor Incharge, Department of Architecture",
+        "email": "hzia@jmi.ac.in",
+        "phone": "9958695094"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Faculty of Engineering and Technology, Jamia Millia Islamia New Delhi",
+    "website_url": "http://www.jmi.ac.in/",
+    "location": "Delhi",
+    "phone": "011 2698 5831",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T03:49:29.994013"
+  }
+}

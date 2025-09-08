@@ -1,0 +1,61 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for a 'Business Management College' (FORE School of Management) offering Post Graduate Diplomas in Management (PGDM) with specializations like International Business, Financial Management, and Big Data Analytics for Business, along with executive education and corporate training, all of which benefit from strong sales and marketing capabilities.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General Contact / Administration",
+        "email": "info@foresociety.org",
+        "phone": "+91-11-41242424"
+      },
+      {
+        "name": "",
+        "title": "Placement Cell / Training and Placement Officer (TPO)",
+        "email": "placements@fsm.ac.in",
+        "phone": "+91-11-41242424"
+      },
+      {
+        "name": "",
+        "title": "FORE Alumni Network Office (Potential influencer for executive education and alumni outreach)",
+        "email": "fanfsm@fsm.ac.in",
+        "phone": "+91-11-41242409"
+      },
+      {
+        "name": "",
+        "title": "Research & Publication Office (Potential influencer for faculty and research coordination)",
+        "email": "publications@fsm.ac.in",
+        "phone": "+91-11-46485523"
+      },
+      {
+        "name": "",
+        "title": "Campus Head, Gurugram Campus (FORE School of Management)",
+        "email": "",
+        "phone": "+91-124-4075676"
+      },
+      {
+        "name": "",
+        "title": "PGP Office / MDP Office / Centers of Excellence (Relevant for Executive Education and Management Development Programs)",
+        "email": "",
+        "phone": "+91-11-46485505"
+      },
+      {
+        "name": "",
+        "title": "FSM Skills Support / Administration (Relevant for training and executive education in smart manufacturing)",
+        "email": "admin@fsmskills.in",
+        "phone": ""
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "FORE School of Management",
+    "website_url": "https://www.fsm.ac.in/",
+    "location": "Delhi",
+    "phone": "011 4124 2424",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:12:42.907391"
+  }
+}

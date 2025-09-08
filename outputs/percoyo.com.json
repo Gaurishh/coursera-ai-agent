@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for a Digital Marketing Agency focused on helping clients achieve business growth, maximize ROI, boost conversions, generate leads, and increase sales through various marketing strategies and services.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Percoyo Digital",
+    "website_url": "https://www.percoyo.com/",
+    "location": "Bangalore",
+    "phone": "076767 22000",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:53:14.518788"
+  }
+}

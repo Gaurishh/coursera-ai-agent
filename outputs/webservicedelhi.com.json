@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The company is a service business that provides software development, but also offers extensive digital marketing and lead generation services to clients, indicating a strong focus on business promotion and customer acquisition, which a Sales Course would enhance for their own growth.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Web Service Delhi",
+    "website_url": "https://www.webservicedelhi.com/",
+    "location": "Delhi",
+    "phone": "099113 07448",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:54:53.096674"
+  }
+}

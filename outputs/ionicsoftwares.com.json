@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The provided website content is empty, leading to the default recommendation of 'Programming Course' as per instructions.",
+    "recommendation_score": 30
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Ionic Software Services",
+    "website_url": "http://www.ionicsoftwares.com/",
+    "location": "Delhi",
+    "phone": "087449 41668",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T02:28:34.245694"
+  }
+}

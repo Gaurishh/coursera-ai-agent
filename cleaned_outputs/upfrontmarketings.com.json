@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website describes a digital marketing agency focused on helping businesses achieve '75% Sales Growth', 'boost leads and sales', and improve 'ROI' through services like SEO, social media marketing, and e-commerce solutions, all of which are sales-driven.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Lorianna Sprague",
+        "title": "CEO",
+        "email": "Not Found",
+        "phone": "(833) 350-4412"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Up Front Marketings",
+    "website_url": "https://upfrontmarketings.com/",
+    "location": "Bangalore",
+    "phone": "081473 07323",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:49:50.719306"
+  }
+}

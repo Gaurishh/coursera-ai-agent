@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly identifies as a 'Digital Marketing Company' offering services focused on lead generation, branding, SEO, performance marketing, and driving sales and ROI for clients, including e-commerce businesses.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Innovkraft Inc",
+    "website_url": "https://innovkraft.com/",
+    "location": "Bangalore",
+    "phone": "083104 53193",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:25:46.276940"
+  }
+}

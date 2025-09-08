@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Greenbots is an IT solutions company providing software development services, and as a service business, it would benefit more from improving client acquisition and business development through a Sales Course than from a Programming Course, given its established technical expertise.",
+    "recommendation_score": 90
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Greenbots Software India Private Limited",
+    "website_url": "http://www.greenbots.in/",
+    "location": "Bangalore",
+    "phone": "082170 90734",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:58:41.132343"
+  }
+}

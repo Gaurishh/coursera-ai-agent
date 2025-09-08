@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content overwhelmingly emphasizes digital marketing, lead generation, customer acquisition, and ROI for clients, making a Sales Course directly relevant to their core business and growth.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "OptMum Digital Marketing Agency in South Delhi",
+    "website_url": "https://optmumdigitalmarketing.com/delhi/",
+    "location": "Delhi",
+    "phone": "080873 12207",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:10:41.293623"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website explicitly states its purpose is 'Nurturing Responsible Leaders', which directly aligns with business, management, and strategic growth skills, making a Sales Course highly relevant.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "XLRI - Xavier School of Management",
+    "website_url": "http://www.xlri.ac.in/",
+    "location": "Delhi",
+    "phone": "0657 665 3333",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:25:31.229257"
+  }
+}

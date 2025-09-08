@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website heavily emphasizes business value, customer benefits, ROI, case studies, and calls to action (e.g., 'Talk to our expert', 'Get Started Now') to attract and convert enterprise clients, clearly indicating a primary focus on sales and marketing.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "",
+        "email": "",
+        "phone": "(408) 973-7240"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Wolken Software Pvt Ltd - Basavanagudi",
+    "website_url": "http://www.wolkensoftware.com/",
+    "location": "Bangalore",
+    "phone": "096069 50857",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:56:03.468442"
+  }
+}

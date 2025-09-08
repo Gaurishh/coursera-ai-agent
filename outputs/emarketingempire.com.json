@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is a digital marketing agency offering services like SEO, PPC, SMO, content marketing, lead generation, and ROI improvement, all directly contributing to sales and business growth for their clients.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Digital Marketing Company India, Digital Marketing Company Delhi - EMarketing Empire",
+    "website_url": "https://emarketingempire.com/",
+    "location": "Delhi",
+    "phone": NaN,
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:33:28.825216"
+  }
+}

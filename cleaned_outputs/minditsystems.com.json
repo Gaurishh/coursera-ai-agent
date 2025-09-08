@@ -1,0 +1,43 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "Mind IT Systems is clearly a service business offering custom software development and IT consulting, and the provided factors indicate that service businesses benefit from a Sales Course to acquire clients.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "General Contact (Company Info)",
+        "email": "info@minditsystems.com",
+        "phone": "+91 7307467777"
+      },
+      {
+        "name": "Not Found",
+        "title": "US Office Contact",
+        "email": "Not Found",
+        "phone": "+1 415 707 0591"
+      },
+      {
+        "name": "Not Found",
+        "title": "India Office Contact",
+        "email": "Not Found",
+        "phone": "+91 987 135 2101"
+      },
+      {
+        "name": "Not Found",
+        "title": "India HR Contact",
+        "email": "Not Found",
+        "phone": "+91 920 585 6556"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Mind IT Systems",
+    "website_url": "https://minditsystems.com/",
+    "location": "Delhi",
+    "phone": "092058 56556",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:02:23.249541"
+  }
+}

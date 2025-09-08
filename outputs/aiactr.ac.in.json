@@ -1,0 +1,55 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website is for NSUT East Campus (formerly Ambedkar Institute of Advanced Communication Technologies & Research), a 'University of Technology' with prominent departments like CSE (Computer Science Engineering) and ECE (Electronics and Communication Engineering), and numerous events/FDPs focused on advanced computing technologies, communication, image processing, and system design, clearly indicating a strong technical and programming-related focus.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": null,
+        "title": "Head of Department, Computer Science",
+        "email": "hod.cse@aiactr.ac.in",
+        "phone": null
+      },
+      {
+        "name": null,
+        "title": "Head of Department, Information Technology",
+        "email": "hod.it@aiactr.ac.in",
+        "phone": null
+      },
+      {
+        "name": null,
+        "title": "Training and Placement Officer",
+        "email": "placement@aiactr.ac.in",
+        "phone": null
+      },
+      {
+        "name": null,
+        "title": "Dean of Academics",
+        "email": "dean.academics@aiactr.ac.in",
+        "phone": null
+      },
+      {
+        "name": null,
+        "title": "General Contact (Contact Us Page)",
+        "email": "info@aiactr.ac.in",
+        "phone": "+91-11-26382049"
+      },
+      {
+        "name": null,
+        "title": "Principal",
+        "email": "principal@aiactr.ac.in",
+        "phone": null
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Netaji Subhas University of Technology, East Campus",
+    "website_url": "http://www.aiactr.ac.in/",
+    "location": "Delhi",
+    "phone": "011 2121 0161",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T03:53:33.272553"
+  }
+}

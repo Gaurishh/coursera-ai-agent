@@ -1,0 +1,61 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website explicitly identifies as an 'AI Solutions and Custom Software Development Company' and lists extensive technical services like Application Development, AI, Cloud, Cybersecurity, Data Engineering, and Software Product Engineering, indicating a strong need for programming and technical expertise.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Bharat Khatau",
+        "title": "CEO (Chief Executive Officer)",
+        "email": null,
+        "phone": "(508) 490-6000"
+      },
+      {
+        "name": "Jayesh Khatau",
+        "title": "EVP (Executive Vice President)",
+        "email": null,
+        "phone": "(508) 490-6000"
+      },
+      {
+        "name": null,
+        "title": "Head of Learning & Development",
+        "email": null,
+        "phone": "(508) 490-6000"
+      },
+      {
+        "name": null,
+        "title": "HR Manager or Director",
+        "email": null,
+        "phone": "(508) 490-6000"
+      },
+      {
+        "name": null,
+        "title": "CTO or VP of Engineering",
+        "email": null,
+        "phone": "(508) 490-6000"
+      },
+      {
+        "name": null,
+        "title": "Head of University Relations or Campus Recruitment",
+        "email": null,
+        "phone": "(508) 490-6000"
+      },
+      {
+        "name": null,
+        "title": "General Contact (Company Main Line)",
+        "email": null,
+        "phone": "(508) 490-6000"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Trigent Software Pvt. Ltd. - IT Services Division",
+    "website_url": "https://trigent.com/?utm_source=GMB-IN&utm_medium=GMB-Profile&utm_campaign=TrigentHome",
+    "location": "Bangalore",
+    "phone": "080 2226 3000",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:38:52.546340"
+  }
+}

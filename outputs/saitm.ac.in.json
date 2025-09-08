@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "As an educational institution and service business, SAITM would benefit from a Sales Course to enhance student acquisition and marketing strategies for all its diverse programs, which is crucial for overall institutional growth.",
+    "recommendation_score": 75
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "St. Andrews Institute of Technology and Management",
+    "website_url": "https://saitm.ac.in/",
+    "location": "Delhi",
+    "phone": "085059 37772",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:06:56.170201"
+  }
+}

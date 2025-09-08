@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The provided website content was empty, so the default recommendation of 'Programming Course' was applied as per instructions.",
+    "recommendation_score": 30
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "R.R. Institute of Technology",
+    "website_url": "http://www.rrit.ac.in/",
+    "location": "Bangalore",
+    "phone": "088800 01111",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T02:05:21.579020"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The company, Noesys Software Pvt. Ltd., is a technology firm specializing in software development, data engineering, analytics, automation, and cloud engineering, with a strong focus on building digital solutions and using technical expertise.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Noesys Software Pvt. Ltd.",
+    "website_url": "http://www.noesyssoftware.com/",
+    "location": "Bangalore",
+    "phone": "080 3501 0646",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:08:17.478458"
+  }
+}

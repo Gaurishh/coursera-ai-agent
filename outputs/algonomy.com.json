@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content, despite detailing advanced AI and algorithmic solutions, consistently focuses on business outcomes, sales metrics (e.g., conversion rates, revenue, AOV, customer acquisition), marketing strategies, and targets e-commerce and retail businesses, indicating a strong need for effective sales and marketing to leverage their technical products.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Algonomy Software Private Limited (previously Manthan-RichRelevance)",
+    "website_url": "https://algonomy.com/",
+    "location": "Bangalore",
+    "phone": "080 2299 0585",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:00:08.525843"
+  }
+}

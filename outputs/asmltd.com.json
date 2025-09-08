@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website content overwhelmingly focuses on technological services, engineering, product R&D, IoT, VR/AR, and hiring engineers, indicating a core business deeply rooted in programming and technical development.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "ASM Technologies",
+    "website_url": "http://www.asmltd.com/",
+    "location": "Bangalore",
+    "phone": "080669 62302",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:13:09.548746"
+  }
+}

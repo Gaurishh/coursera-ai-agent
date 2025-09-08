@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website content clearly focuses on branding, digital marketing, website design for conversions, and e-commerce marketing, all of which are geared towards enhancing online presence, driving growth, boosting sales, and customer engagement for businesses.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "brand for you | Best branding agency in India",
+    "website_url": "https://brandforyou.in/",
+    "location": "Delhi",
+    "phone": "092862 41591",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T03:41:44.262208"
+  }
+}

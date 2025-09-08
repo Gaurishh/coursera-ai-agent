@@ -1,0 +1,18 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The website is for a Digital Marketing Agency focused on increasing business success, online visibility, client trust, and ROI through services like SEO, PPC, social media management, and web design; all directly contribute to sales and customer acquisition.",
+    "recommendation_score": 98
+  },
+  "contact_info": {
+    "contacts": []
+  },
+  "metadata": {
+    "institution_name": "Beta Digital Marketing",
+    "website_url": "https://betadigitalmarketing.com/",
+    "location": "Bangalore",
+    "phone": "095139 99901",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T01:42:31.612149"
+  }
+}

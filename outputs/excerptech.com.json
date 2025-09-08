@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Programming Course",
+    "recommendation_reasoning": "The website offers highly technical services including 'Website Design and Development', 'Cyber Security and Data Analytics', 'CAD Desk', and 'IT Desk India', directly indicating a need for programming and technical skills.",
+    "recommendation_score": 95
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "",
+        "title": "General Contact",
+        "email": "info@excerptech.com",
+        "phone": ""
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "Excerpt Technologies Private Limited",
+    "website_url": "https://www.excerptech.com/",
+    "location": "Bangalore",
+    "phone": "099005 02404",
+    "institution_type": "Corporates",
+    "processed_at": "2025-09-08T00:37:30.121324"
+  }
+}

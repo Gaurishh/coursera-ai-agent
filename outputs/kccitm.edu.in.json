@@ -1,0 +1,25 @@
+{
+  "course_recommendation": {
+    "recommended_course": "Sales Course",
+    "recommendation_reasoning": "The institution's name includes \"Management,\" it offers several business-focused degrees (BBA, MBA, B.Com Hons), and explicitly highlights \"Entrepreneurship\" as a career impact, all of which heavily rely on strong sales and business development skills.",
+    "recommendation_score": 70
+  },
+  "contact_info": {
+    "contacts": [
+      {
+        "name": "Not Found",
+        "title": "General Faculty Recruitment Contact (applies to all departments, including Management and Business)",
+        "email": "[email protected]",
+        "phone": "Not Found"
+      }
+    ]
+  },
+  "metadata": {
+    "institution_name": "KCC Institute of Technology & Management",
+    "website_url": "http://kccitm.edu.in/",
+    "location": "Delhi",
+    "phone": "092100 65555",
+    "institution_type": "Schools",
+    "processed_at": "2025-09-08T04:04:29.349828"
+  }
+}
